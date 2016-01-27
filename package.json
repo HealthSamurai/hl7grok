@@ -1,5 +1,5 @@
 {
-  "name": "hl7parser",
+  "name": "hl7groker",
   "version": "0.0.1",
   "dependencies": {
   },
