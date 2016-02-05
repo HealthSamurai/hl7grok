@@ -1,0 +1,41 @@
+---
+# suite: hl7grok
+# msg: adt-a01-01
+# tests:
+
+#   - desc: should make segment\'s name available as field
+#       with index = 0
+#     probes:
+#       - path: PID.0
+#         value: 'PID'
+
+#   - desc: should make fields\'s metainfo available as component
+#       with index = 0
+#     probes:
+#       - path: PID.5.0
+#         value: '^'
+
+#   - desc: should index segment fields starting from 1
+#     probes:
+#       - path: PID.1
+#         value: 1
+
+#   - desc: should index field components starting from 1
+#     probes:
+#       - path: PID.5.1
+#         value: 'SANDY'
+
+#   - desc: should wrap fields into arrays when
+#       field is repeatable
+#     probes:
+#       - path: PID.13.0.1
+#         value: 'Array'
+
+
+suite: segments nesting
+msg: imaging
+tests:
+  - desc: foo
+    probes:
+      - path: PID.0
+        value: 'PID'
