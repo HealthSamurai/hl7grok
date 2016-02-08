@@ -29,6 +29,7 @@ _structurize = (meta, struct, message, segIdx) ->
 
   result = {}
   structIdx = 0
+  subErrors = []
 
   while true
     # Expected segment name and cardinality
@@ -42,6 +43,9 @@ _structurize = (meta, struct, message, segIdx) ->
     thisSegName = null
 
     while true
+      if segIdx >= message.length
+        break
+
       thisSegName = message[segIdx][0]
 
       if collectedSegments.length == expSegMax && expSegMax == 1
@@ -51,7 +55,9 @@ _structurize = (meta, struct, message, segIdx) ->
       # check if expected segment is a group
       if meta.GROUPS[expSegName]
         # if it's a group, we go to recursion
-        [subResult, newSegIdx] = _structurize(meta, meta.GROUPS[expSegName], message, segIdx)
+        [subResult, newSegIdx, errs] = _structurize(meta, meta.GROUPS[expSegName], message, segIdx)
+
+        subErrors = subErrors.concat(errs)
 
         if subResult != null
           segIdx = newSegIdx
@@ -74,15 +80,15 @@ _structurize = (meta, struct, message, segIdx) ->
     if collectedSegments.length == 0
       # no collected segments at all, check if expected segment
       # is optional
-      if expSegMin == 1
-        console.log "Expected segment #{expSegName}, got #{thisSegName} at segment index #{segIdx}"
-        return [null, segIdx]
+      if expSegMin == 1 # expected segment is required
+        error = "Expected segment/group #{expSegName}, got #{thisSegName} at segment ##{segIdx}"
+        return [null, segIdx, subErrors.concat([error])]
     else
+      resultKey = deprefixGroupName(expSegName)
+
       # if max cardinality = -1 then push collectedSegments as array
-      if expSegMax == 1
-        result[deprefixGroupName(expSegName)] = collectedSegments[0]
-      else
-        result[deprefixGroupName(expSegName)] = collectedSegments
+      resultValue = if expSegMax == 1 then collectedSegments[0] else collectedSegments
+      result[resultKey] = resultValue
 
     structIdx += 1
 
@@ -93,12 +99,14 @@ _structurize = (meta, struct, message, segIdx) ->
   # if we didn't collected anything, we return null instead of
   # empty object
   if Object.keys(result).length == 0
-    return [null, segIdx]
+    return [null, segIdx, subErrors]
   else
-    return [result, segIdx]
+    return [result, segIdx, subErrors]
 
 structurize = (meta, message, messageType) ->
-  [result, foo] = _structurize(meta, meta.MESSAGES[messageType.join("_")], message, 0)
+  [result, lastSegIdx, errors] = _structurize(meta, meta.MESSAGES[messageType.join("_")], message, 0)
+
+  console.log "!!!! Errors:", errors, lastSegIdx, message.length
 
   result
 
@@ -173,6 +181,7 @@ parseFields = (fields, segmentName, meta, separators) ->
     else
       result[fieldIndex + 1] = fieldValue
 
+    # MSH is always a special case, you know
     if segmentName == 'MSH'
       result[fieldSymbolicName] = result[fieldIndex]
     else
@@ -193,31 +202,32 @@ parseComponents = (value, fieldId, meta, separators) ->
     # it's a complex type
     splitRegexp = new RegExp("(?!\\#{separators.escape})\\#{separators.component}")
     fieldMeta = "^"
+    result = {"0": fieldMeta}
 
-    [fieldMeta].concat value.split(splitRegexp).map (c, index) ->
+    value.split(splitRegexp).forEach (c, index) ->
       componentId = typeMeta[1][index][0]
       [componentMin, componentMax] = typeMeta[1][index][1]
+      componentMeta = meta.DATATYPES[componentId]
+      if componentMeta[0] != 'leaf'
+        throw new Error("Bang! Unknown case for componentMeta[0]: #{componentMeta[0]}")
 
       if componentMin == 1 && (!c || c == '')
         throw new Error("Missing value for required component #{componentId}")
 
       if componentMax == -1
-        throw new Error("Bang! Unlimited cardinality for component #{componentId}")
+        throw new Error("Bang! Unlimited cardinality for component #{componentId}, don't know what to do :/")
 
-      parseSubComponents(c, componentId, meta, separators)
+      if componentMeta
+        componentValue = coerce(c, componentMeta[1])
+      else
+        componentValue = c
+
+      result[index + 1] = componentValue
+      result[componentMeta[2]] = componentValue
+
+    result
   else
     coerce(value, fieldType)
-
-parseSubComponents = (v, scId, meta, separators) ->
-  scMeta = meta.DATATYPES[scId]
-
-  if scMeta
-    if scMeta[0] != 'leaf'
-      throw new Error("Bang! Unknown case for scMeta[0]: #{scMeta[0]}")
-
-    coerce(v, scMeta[1])
-  else
-    v
 
 module.exports =
   grok: parse
