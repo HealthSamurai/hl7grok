@@ -1,4 +1,7 @@
 fs = require("fs")
+meta = require("./meta")
+
+META_CACHE = {}
 
 replaceBlanksWithNulls = (v) ->
   if Array.isArray(v)
@@ -14,7 +17,12 @@ replaceBlanksWithNulls = (v) ->
     v
 
 getMeta = (hl7version) ->
-  JSON.parse(fs.readFileSync(__dirname + "/../meta/v#{hl7version.replace('.', '_')}.json"))
+  if META_CACHE[hl7version]
+    META_CACHE[hl7version]
+  else
+    parsed = JSON.parse(meta["v" + hl7version.replace('.', '_')])
+    META_CACHE[hl7version] = parsed
+    parsed
 
 deprefixGroupName = (name) ->
   name.replace(/^..._.\d\d_/, '')
