@@ -1,0 +1,8 @@
+language: node_js
+sudo: false
+
+before_script:
+  - npm install
+  - ./build-meta.sh
+
+script: npm run test
