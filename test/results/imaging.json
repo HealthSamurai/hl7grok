@@ -1,0 +1,7 @@
+{
+  "result": null,
+  "errors": [
+    "Expected segment/group ORU_R01_RESPONSE, got null at segment #1",
+    "Missing value for required field MSH_12"
+  ]
+}

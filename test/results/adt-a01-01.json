@@ -1,0 +1,2949 @@
+{
+  "result": {
+    "MSH": {
+      "0": "MSH",
+      "1": "^",
+      "2": "AccMgr",
+      "3": {
+        "0": "^",
+        "1": "1",
+        "NAMESPACE_ID": "1"
+      },
+      "4": {
+        "0": "^",
+        "1": null,
+        "NAMESPACE_ID": null
+      },
+      "5": {
+        "0": "^",
+        "1": null,
+        "NAMESPACE_ID": null
+      },
+      "6": {
+        "0": "^",
+        "1": "20151015200643",
+        "NAMESPACE_ID": "20151015200643"
+      },
+      "7": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "8": "ADT^A01",
+      "9": {
+        "0": "^",
+        "1": "599102",
+        "MESSAGE_TYPE": "599102"
+      },
+      "10": "P",
+      "11": {
+        "0": "^",
+        "1": "2.3",
+        "PROCESSING_ID": "2.3"
+      },
+      "12": "foo",
+      "13": null,
+      "14": null,
+      "FIELD_SEPARATOR": "MSH",
+      "ENCODING_CHARACTERS": "^",
+      "SENDING_APPLICATION": "AccMgr",
+      "SENDING_FACILITY": {
+        "0": "^",
+        "1": "1",
+        "NAMESPACE_ID": "1"
+      },
+      "RECEIVING_APPLICATION": {
+        "0": "^",
+        "1": null,
+        "NAMESPACE_ID": null
+      },
+      "RECEIVING_FACILITY": {
+        "0": "^",
+        "1": null,
+        "NAMESPACE_ID": null
+      },
+      "DATE_TIME_OF_MESSAGE": {
+        "0": "^",
+        "1": "20151015200643",
+        "NAMESPACE_ID": "20151015200643"
+      },
+      "SECURITY": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "MESSAGE_TYPE": "ADT^A01",
+      "MESSAGE_CONTROL_ID": {
+        "0": "^",
+        "1": "599102",
+        "MESSAGE_TYPE": "599102"
+      },
+      "PROCESSING_ID": "P",
+      "VERSION_ID": {
+        "0": "^",
+        "1": "2.3",
+        "PROCESSING_ID": "2.3"
+      },
+      "SEQUENCE_NUMBER": "foo",
+      "CONTINUATION_POINTER": null
+    },
+    "EVN": {
+      "0": "EVN",
+      "1": "A01",
+      "2": {
+        "0": "^",
+        "1": "20151010045502",
+        "TIME_OF_AN_EVENT": "20151010045502"
+      },
+      "3": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "4": null,
+      "5": {
+        "0": "^",
+        "1": null,
+        "ID_NUMBER_ST": null
+      },
+      "6": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "7": null,
+      "EVENT_TYPE_CODE": "A01",
+      "RECORDED_DATE_TIME": {
+        "0": "^",
+        "1": "20151010045502",
+        "TIME_OF_AN_EVENT": "20151010045502"
+      },
+      "DATE_TIME_PLANNED_EVENT": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "EVENT_REASON_CODE": null,
+      "OPERATOR_ID": {
+        "0": "^",
+        "1": null,
+        "ID_NUMBER_ST": null
+      },
+      "EVENT_OCCURED": null
+    },
+    "PID": {
+      "0": "PID",
+      "1": "1",
+      "2": {
+        "0": "^",
+        "1": "010107111",
+        "2": null,
+        "3": null,
+        "4": "MS4",
+        "5": "PN",
+        "6": null,
+        "ID": "010107111",
+        "CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "ASSIGNING_AUTHORITY": "MS4",
+        "IDENTIFIER_TYPE_CODE": "PN",
+        "ASSIGNING_FACILITY": null
+      },
+      "3": [
+        {
+          "0": "^",
+          "1": "1609220",
+          "2": null,
+          "3": null,
+          "4": "MS4",
+          "5": "MR",
+          "6": "001",
+          "ID": "1609220",
+          "CHECK_DIGIT": null,
+          "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+          "ASSIGNING_AUTHORITY": "MS4",
+          "IDENTIFIER_TYPE_CODE": "MR",
+          "ASSIGNING_FACILITY": "001"
+        }
+      ],
+      "4": {
+        "0": "^",
+        "1": "1609220",
+        "2": null,
+        "3": null,
+        "4": "MS4",
+        "5": "MR",
+        "6": "001",
+        "ID": "1609220",
+        "CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "ASSIGNING_AUTHORITY": "MS4",
+        "IDENTIFIER_TYPE_CODE": "MR",
+        "ASSIGNING_FACILITY": "001"
+      },
+      "5": {
+        "0": "^",
+        "1": "BARRETT",
+        "2": "JEAN",
+        "3": "SANDY",
+        "4": null,
+        "5": null,
+        "FAMILY_NAME": "BARRETT",
+        "GIVEN_NAME": "JEAN",
+        "MIDDLE_INITIAL_OR_NAME": "SANDY",
+        "SUFFIX_E_G_JR_OR_III": null,
+        "PREFIX_E_G_DR": null
+      },
+      "6": {
+        "0": "^",
+        "1": null,
+        "FAMILY_NAME": null
+      },
+      "7": {
+        "0": "^",
+        "1": "19440823",
+        "TIME_OF_AN_EVENT": "19440823"
+      },
+      "8": "F",
+      "9": [
+        {
+          "0": "^",
+          "1": null,
+          "FAMILY_NAME": null
+        }
+      ],
+      "10": "C",
+      "11": [
+        {
+          "0": "^",
+          "1": "STRAWBERRY AVE",
+          "2": "FOUR OAKS LODGE",
+          "3": "ALBUKERKA",
+          "4": "CA",
+          "5": "98765",
+          "6": "USA",
+          "7": null,
+          "8": null,
+          "STREET_ADDRESS": "STRAWBERRY AVE",
+          "OTHER_DESIGNATION": "FOUR OAKS LODGE",
+          "CITY": "ALBUKERKA",
+          "STATE_OR_PROVINCE": "CA",
+          "ZIP_OR_POSTAL_CODE": "98765",
+          "COUNTRY": "USA",
+          "ADDRESS_TYPE": null,
+          "OTHER_GEOGRAPHIC_DESIGNATION": null
+        }
+      ],
+      "12": null,
+      "13": [
+        {
+          "0": "^",
+          "1": "(111)222-3333",
+          "999_999_9999_X99999_C_ANY_TEXT": "(111)222-3333"
+        }
+      ],
+      "14": [
+        {
+          "0": "^",
+          "1": null,
+          "999_999_9999_X99999_C_ANY_TEXT": null
+        }
+      ],
+      "15": {
+        "0": "^",
+        "1": "ENG",
+        "IDENTIFIER": "ENG"
+      },
+      "16": [
+        "W"
+      ],
+      "17": "CHR",
+      "18": {
+        "0": "^",
+        "1": "111155555550",
+        "2": null,
+        "3": null,
+        "4": "MS4001",
+        "5": "AN",
+        "6": "001",
+        "ID": "111155555550",
+        "CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "ASSIGNING_AUTHORITY": "MS4001",
+        "IDENTIFIER_TYPE_CODE": "AN",
+        "ASSIGNING_FACILITY": "001"
+      },
+      "19": "123-22-1111",
+      "20": {
+        "0": "^",
+        "1": null,
+        "DRIVER_S_LICENSE_NUMBER": null
+      },
+      "21": {
+        "0": "^",
+        "1": null,
+        "ID": null
+      },
+      "22": null,
+      "23": "OKLAHOMA",
+      "24": null,
+      "25": null,
+      "26": null,
+      "27": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER": null
+      },
+      "28": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER": null
+      },
+      "29": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "30": "N",
+      "SET_ID_PATIENT_ID": "1",
+      "PATIENT_ID_EXTERNAL_ID": {
+        "0": "^",
+        "1": "010107111",
+        "2": null,
+        "3": null,
+        "4": "MS4",
+        "5": "PN",
+        "6": null,
+        "ID": "010107111",
+        "CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "ASSIGNING_AUTHORITY": "MS4",
+        "IDENTIFIER_TYPE_CODE": "PN",
+        "ASSIGNING_FACILITY": null
+      },
+      "PATIENT_ID_INTERNAL_ID": [
+        {
+          "0": "^",
+          "1": "1609220",
+          "2": null,
+          "3": null,
+          "4": "MS4",
+          "5": "MR",
+          "6": "001",
+          "ID": "1609220",
+          "CHECK_DIGIT": null,
+          "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+          "ASSIGNING_AUTHORITY": "MS4",
+          "IDENTIFIER_TYPE_CODE": "MR",
+          "ASSIGNING_FACILITY": "001"
+        }
+      ],
+      "ALTERNATE_PATIENT_ID": {
+        "0": "^",
+        "1": "1609220",
+        "2": null,
+        "3": null,
+        "4": "MS4",
+        "5": "MR",
+        "6": "001",
+        "ID": "1609220",
+        "CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "ASSIGNING_AUTHORITY": "MS4",
+        "IDENTIFIER_TYPE_CODE": "MR",
+        "ASSIGNING_FACILITY": "001"
+      },
+      "PATIENT_NAME": {
+        "0": "^",
+        "1": "BARRETT",
+        "2": "JEAN",
+        "3": "SANDY",
+        "4": null,
+        "5": null,
+        "FAMILY_NAME": "BARRETT",
+        "GIVEN_NAME": "JEAN",
+        "MIDDLE_INITIAL_OR_NAME": "SANDY",
+        "SUFFIX_E_G_JR_OR_III": null,
+        "PREFIX_E_G_DR": null
+      },
+      "MOTHER_S_MAIDEN_NAME": {
+        "0": "^",
+        "1": null,
+        "FAMILY_NAME": null
+      },
+      "DATE_OF_BIRTH": {
+        "0": "^",
+        "1": "19440823",
+        "TIME_OF_AN_EVENT": "19440823"
+      },
+      "SEX": "F",
+      "PATIENT_ALIAS": [
+        {
+          "0": "^",
+          "1": null,
+          "FAMILY_NAME": null
+        }
+      ],
+      "RACE": "C",
+      "PATIENT_ADDRESS": [
+        {
+          "0": "^",
+          "1": "STRAWBERRY AVE",
+          "2": "FOUR OAKS LODGE",
+          "3": "ALBUKERKA",
+          "4": "CA",
+          "5": "98765",
+          "6": "USA",
+          "7": null,
+          "8": null,
+          "STREET_ADDRESS": "STRAWBERRY AVE",
+          "OTHER_DESIGNATION": "FOUR OAKS LODGE",
+          "CITY": "ALBUKERKA",
+          "STATE_OR_PROVINCE": "CA",
+          "ZIP_OR_POSTAL_CODE": "98765",
+          "COUNTRY": "USA",
+          "ADDRESS_TYPE": null,
+          "OTHER_GEOGRAPHIC_DESIGNATION": null
+        }
+      ],
+      "COUNTY_CODE": null,
+      "PHONE_NUMBER_HOME": [
+        {
+          "0": "^",
+          "1": "(111)222-3333",
+          "999_999_9999_X99999_C_ANY_TEXT": "(111)222-3333"
+        }
+      ],
+      "PHONE_NUMBER_BUSINESS": [
+        {
+          "0": "^",
+          "1": null,
+          "999_999_9999_X99999_C_ANY_TEXT": null
+        }
+      ],
+      "PRIMARY_LANGUAGE": {
+        "0": "^",
+        "1": "ENG",
+        "IDENTIFIER": "ENG"
+      },
+      "MARITAL_STATUS": [
+        "W"
+      ],
+      "RELIGION": "CHR",
+      "PATIENT_ACCOUNT_NUMBER": {
+        "0": "^",
+        "1": "111155555550",
+        "2": null,
+        "3": null,
+        "4": "MS4001",
+        "5": "AN",
+        "6": "001",
+        "ID": "111155555550",
+        "CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "ASSIGNING_AUTHORITY": "MS4001",
+        "IDENTIFIER_TYPE_CODE": "AN",
+        "ASSIGNING_FACILITY": "001"
+      },
+      "SSN_NUMBER_PATIENT": "123-22-1111",
+      "DRIVER_S_LICENSE_NUMBER": {
+        "0": "^",
+        "1": null,
+        "DRIVER_S_LICENSE_NUMBER": null
+      },
+      "MOTHER_S_IDENTIFIER": {
+        "0": "^",
+        "1": null,
+        "ID": null
+      },
+      "ETHNIC_GROUP": null,
+      "BIRTH_PLACE": "OKLAHOMA",
+      "MULTIPLE_BIRTH_INDICATOR": null,
+      "BIRTH_ORDER": null,
+      "CITIZENSHIP": null,
+      "VETERANS_MILITARY_STATUS": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER": null
+      },
+      "NATIONALITY_CODE": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER": null
+      },
+      "PATIENT_DEATH_DATE_AND_TIME": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "PATIENT_DEATH_INDICATOR": "N"
+    },
+    "PV1": {
+      "0": "PV1",
+      "1": "1",
+      "2": "I",
+      "3": {
+        "0": "^",
+        "1": "PREOP",
+        "2": "101",
+        "3": "1",
+        "4": "1",
+        "5": null,
+        "6": null,
+        "7": "S",
+        "POINT_OF_CARE_ID": "PREOP",
+        "ROOM": "101",
+        "BED": "1",
+        "FACILITY_HD": "1",
+        "LOCATION_STATUS": null,
+        "PERSON_LOCATION_TYPE": null,
+        "BUILDING": "S"
+      },
+      "4": "3",
+      "5": {
+        "0": "^",
+        "1": null,
+        "ID": null
+      },
+      "6": {
+        "0": "^",
+        "1": null,
+        "POINT_OF_CARE_ID": null
+      },
+      "7": {
+        "0": "^",
+        "1": "37",
+        "2": "REID",
+        "3": "TIMOTHY",
+        "4": "Q",
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": "AccMgr",
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": "CI",
+        "ID_NUMBER_ST": "37",
+        "FAMILY_NAME": "REID",
+        "GIVEN_NAME": "TIMOTHY",
+        "MIDDLE_INITIAL_OR_NAME": "Q",
+        "SUFFIX_E_G_JR_OR_III": null,
+        "PREFIX_E_G_DR": null,
+        "DEGREE_E_G_MD": null,
+        "SOURCE_TABLE": null,
+        "ASSIGNING_AUTHORITY": null,
+        "NAME_TYPE": "AccMgr",
+        "IDENTIFIER_CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "IDENTIFIER_TYPE_CODE": null,
+        "ASSIGNING_FACILITY_ID": "CI"
+      },
+      "8": {
+        "0": "^",
+        "1": null,
+        "ID_NUMBER_ST": null
+      },
+      "9": [
+        {
+          "0": "^",
+          "1": null,
+          "ID_NUMBER_ST": null
+        }
+      ],
+      "10": "01",
+      "11": {
+        "0": "^",
+        "1": null,
+        "POINT_OF_CARE_ID": null
+      },
+      "12": null,
+      "13": null,
+      "14": "1",
+      "15": null,
+      "16": null,
+      "17": {
+        "0": "^",
+        "1": "37",
+        "2": "REID",
+        "3": "TIMOTHY",
+        "4": "Q",
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": "AccMgr",
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": "CI",
+        "ID_NUMBER_ST": "37",
+        "FAMILY_NAME": "REID",
+        "GIVEN_NAME": "TIMOTHY",
+        "MIDDLE_INITIAL_OR_NAME": "Q",
+        "SUFFIX_E_G_JR_OR_III": null,
+        "PREFIX_E_G_DR": null,
+        "DEGREE_E_G_MD": null,
+        "SOURCE_TABLE": null,
+        "ASSIGNING_AUTHORITY": null,
+        "NAME_TYPE": "AccMgr",
+        "IDENTIFIER_CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "IDENTIFIER_TYPE_CODE": null,
+        "ASSIGNING_FACILITY_ID": "CI"
+      },
+      "18": "2",
+      "19": {
+        "0": "^",
+        "1": "40007716",
+        "2": null,
+        "3": null,
+        "4": "AccMgr",
+        "5": "VN",
+        "ID": "40007716",
+        "CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "ASSIGNING_AUTHORITY": "AccMgr",
+        "IDENTIFIER_TYPE_CODE": "VN"
+      },
+      "20": [
+        {
+          "0": "^",
+          "1": "4",
+          "FINANCIAL_CLASS": "4"
+        }
+      ],
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": [
+        null
+      ],
+      "25": [
+        null
+      ],
+      "26": [
+        null
+      ],
+      "27": [
+        null
+      ],
+      "28": null,
+      "29": null,
+      "30": null,
+      "31": null,
+      "32": null,
+      "33": null,
+      "34": null,
+      "35": null,
+      "36": null,
+      "37": {
+        "0": "^",
+        "1": null,
+        "DISCHARGE_LOCATION": null
+      },
+      "38": null,
+      "39": "1",
+      "40": null,
+      "41": "G",
+      "42": {
+        "0": "^",
+        "1": null,
+        "POINT_OF_CARE_ID": null
+      },
+      "43": {
+        "0": "^",
+        "1": null,
+        "POINT_OF_CARE_ID": null
+      },
+      "44": {
+        "0": "^",
+        "1": "20050110045253",
+        "TIME_OF_AN_EVENT": "20050110045253"
+      },
+      "45": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "46": null,
+      "47": null,
+      "48": null,
+      "49": null,
+      "50": {
+        "0": "^",
+        "1": null,
+        "ID": null
+      },
+      "SET_ID_PATIENT_VISIT": "1",
+      "PATIENT_CLASS": "I",
+      "ASSIGNED_PATIENT_LOCATION": {
+        "0": "^",
+        "1": "PREOP",
+        "2": "101",
+        "3": "1",
+        "4": "1",
+        "5": null,
+        "6": null,
+        "7": "S",
+        "POINT_OF_CARE_ID": "PREOP",
+        "ROOM": "101",
+        "BED": "1",
+        "FACILITY_HD": "1",
+        "LOCATION_STATUS": null,
+        "PERSON_LOCATION_TYPE": null,
+        "BUILDING": "S"
+      },
+      "ADMISSION_TYPE": "3",
+      "PREADMIT_NUMBER": {
+        "0": "^",
+        "1": null,
+        "ID": null
+      },
+      "PRIOR_PATIENT_LOCATION": {
+        "0": "^",
+        "1": null,
+        "POINT_OF_CARE_ID": null
+      },
+      "ATTENDING_DOCTOR": {
+        "0": "^",
+        "1": "37",
+        "2": "REID",
+        "3": "TIMOTHY",
+        "4": "Q",
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": "AccMgr",
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": "CI",
+        "ID_NUMBER_ST": "37",
+        "FAMILY_NAME": "REID",
+        "GIVEN_NAME": "TIMOTHY",
+        "MIDDLE_INITIAL_OR_NAME": "Q",
+        "SUFFIX_E_G_JR_OR_III": null,
+        "PREFIX_E_G_DR": null,
+        "DEGREE_E_G_MD": null,
+        "SOURCE_TABLE": null,
+        "ASSIGNING_AUTHORITY": null,
+        "NAME_TYPE": "AccMgr",
+        "IDENTIFIER_CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "IDENTIFIER_TYPE_CODE": null,
+        "ASSIGNING_FACILITY_ID": "CI"
+      },
+      "REFERRING_DOCTOR": {
+        "0": "^",
+        "1": null,
+        "ID_NUMBER_ST": null
+      },
+      "CONSULTING_DOCTOR": [
+        {
+          "0": "^",
+          "1": null,
+          "ID_NUMBER_ST": null
+        }
+      ],
+      "HOSPITAL_SERVICE": "01",
+      "TEMPORARY_LOCATION": {
+        "0": "^",
+        "1": null,
+        "POINT_OF_CARE_ID": null
+      },
+      "PREADMIT_TEST_INDICATOR": null,
+      "READMISSION_INDICATOR": null,
+      "ADMIT_SOURCE": "1",
+      "AMBULATORY_STATUS": null,
+      "VIP_INDICATOR": null,
+      "ADMITTING_DOCTOR": {
+        "0": "^",
+        "1": "37",
+        "2": "REID",
+        "3": "TIMOTHY",
+        "4": "Q",
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": "AccMgr",
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": "CI",
+        "ID_NUMBER_ST": "37",
+        "FAMILY_NAME": "REID",
+        "GIVEN_NAME": "TIMOTHY",
+        "MIDDLE_INITIAL_OR_NAME": "Q",
+        "SUFFIX_E_G_JR_OR_III": null,
+        "PREFIX_E_G_DR": null,
+        "DEGREE_E_G_MD": null,
+        "SOURCE_TABLE": null,
+        "ASSIGNING_AUTHORITY": null,
+        "NAME_TYPE": "AccMgr",
+        "IDENTIFIER_CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "IDENTIFIER_TYPE_CODE": null,
+        "ASSIGNING_FACILITY_ID": "CI"
+      },
+      "PATIENT_TYPE": "2",
+      "VISIT_NUMBER": {
+        "0": "^",
+        "1": "40007716",
+        "2": null,
+        "3": null,
+        "4": "AccMgr",
+        "5": "VN",
+        "ID": "40007716",
+        "CHECK_DIGIT": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "ASSIGNING_AUTHORITY": "AccMgr",
+        "IDENTIFIER_TYPE_CODE": "VN"
+      },
+      "FINANCIAL_CLASS": [
+        {
+          "0": "^",
+          "1": "4",
+          "FINANCIAL_CLASS": "4"
+        }
+      ],
+      "CHARGE_PRICE_INDICATOR": null,
+      "COURTESY_CODE": null,
+      "CREDIT_RATING": null,
+      "CONTRACT_CODE": [
+        null
+      ],
+      "CONTRACT_EFFECTIVE_DATE": [
+        null
+      ],
+      "CONTRACT_AMOUNT": [
+        null
+      ],
+      "CONTRACT_PERIOD": [
+        null
+      ],
+      "INTEREST_CODE": null,
+      "TRANSFER_TO_BAD_DEBT_CODE": null,
+      "TRANSFER_TO_BAD_DEBT_DATE": null,
+      "BAD_DEBT_AGENCY_CODE": null,
+      "BAD_DEBT_TRANSFER_AMOUNT": null,
+      "BAD_DEBT_RECOVERY_AMOUNT": null,
+      "DELETE_ACCOUNT_INDICATOR": null,
+      "DELETE_ACCOUNT_DATE": null,
+      "DISCHARGE_DISPOSITION": null,
+      "DISCHARGED_TO_LOCATION": {
+        "0": "^",
+        "1": null,
+        "DISCHARGE_LOCATION": null
+      },
+      "DIET_TYPE": null,
+      "SERVICING_FACILITY": "1",
+      "BED_STATUS": null,
+      "ACCOUNT_STATUS": "G",
+      "PENDING_LOCATION": {
+        "0": "^",
+        "1": null,
+        "POINT_OF_CARE_ID": null
+      },
+      "PRIOR_TEMPORARY_LOCATION": {
+        "0": "^",
+        "1": null,
+        "POINT_OF_CARE_ID": null
+      },
+      "ADMIT_DATE_TIME": {
+        "0": "^",
+        "1": "20050110045253",
+        "TIME_OF_AN_EVENT": "20050110045253"
+      },
+      "DISCHARGE_DATE_TIME": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "CURRENT_PATIENT_BALANCE": null,
+      "TOTAL_CHARGES": null,
+      "TOTAL_ADJUSTMENTS": null,
+      "TOTAL_PAYMENTS": null,
+      "ALTERNATE_VISIT_ID": {
+        "0": "^",
+        "1": null,
+        "ID": null
+      }
+    },
+    "GT1": [
+      {
+        "0": "GT1",
+        "1": "1",
+        "2": [
+          {
+            "0": "^",
+            "1": "010107127",
+            "2": null,
+            "3": null,
+            "4": "MS4",
+            "5": "PN",
+            "6": null,
+            "ID": "010107127",
+            "CHECK_DIGIT": null,
+            "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+            "ASSIGNING_AUTHORITY": "MS4",
+            "IDENTIFIER_TYPE_CODE": "PN",
+            "ASSIGNING_FACILITY": null
+          }
+        ],
+        "3": [
+          {
+            "0": "^",
+            "1": "BARRETT",
+            "2": "JEAN",
+            "3": "S",
+            "4": null,
+            "5": null,
+            "FAMILY_NAME": "BARRETT",
+            "GIVEN_NAME": "JEAN",
+            "MIDDLE_INITIAL_OR_NAME": "S",
+            "SUFFIX_E_G_JR_OR_III": null,
+            "PREFIX_E_G_DR": null
+          }
+        ],
+        "4": [
+          {
+            "0": "^",
+            "1": "BARRETT",
+            "2": "LAWRENCE",
+            "3": "E",
+            "4": null,
+            "5": null,
+            "FAMILY_NAME": "BARRETT",
+            "GIVEN_NAME": "LAWRENCE",
+            "MIDDLE_INITIAL_OR_NAME": "E",
+            "SUFFIX_E_G_JR_OR_III": null,
+            "PREFIX_E_G_DR": null
+          }
+        ],
+        "5": [
+          {
+            "0": "^",
+            "1": "2820 SYCAMORE AVE",
+            "2": "TWELVE OAKS LODGE",
+            "3": "MONTROSE",
+            "4": "CA",
+            "5": "91214",
+            "6": "USA",
+            "7": null,
+            "STREET_ADDRESS": "2820 SYCAMORE AVE",
+            "OTHER_DESIGNATION": "TWELVE OAKS LODGE",
+            "CITY": "MONTROSE",
+            "STATE_OR_PROVINCE": "CA",
+            "ZIP_OR_POSTAL_CODE": "91214",
+            "COUNTRY": "USA",
+            "ADDRESS_TYPE": null
+          }
+        ],
+        "6": [
+          {
+            "0": "^",
+            "1": "(818)111-3361",
+            "999_999_9999_X99999_C_ANY_TEXT": "(818)111-3361"
+          }
+        ],
+        "7": [
+          {
+            "0": "^",
+            "1": null,
+            "999_999_9999_X99999_C_ANY_TEXT": null
+          }
+        ],
+        "8": {
+          "0": "^",
+          "1": "19301013",
+          "TIME_OF_AN_EVENT": "19301013"
+        },
+        "9": "F",
+        "10": null,
+        "11": "A",
+        "12": "354-22-1840",
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": [
+          {
+            "0": "^",
+            "1": "RETIRED",
+            "FAMILY_NAME": "RETIRED"
+          }
+        ],
+        "17": [
+          {
+            "0": "^",
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": "00000",
+            "6": null,
+            "STREET_ADDRESS": null,
+            "OTHER_DESIGNATION": null,
+            "CITY": null,
+            "STATE_OR_PROVINCE": null,
+            "ZIP_OR_POSTAL_CODE": "00000",
+            "COUNTRY": null
+          }
+        ],
+        "18": [
+          {
+            "0": "^",
+            "1": null,
+            "999_999_9999_X99999_C_ANY_TEXT": null
+          }
+        ],
+        "19": [
+          {
+            "0": "^",
+            "1": null,
+            "ID": null
+          }
+        ],
+        "20": null,
+        "21": [
+          {
+            "0": "^",
+            "1": null,
+            "ORGANIZATION_NAME": null
+          }
+        ],
+        "22": null,
+        "23": {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER": null
+        },
+        "24": {
+          "0": "^",
+          "1": "20130711",
+          "TIME_OF_AN_EVENT": "20130711"
+        },
+        "25": null,
+        "26": {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER": null
+        },
+        "27": {
+          "0": "^",
+          "1": null,
+          "PRICE": null
+        },
+        "28": null,
+        "29": [
+          {
+            "0": "^",
+            "1": "0000007496",
+            "ID": "0000007496"
+          }
+        ],
+        "30": "W",
+        "31": null,
+        "32": null,
+        "33": null,
+        "34": null,
+        "35": null,
+        "36": {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER": null
+        },
+        "37": null,
+        "38": {
+          "0": "^",
+          "1": "Y",
+          "IDENTIFIER": "Y"
+        },
+        "39": null,
+        "40": null,
+        "41": "CHR",
+        "42": {
+          "0": "^",
+          "1": null,
+          "FAMILY_NAME": null
+        },
+        "43": {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER": null
+        },
+        "44": null,
+        "45": [
+          {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          }
+        ],
+        "46": [
+          {
+            "0": "^",
+            "1": null,
+            "999_999_9999_X99999_C_ANY_TEXT": null
+          }
+        ],
+        "47": {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER": null
+        },
+        "48": null,
+        "49": "RETIRED",
+        "50": {
+          "0": "^",
+          "1": null,
+          "JOB_CODE": null
+        },
+        "51": [
+          {
+            "0": "^",
+            "1": null,
+            "ORGANIZATION_NAME": null
+          }
+        ],
+        "52": null,
+        "53": null,
+        "54": {
+          "0": "^",
+          "1": null,
+          "FINANCIAL_CLASS": null
+        },
+        "55": "C",
+        "SET_ID_GUARANTOR": "1",
+        "GUARANTOR_NUMBER": [
+          {
+            "0": "^",
+            "1": "010107127",
+            "2": null,
+            "3": null,
+            "4": "MS4",
+            "5": "PN",
+            "6": null,
+            "ID": "010107127",
+            "CHECK_DIGIT": null,
+            "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+            "ASSIGNING_AUTHORITY": "MS4",
+            "IDENTIFIER_TYPE_CODE": "PN",
+            "ASSIGNING_FACILITY": null
+          }
+        ],
+        "GUARANTOR_NAME": [
+          {
+            "0": "^",
+            "1": "BARRETT",
+            "2": "JEAN",
+            "3": "S",
+            "4": null,
+            "5": null,
+            "FAMILY_NAME": "BARRETT",
+            "GIVEN_NAME": "JEAN",
+            "MIDDLE_INITIAL_OR_NAME": "S",
+            "SUFFIX_E_G_JR_OR_III": null,
+            "PREFIX_E_G_DR": null
+          }
+        ],
+        "GUARANTOR_SPOUSE_NAME": [
+          {
+            "0": "^",
+            "1": "BARRETT",
+            "2": "LAWRENCE",
+            "3": "E",
+            "4": null,
+            "5": null,
+            "FAMILY_NAME": "BARRETT",
+            "GIVEN_NAME": "LAWRENCE",
+            "MIDDLE_INITIAL_OR_NAME": "E",
+            "SUFFIX_E_G_JR_OR_III": null,
+            "PREFIX_E_G_DR": null
+          }
+        ],
+        "GUARANTOR_ADDRESS": [
+          {
+            "0": "^",
+            "1": "2820 SYCAMORE AVE",
+            "2": "TWELVE OAKS LODGE",
+            "3": "MONTROSE",
+            "4": "CA",
+            "5": "91214",
+            "6": "USA",
+            "7": null,
+            "STREET_ADDRESS": "2820 SYCAMORE AVE",
+            "OTHER_DESIGNATION": "TWELVE OAKS LODGE",
+            "CITY": "MONTROSE",
+            "STATE_OR_PROVINCE": "CA",
+            "ZIP_OR_POSTAL_CODE": "91214",
+            "COUNTRY": "USA",
+            "ADDRESS_TYPE": null
+          }
+        ],
+        "GUARANTOR_PH_NUM_HOME": [
+          {
+            "0": "^",
+            "1": "(818)111-3361",
+            "999_999_9999_X99999_C_ANY_TEXT": "(818)111-3361"
+          }
+        ],
+        "GUARANTOR_PH_NUM_BUSINESS": [
+          {
+            "0": "^",
+            "1": null,
+            "999_999_9999_X99999_C_ANY_TEXT": null
+          }
+        ],
+        "GUARANTOR_DATE_TIME_OF_BIRTH": {
+          "0": "^",
+          "1": "19301013",
+          "TIME_OF_AN_EVENT": "19301013"
+        },
+        "GUARANTOR_SEX": "F",
+        "GUARANTOR_TYPE": null,
+        "GUARANTOR_RELATIONSHIP": "A",
+        "GUARANTOR_SSN": "354-22-1840",
+        "GUARANTOR_DATE_BEGIN": null,
+        "GUARANTOR_DATE_END": null,
+        "GUARANTOR_PRIORITY": null,
+        "GUARANTOR_EMPLOYER_NAME": [
+          {
+            "0": "^",
+            "1": "RETIRED",
+            "FAMILY_NAME": "RETIRED"
+          }
+        ],
+        "GUARANTOR_EMPLOYER_ADDRESS": [
+          {
+            "0": "^",
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": "00000",
+            "6": null,
+            "STREET_ADDRESS": null,
+            "OTHER_DESIGNATION": null,
+            "CITY": null,
+            "STATE_OR_PROVINCE": null,
+            "ZIP_OR_POSTAL_CODE": "00000",
+            "COUNTRY": null
+          }
+        ],
+        "GUARANTOR_EMPLOY_PHONE_NUMBER": [
+          {
+            "0": "^",
+            "1": null,
+            "999_999_9999_X99999_C_ANY_TEXT": null
+          }
+        ],
+        "GUARANTOR_EMPLOYEE_ID_NUMBER": [
+          {
+            "0": "^",
+            "1": null,
+            "ID": null
+          }
+        ],
+        "GUARANTOR_EMPLOYMENT_STATUS": null,
+        "GUARANTOR_ORGANIZATION": [
+          {
+            "0": "^",
+            "1": null,
+            "ORGANIZATION_NAME": null
+          }
+        ],
+        "GUARANTOR_BILLING_HOLD_FLAG": null,
+        "GUARANTOR_CREDIT_RATING_CODE": {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER": null
+        },
+        "GUARANTOR_DEATH_DATE_AND_TIME": {
+          "0": "^",
+          "1": "20130711",
+          "TIME_OF_AN_EVENT": "20130711"
+        },
+        "GUARANTOR_DEATH_FLAG": null,
+        "GUARANTOR_CHARGE_ADJUSTMENT_CODE": {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER": null
+        },
+        "GUARANTOR_HOUSEHOLD_ANNUAL_INCOME": {
+          "0": "^",
+          "1": null,
+          "PRICE": null
+        },
+        "GUARANTOR_HOUSEHOLD_SIZE": null,
+        "GUARANTOR_EMPLOYER_ID_NUMBER": [
+          {
+            "0": "^",
+            "1": "0000007496",
+            "ID": "0000007496"
+          }
+        ],
+        "GUARANTOR_MARITAL_STATUS_CODE": "W",
+        "GUARANTOR_HIRE_EFFECTIVE_DATE": null,
+        "EMPLOYMENT_STOP_DATE": null,
+        "LIVING_DEPENDENCY": null,
+        "AMBULATORY_STATUS": null,
+        "CITIZENSHIP": null,
+        "PRIMARY_LANGUAGE": {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER": null
+        },
+        "LIVING_ARRANGEMENT": null,
+        "PUBLICITY_INDICATOR": {
+          "0": "^",
+          "1": "Y",
+          "IDENTIFIER": "Y"
+        },
+        "PROTECTION_INDICATOR": null,
+        "STUDENT_INDICATOR": null,
+        "RELIGION": "CHR",
+        "MOTHER_S_MAIDEN_NAME": {
+          "0": "^",
+          "1": null,
+          "FAMILY_NAME": null
+        },
+        "NATIONALITY_CODE": {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER": null
+        },
+        "ETHNIC_GROUP": null,
+        "CONTACT_PERSON_S_NAME": [
+          {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          }
+        ],
+        "CONTACT_PERSON_S_TELEPHONE_NUMBER": [
+          {
+            "0": "^",
+            "1": null,
+            "999_999_9999_X99999_C_ANY_TEXT": null
+          }
+        ],
+        "CONTACT_REASON": {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER": null
+        },
+        "CONTACT_RELATIONSHIP_CODE": null,
+        "JOB_TITLE": "RETIRED",
+        "JOB_CODE_CLASS": {
+          "0": "^",
+          "1": null,
+          "JOB_CODE": null
+        },
+        "GUARANTOR_EMPLOYER_S_ORGANIZATION_NAME": [
+          {
+            "0": "^",
+            "1": null,
+            "ORGANIZATION_NAME": null
+          }
+        ],
+        "HANDICAP": null,
+        "JOB_STATUS": null,
+        "GUARANTOR_FINANCIAL_CLASS": {
+          "0": "^",
+          "1": null,
+          "FINANCIAL_CLASS": null
+        },
+        "GUARANTOR_RACE": "C"
+      }
+    ],
+    "INSURANCE": [
+      {
+        "IN1": {
+          "0": "IN1",
+          "1": "1",
+          "2": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "3": {
+            "0": "^",
+            "1": "0401",
+            "ID": "0401"
+          },
+          "4": {
+            "0": "^",
+            "1": "MEDICARE IP",
+            "ORGANIZATION_NAME": "MEDICARE IP"
+          },
+          "5": {
+            "0": "^",
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "STREET_ADDRESS": null,
+            "OTHER_DESIGNATION": null,
+            "CITY": null,
+            "STATE_OR_PROVINCE": null,
+            "ZIP_OR_POSTAL_CODE": null
+          },
+          "6": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "7": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "8": null,
+          "9": {
+            "0": "^",
+            "1": null,
+            "ORGANIZATION_NAME": null
+          },
+          "10": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "11": {
+            "0": "^",
+            "1": null,
+            "ORGANIZATION_NAME": null
+          },
+          "12": "19951001",
+          "13": null,
+          "14": {
+            "0": "^",
+            "1": null,
+            "AUTHORIZATION_NUMBER": null
+          },
+          "15": "MCR",
+          "16": {
+            "0": "^",
+            "1": "BARRETT",
+            "2": "JEAN",
+            "3": "S",
+            "4": null,
+            "5": null,
+            "FAMILY_NAME": "BARRETT",
+            "GIVEN_NAME": "JEAN",
+            "MIDDLE_INITIAL_OR_NAME": "S",
+            "SUFFIX_E_G_JR_OR_III": null,
+            "PREFIX_E_G_DR": null
+          },
+          "17": "A",
+          "18": {
+            "0": "^",
+            "1": "19301013",
+            "TIME_OF_AN_EVENT": "19301013"
+          },
+          "19": {
+            "0": "^",
+            "1": "2820 SYCAMORE AVE",
+            "2": "TWELVE OAKS LODGE",
+            "3": "MONTROSE",
+            "4": "CA",
+            "5": "91214",
+            "6": "USA",
+            "7": null,
+            "8": null,
+            "9": null,
+            "STREET_ADDRESS": "2820 SYCAMORE AVE",
+            "OTHER_DESIGNATION": "TWELVE OAKS LODGE",
+            "CITY": "MONTROSE",
+            "STATE_OR_PROVINCE": "CA",
+            "ZIP_OR_POSTAL_CODE": "91214",
+            "COUNTRY": "USA",
+            "ADDRESS_TYPE": null,
+            "OTHER_GEOGRAPHIC_DESIGNATION": null,
+            "COUNTY_PARISH_CODE": null
+          },
+          "20": null,
+          "21": null,
+          "22": "1",
+          "23": null,
+          "24": null,
+          "25": null,
+          "26": null,
+          "27": null,
+          "28": null,
+          "29": {
+            "0": "^",
+            "1": null,
+            "TIME_OF_AN_EVENT": null
+          },
+          "30": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "31": null,
+          "32": null,
+          "33": null,
+          "34": null,
+          "35": null,
+          "36": "354221840A",
+          "37": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "38": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "39": null,
+          "40": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "41": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "42": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "43": "F",
+          "44": {
+            "0": "^",
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": "00000",
+            "6": null,
+            "STREET_ADDRESS": null,
+            "OTHER_DESIGNATION": null,
+            "CITY": null,
+            "STATE_OR_PROVINCE": null,
+            "ZIP_OR_POSTAL_CODE": "00000",
+            "COUNTRY": null
+          },
+          "45": "N",
+          "46": null,
+          "47": null,
+          "48": null,
+          "49": {
+            "0": "^",
+            "1": "010107127",
+            "ID": "010107127"
+          },
+          "SET_ID_INSURANCE": "1",
+          "INSURANCE_PLAN_ID": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "INSURANCE_COMPANY_ID": {
+            "0": "^",
+            "1": "0401",
+            "ID": "0401"
+          },
+          "INSURANCE_COMPANY_NAME": {
+            "0": "^",
+            "1": "MEDICARE IP",
+            "ORGANIZATION_NAME": "MEDICARE IP"
+          },
+          "INSURANCE_COMPANY_ADDRESS": {
+            "0": "^",
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "STREET_ADDRESS": null,
+            "OTHER_DESIGNATION": null,
+            "CITY": null,
+            "STATE_OR_PROVINCE": null,
+            "ZIP_OR_POSTAL_CODE": null
+          },
+          "INSURANCE_CO_CONTACT_PPERS": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "INSURANCE_CO_PHONE_NUMBER": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "GROUP_NUMBER": null,
+          "GROUP_NAME": {
+            "0": "^",
+            "1": null,
+            "ORGANIZATION_NAME": null
+          },
+          "INSURED_S_GROUP_EMPLOYER_ID": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "INSURED_S_GROUP_EMP_NAME": {
+            "0": "^",
+            "1": null,
+            "ORGANIZATION_NAME": null
+          },
+          "PLAN_EFFECTIVE_DATE": "19951001",
+          "PLAN_EXPIRATION_DATE": null,
+          "AUTHORIZATION_INFORMATION": {
+            "0": "^",
+            "1": null,
+            "AUTHORIZATION_NUMBER": null
+          },
+          "PLAN_TYPE": "MCR",
+          "NAME_OF_INSURED": {
+            "0": "^",
+            "1": "BARRETT",
+            "2": "JEAN",
+            "3": "S",
+            "4": null,
+            "5": null,
+            "FAMILY_NAME": "BARRETT",
+            "GIVEN_NAME": "JEAN",
+            "MIDDLE_INITIAL_OR_NAME": "S",
+            "SUFFIX_E_G_JR_OR_III": null,
+            "PREFIX_E_G_DR": null
+          },
+          "INSURED_S_RELATIONSHIP_TO_PATIENT": "A",
+          "INSURED_S_DATE_OF_BIRTH": {
+            "0": "^",
+            "1": "19301013",
+            "TIME_OF_AN_EVENT": "19301013"
+          },
+          "INSURED_S_ADDRESS": {
+            "0": "^",
+            "1": "2820 SYCAMORE AVE",
+            "2": "TWELVE OAKS LODGE",
+            "3": "MONTROSE",
+            "4": "CA",
+            "5": "91214",
+            "6": "USA",
+            "7": null,
+            "8": null,
+            "9": null,
+            "STREET_ADDRESS": "2820 SYCAMORE AVE",
+            "OTHER_DESIGNATION": "TWELVE OAKS LODGE",
+            "CITY": "MONTROSE",
+            "STATE_OR_PROVINCE": "CA",
+            "ZIP_OR_POSTAL_CODE": "91214",
+            "COUNTRY": "USA",
+            "ADDRESS_TYPE": null,
+            "OTHER_GEOGRAPHIC_DESIGNATION": null,
+            "COUNTY_PARISH_CODE": null
+          },
+          "ASSIGNMENT_OF_BENEFITS": null,
+          "COORDINATION_OF_BENEFITS": null,
+          "COORD_OF_BEN_PRIORITY": "1",
+          "NOTICE_OF_ADMISSION_CODE": null,
+          "NOTICE_OF_ADMISSION_DATE": null,
+          "RPT_OF_EIGIBILITY_CODE": null,
+          "RPT_OF_ELIGIBILITY_DATE": null,
+          "RELEASE_INFORMATION_CODE": null,
+          "PRE_ADMIT_CERT_PAC": null,
+          "VERIFICATION_DATE_TIME": {
+            "0": "^",
+            "1": null,
+            "TIME_OF_AN_EVENT": null
+          },
+          "VERIFICATION_BY": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "TYPE_OF_AGREEMENT_CODE": null,
+          "BILLING_STATUS": null,
+          "LIFETIME_RESERVE_DAYS": null,
+          "DELAY_BEFORE_LIFETIME_RESERVE_DAYS": null,
+          "COMPANY_PLAN_CODE": null,
+          "POLICY_NUMBER": "354221840A",
+          "POLICY_DEDUCTIBLE": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "POLICY_LIMIT_AMOUNT": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "POLICY_LIMIT_DAYS": null,
+          "ROOM_RATE_SEMI_PRIVATE": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "ROOM_RATE_PRIVATE": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "INSURED_S_EMPLOYMENT_STATUS": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "INSURED_S_SEX": "F",
+          "INSURED_S_EMPLOYER_ADDRESS": {
+            "0": "^",
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": "00000",
+            "6": null,
+            "STREET_ADDRESS": null,
+            "OTHER_DESIGNATION": null,
+            "CITY": null,
+            "STATE_OR_PROVINCE": null,
+            "ZIP_OR_POSTAL_CODE": "00000",
+            "COUNTRY": null
+          },
+          "VERIFICATION_STATUS": "N",
+          "PRIOR_INSURANCE_PLAN_ID": null,
+          "COVERAGE_TYPE": null,
+          "HANDICAP": null,
+          "INSURED_S_ID_NUMBER": {
+            "0": "^",
+            "1": "010107127",
+            "ID": "010107127"
+          }
+        },
+        "IN2": {
+          "0": "IN2",
+          "1": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "2": "354221840",
+          "3": {
+            "0": "^",
+            "1": "0000007496",
+            "2": "RETIRED",
+            "ID_NUMBER_ST": "0000007496",
+            "FAMILY_NAME": "RETIRED"
+          },
+          "4": null,
+          "5": null,
+          "6": "354221840A",
+          "7": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "8": null,
+          "9": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "10": null,
+          "11": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "12": null,
+          "13": null,
+          "14": null,
+          "15": null,
+          "16": null,
+          "17": null,
+          "18": null,
+          "19": null,
+          "20": null,
+          "21": null,
+          "22": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "23": null,
+          "24": [
+            null
+          ],
+          "25": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "26": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "27": null,
+          "28": [
+            {
+              "0": "^",
+              "1": null,
+              "ROOM_TYPE": null
+            }
+          ],
+          "29": [
+            {
+              "0": "^",
+              "1": null,
+              "POLICY_TYPE": null
+            }
+          ],
+          "30": {
+            "0": "^",
+            "1": null,
+            "DELAY_DAYS": null
+          },
+          "31": null,
+          "32": null,
+          "33": null,
+          "34": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "35": null,
+          "36": {
+            "0": "^",
+            "1": "Y",
+            "IDENTIFIER": "Y"
+          },
+          "37": null,
+          "38": null,
+          "39": "CHR",
+          "40": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "41": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "42": null,
+          "43": [
+            "W"
+          ],
+          "44": null,
+          "45": null,
+          "46": "RETIRED",
+          "47": {
+            "0": "^",
+            "1": null,
+            "JOB_CODE": null
+          },
+          "48": null,
+          "49": [
+            {
+              "0": "^",
+              "1": null,
+              "FAMILY_NAME": null
+            }
+          ],
+          "50": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "51": null,
+          "52": [
+            {
+              "0": "^",
+              "1": null,
+              "FAMILY_NAME": null
+            }
+          ],
+          "53": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "54": [
+            null
+          ],
+          "55": null,
+          "56": [
+            null
+          ],
+          "57": null,
+          "58": {
+            "0": "^",
+            "1": null,
+            "999_999_9999_X99999_C_ANY_TEXT": null
+          },
+          "59": null,
+          "60": null,
+          "61": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "62": null,
+          "63": [
+            {
+              "0": "^",
+              "1": "(818)249-3361",
+              "999_999_9999_X99999_C_ANY_TEXT": "(818)249-3361"
+            }
+          ],
+          "64": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "65": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "66": null,
+          "67": null,
+          "68": null,
+          "69": [
+            {
+              "0": "^",
+              "1": null,
+              "ORGANIZATION_NAME": null
+            }
+          ],
+          "70": [
+            {
+              "0": "^",
+              "1": null,
+              "ORGANIZATION_NAME": null
+            }
+          ],
+          "71": "C",
+          "INSURED_S_EMPLOYEE_ID": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "INSURED_S_SOCIAL_SECURITY_NUMBER": "354221840",
+          "INSURED_S_EMPLOYER_NAME": {
+            "0": "^",
+            "1": "0000007496",
+            "2": "RETIRED",
+            "ID_NUMBER_ST": "0000007496",
+            "FAMILY_NAME": "RETIRED"
+          },
+          "EMPLOYER_INFORMATION_DATA": null,
+          "MAIL_CLAIM_PARTY": null,
+          "MEDICARE_HEALTH_INS_CARD_NUMBER": "354221840A",
+          "MEDICAID_CASE_NAME": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "MEDICAID_CASE_NUMBER": null,
+          "CHAMPUS_SPONSOR_NAME": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "CHAMPUS_ID_NUMBER": null,
+          "DEPENDENT_OF_CHAMPUS_RECIPIENT": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "CHAMPUS_ORGANIZATION": null,
+          "CHAMPUS_STATION": null,
+          "CHAMPUS_SERVICE": null,
+          "CHAMPUS_RANK_GRADE": null,
+          "CHAMPUS_STATUS": null,
+          "CHAMPUS_RETIRE_DATE": null,
+          "CHAMPUS_NON_AVAIL_CERT_ON_FILE": null,
+          "BABY_COVERAGE": null,
+          "COMBINE_BABY_BILL": null,
+          "BLOOD_DEDUCTIBLE": null,
+          "SPECIAL_COVERAGE_APPROVAL_NAME": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "SPECIAL_COVERAGE_APPROVAL_TITLE": null,
+          "NON_COVERED_INSURANCE_CODE": [
+            null
+          ],
+          "PAYOR_ID": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "PAYOR_SUBSCRIBER_ID": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "ELIGIBILITY_SOURCE": null,
+          "ROOM_COVERAGE_TYPE_AMOUNT": [
+            {
+              "0": "^",
+              "1": null,
+              "ROOM_TYPE": null
+            }
+          ],
+          "POLICY_TYPE_AMOUNT": [
+            {
+              "0": "^",
+              "1": null,
+              "POLICY_TYPE": null
+            }
+          ],
+          "DAILY_DEDUCTIBLE": {
+            "0": "^",
+            "1": null,
+            "DELAY_DAYS": null
+          },
+          "LIVING_DEPENDENCY": null,
+          "AMBULATORY_STATUS": null,
+          "CITIZENSHIP": null,
+          "PRIMARY_LANGUAGE": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "LIVING_ARRANGEMENT": null,
+          "PUBLICITY_INDICATOR": {
+            "0": "^",
+            "1": "Y",
+            "IDENTIFIER": "Y"
+          },
+          "PROTECTION_INDICATOR": null,
+          "STUDENT_INDICATOR": null,
+          "RELIGION": "CHR",
+          "MOTHER_S_MAIDEN_NAME": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "NATIONALITY_CODE": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "ETHNIC_GROUP": null,
+          "MARITAL_STATUS": [
+            "W"
+          ],
+          "EMPLOYMENT_START_DATE": null,
+          "EMPLOYMENT_STOP_DATE": null,
+          "JOB_TITLE": "RETIRED",
+          "JOB_CODE_CLASS": {
+            "0": "^",
+            "1": null,
+            "JOB_CODE": null
+          },
+          "JOB_STATUS": null,
+          "EMPLOYER_CONTACT_PERSON_NAME": [
+            {
+              "0": "^",
+              "1": null,
+              "FAMILY_NAME": null
+            }
+          ],
+          "EMPLOYER_CONTACT_PERSON_PHONE_NUMBER": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "EMPLOYER_CONTACT_REASON": null,
+          "INSURED_S_CONTACT_PERSON_S_NAME": [
+            {
+              "0": "^",
+              "1": null,
+              "FAMILY_NAME": null
+            }
+          ],
+          "INSURED_S_CONTACT_PERSON_TELEPHONE_NUMBER": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "INSURED_S_CONTACT_PERSON_REASON": [
+            null
+          ],
+          "RELATIONSHIP_TO_THE_PATIENT_START_DATE": null,
+          "RELATIONSHIP_TO_THE_PATIENT_STOP_DATE": [
+            null
+          ],
+          "INSURANCE_CO_CONTACT_REASON": null,
+          "INSURANCE_CO_CONTACT_PHONE_NUMBER": {
+            "0": "^",
+            "1": null,
+            "999_999_9999_X99999_C_ANY_TEXT": null
+          },
+          "POLICY_SCOPE": null,
+          "POLICY_SOURCE": null,
+          "PATIENT_MEMBER_NUMBER": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "GUARANTOR_S_RELATIONSHIP_TO_INSURED": null,
+          "INSURED_S_TELEPHONE_NUMBER_HOME": [
+            {
+              "0": "^",
+              "1": "(818)249-3361",
+              "999_999_9999_X99999_C_ANY_TEXT": "(818)249-3361"
+            }
+          ],
+          "INSURED_S_EMPLOYER_TELEPHONE_NUMBER": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "MILITARY_HANDICAPPED_PROGRAM": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "SUSPEND_FLAG": null,
+          "CO_PAY_LIMIT_FLAG": null,
+          "STOPLOSS_LIMIT_FLAG": null,
+          "INSURED_ORGANIZATION_NAME_AND_ID": [
+            {
+              "0": "^",
+              "1": null,
+              "ORGANIZATION_NAME": null
+            }
+          ],
+          "INSURED_EMPLOYER_ORGANIZATION_NAME_AND_ID": [
+            {
+              "0": "^",
+              "1": null,
+              "ORGANIZATION_NAME": null
+            }
+          ],
+          "RACE": "C"
+        }
+      },
+      {
+        "IN1": {
+          "0": "IN1",
+          "1": "2",
+          "2": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "3": {
+            "0": "^",
+            "1": "2320",
+            "ID": "2320"
+          },
+          "4": {
+            "0": "^",
+            "1": "AETNA PPO",
+            "ORGANIZATION_NAME": "AETNA PPO"
+          },
+          "5": {
+            "0": "^",
+            "1": "PO BOX 14079",
+            "2": "PO BOX 14079",
+            "3": "LEXINGTON",
+            "4": "KY",
+            "5": "40512",
+            "STREET_ADDRESS": "PO BOX 14079",
+            "OTHER_DESIGNATION": "PO BOX 14079",
+            "CITY": "LEXINGTON",
+            "STATE_OR_PROVINCE": "KY",
+            "ZIP_OR_POSTAL_CODE": "40512"
+          },
+          "6": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "7": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "8": "081140101400020",
+          "9": {
+            "0": "^",
+            "1": "RETIRED",
+            "ORGANIZATION_NAME": "RETIRED"
+          },
+          "10": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "11": {
+            "0": "^",
+            "1": null,
+            "ORGANIZATION_NAME": null
+          },
+          "12": "20130101",
+          "13": null,
+          "14": {
+            "0": "^",
+            "1": null,
+            "AUTHORIZATION_NUMBER": null
+          },
+          "15": "COM",
+          "16": {
+            "0": "^",
+            "1": "BARRETT",
+            "2": "JEAN",
+            "3": "S",
+            "4": null,
+            "5": null,
+            "FAMILY_NAME": "BARRETT",
+            "GIVEN_NAME": "JEAN",
+            "MIDDLE_INITIAL_OR_NAME": "S",
+            "SUFFIX_E_G_JR_OR_III": null,
+            "PREFIX_E_G_DR": null
+          },
+          "17": "A",
+          "18": {
+            "0": "^",
+            "1": "19301013",
+            "TIME_OF_AN_EVENT": "19301013"
+          },
+          "19": {
+            "0": "^",
+            "1": "2820 SYCAMORE AVE",
+            "2": "TWELVE OAKS LODGE",
+            "3": "MONTROSE",
+            "4": "CA",
+            "5": "91214",
+            "6": "USA",
+            "7": null,
+            "8": null,
+            "9": null,
+            "STREET_ADDRESS": "2820 SYCAMORE AVE",
+            "OTHER_DESIGNATION": "TWELVE OAKS LODGE",
+            "CITY": "MONTROSE",
+            "STATE_OR_PROVINCE": "CA",
+            "ZIP_OR_POSTAL_CODE": "91214",
+            "COUNTRY": "USA",
+            "ADDRESS_TYPE": null,
+            "OTHER_GEOGRAPHIC_DESIGNATION": null,
+            "COUNTY_PARISH_CODE": null
+          },
+          "20": null,
+          "21": null,
+          "22": "2",
+          "23": null,
+          "24": null,
+          "25": null,
+          "26": null,
+          "27": null,
+          "28": null,
+          "29": {
+            "0": "^",
+            "1": null,
+            "TIME_OF_AN_EVENT": null
+          },
+          "30": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "31": null,
+          "32": null,
+          "33": null,
+          "34": null,
+          "35": null,
+          "36": "811001556",
+          "37": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "38": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "39": null,
+          "40": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "41": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "42": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "43": "F",
+          "44": {
+            "0": "^",
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": "00000",
+            "6": null,
+            "STREET_ADDRESS": null,
+            "OTHER_DESIGNATION": null,
+            "CITY": null,
+            "STATE_OR_PROVINCE": null,
+            "ZIP_OR_POSTAL_CODE": "00000",
+            "COUNTRY": null
+          },
+          "45": "N",
+          "46": null,
+          "47": null,
+          "48": null,
+          "49": {
+            "0": "^",
+            "1": "010107127",
+            "ID": "010107127"
+          },
+          "SET_ID_INSURANCE": "2",
+          "INSURANCE_PLAN_ID": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "INSURANCE_COMPANY_ID": {
+            "0": "^",
+            "1": "2320",
+            "ID": "2320"
+          },
+          "INSURANCE_COMPANY_NAME": {
+            "0": "^",
+            "1": "AETNA PPO",
+            "ORGANIZATION_NAME": "AETNA PPO"
+          },
+          "INSURANCE_COMPANY_ADDRESS": {
+            "0": "^",
+            "1": "PO BOX 14079",
+            "2": "PO BOX 14079",
+            "3": "LEXINGTON",
+            "4": "KY",
+            "5": "40512",
+            "STREET_ADDRESS": "PO BOX 14079",
+            "OTHER_DESIGNATION": "PO BOX 14079",
+            "CITY": "LEXINGTON",
+            "STATE_OR_PROVINCE": "KY",
+            "ZIP_OR_POSTAL_CODE": "40512"
+          },
+          "INSURANCE_CO_CONTACT_PPERS": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "INSURANCE_CO_PHONE_NUMBER": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "GROUP_NUMBER": "081140101400020",
+          "GROUP_NAME": {
+            "0": "^",
+            "1": "RETIRED",
+            "ORGANIZATION_NAME": "RETIRED"
+          },
+          "INSURED_S_GROUP_EMPLOYER_ID": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "INSURED_S_GROUP_EMP_NAME": {
+            "0": "^",
+            "1": null,
+            "ORGANIZATION_NAME": null
+          },
+          "PLAN_EFFECTIVE_DATE": "20130101",
+          "PLAN_EXPIRATION_DATE": null,
+          "AUTHORIZATION_INFORMATION": {
+            "0": "^",
+            "1": null,
+            "AUTHORIZATION_NUMBER": null
+          },
+          "PLAN_TYPE": "COM",
+          "NAME_OF_INSURED": {
+            "0": "^",
+            "1": "BARRETT",
+            "2": "JEAN",
+            "3": "S",
+            "4": null,
+            "5": null,
+            "FAMILY_NAME": "BARRETT",
+            "GIVEN_NAME": "JEAN",
+            "MIDDLE_INITIAL_OR_NAME": "S",
+            "SUFFIX_E_G_JR_OR_III": null,
+            "PREFIX_E_G_DR": null
+          },
+          "INSURED_S_RELATIONSHIP_TO_PATIENT": "A",
+          "INSURED_S_DATE_OF_BIRTH": {
+            "0": "^",
+            "1": "19301013",
+            "TIME_OF_AN_EVENT": "19301013"
+          },
+          "INSURED_S_ADDRESS": {
+            "0": "^",
+            "1": "2820 SYCAMORE AVE",
+            "2": "TWELVE OAKS LODGE",
+            "3": "MONTROSE",
+            "4": "CA",
+            "5": "91214",
+            "6": "USA",
+            "7": null,
+            "8": null,
+            "9": null,
+            "STREET_ADDRESS": "2820 SYCAMORE AVE",
+            "OTHER_DESIGNATION": "TWELVE OAKS LODGE",
+            "CITY": "MONTROSE",
+            "STATE_OR_PROVINCE": "CA",
+            "ZIP_OR_POSTAL_CODE": "91214",
+            "COUNTRY": "USA",
+            "ADDRESS_TYPE": null,
+            "OTHER_GEOGRAPHIC_DESIGNATION": null,
+            "COUNTY_PARISH_CODE": null
+          },
+          "ASSIGNMENT_OF_BENEFITS": null,
+          "COORDINATION_OF_BENEFITS": null,
+          "COORD_OF_BEN_PRIORITY": "2",
+          "NOTICE_OF_ADMISSION_CODE": null,
+          "NOTICE_OF_ADMISSION_DATE": null,
+          "RPT_OF_EIGIBILITY_CODE": null,
+          "RPT_OF_ELIGIBILITY_DATE": null,
+          "RELEASE_INFORMATION_CODE": null,
+          "PRE_ADMIT_CERT_PAC": null,
+          "VERIFICATION_DATE_TIME": {
+            "0": "^",
+            "1": null,
+            "TIME_OF_AN_EVENT": null
+          },
+          "VERIFICATION_BY": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "TYPE_OF_AGREEMENT_CODE": null,
+          "BILLING_STATUS": null,
+          "LIFETIME_RESERVE_DAYS": null,
+          "DELAY_BEFORE_LIFETIME_RESERVE_DAYS": null,
+          "COMPANY_PLAN_CODE": null,
+          "POLICY_NUMBER": "811001556",
+          "POLICY_DEDUCTIBLE": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "POLICY_LIMIT_AMOUNT": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "POLICY_LIMIT_DAYS": null,
+          "ROOM_RATE_SEMI_PRIVATE": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "ROOM_RATE_PRIVATE": {
+            "0": "^",
+            "1": null,
+            "PRICE": null
+          },
+          "INSURED_S_EMPLOYMENT_STATUS": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "INSURED_S_SEX": "F",
+          "INSURED_S_EMPLOYER_ADDRESS": {
+            "0": "^",
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": "00000",
+            "6": null,
+            "STREET_ADDRESS": null,
+            "OTHER_DESIGNATION": null,
+            "CITY": null,
+            "STATE_OR_PROVINCE": null,
+            "ZIP_OR_POSTAL_CODE": "00000",
+            "COUNTRY": null
+          },
+          "VERIFICATION_STATUS": "N",
+          "PRIOR_INSURANCE_PLAN_ID": null,
+          "COVERAGE_TYPE": null,
+          "HANDICAP": null,
+          "INSURED_S_ID_NUMBER": {
+            "0": "^",
+            "1": "010107127",
+            "ID": "010107127"
+          }
+        },
+        "IN2": {
+          "0": "IN2",
+          "1": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "2": "354221840",
+          "3": {
+            "0": "^",
+            "1": "0000007496",
+            "2": "RETIRED",
+            "ID_NUMBER_ST": "0000007496",
+            "FAMILY_NAME": "RETIRED"
+          },
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "8": null,
+          "9": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "10": null,
+          "11": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "12": null,
+          "13": null,
+          "14": null,
+          "15": null,
+          "16": null,
+          "17": null,
+          "18": null,
+          "19": null,
+          "20": null,
+          "21": null,
+          "22": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "23": null,
+          "24": [
+            null
+          ],
+          "25": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "26": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "27": null,
+          "28": [
+            {
+              "0": "^",
+              "1": null,
+              "ROOM_TYPE": null
+            }
+          ],
+          "29": [
+            {
+              "0": "^",
+              "1": null,
+              "POLICY_TYPE": null
+            }
+          ],
+          "30": {
+            "0": "^",
+            "1": null,
+            "DELAY_DAYS": null
+          },
+          "31": null,
+          "32": null,
+          "33": null,
+          "34": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "35": null,
+          "36": {
+            "0": "^",
+            "1": "Y",
+            "IDENTIFIER": "Y"
+          },
+          "37": null,
+          "38": null,
+          "39": "CHR",
+          "40": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "41": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "42": null,
+          "43": [
+            "W"
+          ],
+          "44": null,
+          "45": null,
+          "46": "RETIRED",
+          "47": {
+            "0": "^",
+            "1": null,
+            "JOB_CODE": null
+          },
+          "48": null,
+          "49": [
+            {
+              "0": "^",
+              "1": null,
+              "FAMILY_NAME": null
+            }
+          ],
+          "50": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "51": null,
+          "52": [
+            {
+              "0": "^",
+              "1": null,
+              "FAMILY_NAME": null
+            }
+          ],
+          "53": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "54": [
+            null
+          ],
+          "55": null,
+          "56": [
+            null
+          ],
+          "57": null,
+          "58": {
+            "0": "^",
+            "1": null,
+            "999_999_9999_X99999_C_ANY_TEXT": null
+          },
+          "59": null,
+          "60": null,
+          "61": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "62": null,
+          "63": [
+            {
+              "0": "^",
+              "1": "(818)249-3361",
+              "999_999_9999_X99999_C_ANY_TEXT": "(818)249-3361"
+            }
+          ],
+          "64": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "65": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "66": null,
+          "67": null,
+          "68": null,
+          "69": [
+            {
+              "0": "^",
+              "1": null,
+              "ORGANIZATION_NAME": null
+            }
+          ],
+          "70": [
+            {
+              "0": "^",
+              "1": null,
+              "ORGANIZATION_NAME": null
+            }
+          ],
+          "71": "C",
+          "INSURED_S_EMPLOYEE_ID": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "INSURED_S_SOCIAL_SECURITY_NUMBER": "354221840",
+          "INSURED_S_EMPLOYER_NAME": {
+            "0": "^",
+            "1": "0000007496",
+            "2": "RETIRED",
+            "ID_NUMBER_ST": "0000007496",
+            "FAMILY_NAME": "RETIRED"
+          },
+          "EMPLOYER_INFORMATION_DATA": null,
+          "MAIL_CLAIM_PARTY": null,
+          "MEDICARE_HEALTH_INS_CARD_NUMBER": null,
+          "MEDICAID_CASE_NAME": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "MEDICAID_CASE_NUMBER": null,
+          "CHAMPUS_SPONSOR_NAME": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "CHAMPUS_ID_NUMBER": null,
+          "DEPENDENT_OF_CHAMPUS_RECIPIENT": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "CHAMPUS_ORGANIZATION": null,
+          "CHAMPUS_STATION": null,
+          "CHAMPUS_SERVICE": null,
+          "CHAMPUS_RANK_GRADE": null,
+          "CHAMPUS_STATUS": null,
+          "CHAMPUS_RETIRE_DATE": null,
+          "CHAMPUS_NON_AVAIL_CERT_ON_FILE": null,
+          "BABY_COVERAGE": null,
+          "COMBINE_BABY_BILL": null,
+          "BLOOD_DEDUCTIBLE": null,
+          "SPECIAL_COVERAGE_APPROVAL_NAME": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "SPECIAL_COVERAGE_APPROVAL_TITLE": null,
+          "NON_COVERED_INSURANCE_CODE": [
+            null
+          ],
+          "PAYOR_ID": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "PAYOR_SUBSCRIBER_ID": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "ELIGIBILITY_SOURCE": null,
+          "ROOM_COVERAGE_TYPE_AMOUNT": [
+            {
+              "0": "^",
+              "1": null,
+              "ROOM_TYPE": null
+            }
+          ],
+          "POLICY_TYPE_AMOUNT": [
+            {
+              "0": "^",
+              "1": null,
+              "POLICY_TYPE": null
+            }
+          ],
+          "DAILY_DEDUCTIBLE": {
+            "0": "^",
+            "1": null,
+            "DELAY_DAYS": null
+          },
+          "LIVING_DEPENDENCY": null,
+          "AMBULATORY_STATUS": null,
+          "CITIZENSHIP": null,
+          "PRIMARY_LANGUAGE": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "LIVING_ARRANGEMENT": null,
+          "PUBLICITY_INDICATOR": {
+            "0": "^",
+            "1": "Y",
+            "IDENTIFIER": "Y"
+          },
+          "PROTECTION_INDICATOR": null,
+          "STUDENT_INDICATOR": null,
+          "RELIGION": "CHR",
+          "MOTHER_S_MAIDEN_NAME": {
+            "0": "^",
+            "1": null,
+            "FAMILY_NAME": null
+          },
+          "NATIONALITY_CODE": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "ETHNIC_GROUP": null,
+          "MARITAL_STATUS": [
+            "W"
+          ],
+          "EMPLOYMENT_START_DATE": null,
+          "EMPLOYMENT_STOP_DATE": null,
+          "JOB_TITLE": "RETIRED",
+          "JOB_CODE_CLASS": {
+            "0": "^",
+            "1": null,
+            "JOB_CODE": null
+          },
+          "JOB_STATUS": null,
+          "EMPLOYER_CONTACT_PERSON_NAME": [
+            {
+              "0": "^",
+              "1": null,
+              "FAMILY_NAME": null
+            }
+          ],
+          "EMPLOYER_CONTACT_PERSON_PHONE_NUMBER": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "EMPLOYER_CONTACT_REASON": null,
+          "INSURED_S_CONTACT_PERSON_S_NAME": [
+            {
+              "0": "^",
+              "1": null,
+              "FAMILY_NAME": null
+            }
+          ],
+          "INSURED_S_CONTACT_PERSON_TELEPHONE_NUMBER": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "INSURED_S_CONTACT_PERSON_REASON": [
+            null
+          ],
+          "RELATIONSHIP_TO_THE_PATIENT_START_DATE": null,
+          "RELATIONSHIP_TO_THE_PATIENT_STOP_DATE": [
+            null
+          ],
+          "INSURANCE_CO_CONTACT_REASON": null,
+          "INSURANCE_CO_CONTACT_PHONE_NUMBER": {
+            "0": "^",
+            "1": null,
+            "999_999_9999_X99999_C_ANY_TEXT": null
+          },
+          "POLICY_SCOPE": null,
+          "POLICY_SOURCE": null,
+          "PATIENT_MEMBER_NUMBER": {
+            "0": "^",
+            "1": null,
+            "ID": null
+          },
+          "GUARANTOR_S_RELATIONSHIP_TO_INSURED": null,
+          "INSURED_S_TELEPHONE_NUMBER_HOME": [
+            {
+              "0": "^",
+              "1": "(818)249-3361",
+              "999_999_9999_X99999_C_ANY_TEXT": "(818)249-3361"
+            }
+          ],
+          "INSURED_S_EMPLOYER_TELEPHONE_NUMBER": [
+            {
+              "0": "^",
+              "1": null,
+              "999_999_9999_X99999_C_ANY_TEXT": null
+            }
+          ],
+          "MILITARY_HANDICAPPED_PROGRAM": {
+            "0": "^",
+            "1": null,
+            "IDENTIFIER": null
+          },
+          "SUSPEND_FLAG": null,
+          "CO_PAY_LIMIT_FLAG": null,
+          "STOPLOSS_LIMIT_FLAG": null,
+          "INSURED_ORGANIZATION_NAME_AND_ID": [
+            {
+              "0": "^",
+              "1": null,
+              "ORGANIZATION_NAME": null
+            }
+          ],
+          "INSURED_EMPLOYER_ORGANIZATION_NAME_AND_ID": [
+            {
+              "0": "^",
+              "1": null,
+              "ORGANIZATION_NAME": null
+            }
+          ],
+          "RACE": "C"
+        }
+      }
+    ]
+  },
+  "errors": [
+    "Expected segment/group PR1, got GT1 at segment #4"
+  ]
+}

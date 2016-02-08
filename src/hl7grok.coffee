@@ -103,19 +103,34 @@ _structurize = (meta, struct, message, segIdx) ->
   else
     return [result, segIdx, subErrors]
 
-structurize = (meta, message, messageType) ->
+structurize = (meta, message, messageType, options) ->
   [result, lastSegIdx, errors] = _structurize(meta, meta.MESSAGES[messageType.join("_")], message, 0)
 
-  console.log "!!!! Errors:", errors, lastSegIdx, message.length
+  return [result, errors]
 
-  result
+VALID_OPTION_KEYS = ["strict", "symbolicNames"]
+validateOptions = (options) ->
+  errors = []
 
-parse = (msg) ->
+  for k, v of options
+    if VALID_OPTION_KEYS.indexOf(k) < 0
+      errors.push k
+
+  if errors.length > 0
+    throw new Error("Unknown options key(s): #{errors.join(', ')}")
+
+parse = (msg, options) ->
   if msg.substr(0, 3) != "MSH"
     throw new Error("Message should start with MSH segment")
 
   if msg.length < 8
     throw new Error("Message is too short (MSH truncated)")
+
+  options ?=
+    strict: false
+    symbolicNames: true
+
+  validateOptions(options)
 
   separators =
     segment: "\r" # TODO: should be \r
@@ -125,6 +140,7 @@ parse = (msg) ->
     repetition: msg[5]
     escape: msg[6]
 
+  errors = []
   segments = msg.split(separators.segment).map (s) -> s.trim()
   segments = segments.filter (s) -> s.length > 0
   msh = segments[0].split(separators.field)
@@ -133,44 +149,56 @@ parse = (msg) ->
   hl7version = msh[11]
   meta = getMeta(hl7version)
 
-  message = parseSegments(segments, meta, separators)
-  message = structurize(meta, message, messageType)
+  [message, parseErrors] = parseSegments(segments, meta, separators, options)
+  [message, structErrors] = structurize(meta, message, messageType, options)
 
-  message
+  errors = errors.concat(structErrors).concat(parseErrors)
 
-parseSegments = (segments, meta, separators) ->
+  if options.strict && errors.length > 0
+    throw new Error("Errors during parsing an HL7 message:\n\n" + structErrors.join("\n"))
+
+  return [message, errors]
+
+parseSegments = (segments, meta, separators, options) ->
   result = []
+  errors = []
 
   for segment in segments
     rawFields = segment.split(separators.field)
     segmentName = rawFields.shift()
 
-    result.push parseFields(rawFields, segmentName, meta, separators)
+    [s, e] = parseFields(rawFields, segmentName, meta, separators, options)
+    result.push s
+    errors = errors.concat e
 
-  result
+  [result, errors]
 
-parseFields = (fields, segmentName, meta, separators) ->
+parseFields = (fields, segmentName, meta, separators, options) ->
   segmentMeta = meta.SEGMENTS[segmentName]
   result = {"0": segmentName}
+  errors = []
 
   if segmentMeta[0] != "sequence"
     throw new Error("Bang! Unknown case: #{segmentMeta[0]}")
 
   for fieldValue, fieldIndex in fields
     fieldMeta = segmentMeta[1][fieldIndex]
-    otherFieldMeta = meta.FIELDS[fieldMeta[0]]
-    fieldSymbolicName = otherFieldMeta[2]
 
     if fieldMeta
       fieldId = fieldMeta[0]
       [fieldMin, fieldMax] = fieldMeta[1]
+      otherFieldMeta = meta.FIELDS[fieldMeta[0]]
+      fieldSymbolicName = otherFieldMeta[2]
 
       if fieldMin == 1 && (!fieldValue || fieldValue == '')
-        throw new Error("Missing value for required field: #{fieldId}")
+        errorMsg = "Missing value for required field #{fieldId}"
+        errors.push errorMsg
 
       splitRegexp = new RegExp("(?!\\#{separators.escape})#{separators.repetition}")
       fieldValues = fieldValue.split(splitRegexp).map (v) ->
-        parseComponents(v, fieldId, meta, separators)
+        [f, e] = parseComponents(v, fieldId, meta, separators, options)
+        errors = errors.concat(e)
+        f
 
       if fieldMax == 1
         result[fieldIndex + 1] = fieldValues[0]
@@ -181,15 +209,16 @@ parseFields = (fields, segmentName, meta, separators) ->
     else
       result[fieldIndex + 1] = fieldValue
 
-    # MSH is always a special case, you know
-    if segmentName == 'MSH'
-      result[fieldSymbolicName] = result[fieldIndex]
-    else
-      result[fieldSymbolicName] = result[fieldIndex + 1]
+    if options.symbolicNames && fieldSymbolicName
+      # MSH is always a special case, you know
+      if segmentName == 'MSH'
+        result[fieldSymbolicName] = result[fieldIndex]
+      else
+        result[fieldSymbolicName] = result[fieldIndex + 1]
 
-  replaceBlanksWithNulls(result)
+   [replaceBlanksWithNulls(result), errors]
 
-parseComponents = (value, fieldId, meta, separators) ->
+parseComponents = (value, fieldId, meta, separators, options) ->
   fieldMeta = meta.FIELDS[fieldId]
 
   if fieldMeta[0] != 'leaf'
@@ -197,6 +226,7 @@ parseComponents = (value, fieldId, meta, separators) ->
 
   fieldType = fieldMeta[1]
   typeMeta = meta.DATATYPES[fieldType]
+  errors = []
 
   if typeMeta
     # it's a complex type
@@ -212,7 +242,8 @@ parseComponents = (value, fieldId, meta, separators) ->
         throw new Error("Bang! Unknown case for componentMeta[0]: #{componentMeta[0]}")
 
       if componentMin == 1 && (!c || c == '')
-        throw new Error("Missing value for required component #{componentId}")
+        errorMsg = "Missing value for required component #{componentId}"
+        errors.push errorMsg
 
       if componentMax == -1
         throw new Error("Bang! Unlimited cardinality for component #{componentId}, don't know what to do :/")
@@ -223,11 +254,13 @@ parseComponents = (value, fieldId, meta, separators) ->
         componentValue = c
 
       result[index + 1] = componentValue
-      result[componentMeta[2]] = componentValue
 
-    result
+      if options.symbolicNames
+        result[componentMeta[2]] = componentValue
+
+    [result, errors]
   else
-    coerce(value, fieldType)
+    [coerce(value, fieldType), []]
 
 module.exports =
   grok: parse
