@@ -272,6 +272,9 @@ parseComponents = (value, fieldId, meta, separators, options) ->
 if typeof(module) != 'undefined'
   module.exports =
     grok: parse
-else
+else if typeof(window) != 'undefined'
   window.hl7grok =
+    grok: parse
+else
+  this.hl7grok =
     grok: parse
