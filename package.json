@@ -18,8 +18,6 @@
   "preferGlobal": false,
   "bin": {},
   "scripts": {
-    "build": "`npm bin`/coffee -c -o lib/ src/*.coffee",
-    "watch": "`npm bin`/coffee -c -w -o lib/ src/*.coffee",
     "test": "`npm bin`/mocha --compilers coffee:coffee-script/register test/runner.coffee || echo 'Tests failed'"
   }
 }

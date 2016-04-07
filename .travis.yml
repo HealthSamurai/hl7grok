@@ -3,7 +3,6 @@ sudo: false
 
 before_script:
   - npm install
-  - npm run build
-  - ./build-meta.sh
+  - ./build.sh
 
 script: npm run test

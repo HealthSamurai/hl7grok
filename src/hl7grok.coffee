@@ -1,5 +1,4 @@
-fs = require("fs")
-meta = require("./meta")
+# There will be HL7_META variable after building single JS file
 
 META_CACHE = {}
 
@@ -20,7 +19,7 @@ getMeta = (hl7version) ->
   if META_CACHE[hl7version]
     META_CACHE[hl7version]
   else
-    parsed = JSON.parse(meta["v" + hl7version.replace('.', '_')])
+    parsed = JSON.parse(HL7_META["v" + hl7version.replace('.', '_')])
     META_CACHE[hl7version] = parsed
     parsed
 
@@ -270,5 +269,9 @@ parseComponents = (value, fieldId, meta, separators, options) ->
   else
     [coerce(value, fieldType), []]
 
-module.exports =
-  grok: parse
+if typeof(module) != 'undefined'
+  module.exports =
+    grok: parse
+else
+  window.hl7grok =
+    grok: parse
