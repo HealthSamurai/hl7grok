@@ -31,6 +31,8 @@ coerce = (value, typeId) ->
   value
 
 _structurize = (meta, struct, message, segIdx) ->
+  # console.log JSON.stringify(message, null, 2)
+
   if struct[0] != 'sequence'
     throw new Error("struct[0] != sequence, don't know what to do :/")
 
@@ -56,7 +58,7 @@ _structurize = (meta, struct, message, segIdx) ->
       thisSegName = message[segIdx][0]
 
       if collectedSegments.length == expSegMax && expSegMax == 1
-        # we wanted just one segment, and we got it
+        # we wanted just one segment and we got it
         break
 
       # check if expected segment is a group
@@ -111,9 +113,13 @@ _structurize = (meta, struct, message, segIdx) ->
     return [result, segIdx, subErrors]
 
 structurize = (meta, message, messageType, options) ->
-  [result, lastSegIdx, errors] = _structurize(meta, meta.MESSAGES[messageType.join("_")], message, 0)
+  struct = meta.MESSAGES[messageType.join("_")]
 
-  return [result, errors]
+  if !struct
+    return [null, ["No structure defined for message type #{messageType.join(' ')}"]]
+  else
+    [result, lastSegIdx, errors] = _structurize(meta, struct, message, 0)
+    return [result, errors]
 
 VALID_OPTION_KEYS = ["strict", "symbolicNames"]
 validateOptions = (options) ->

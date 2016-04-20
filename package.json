@@ -11,10 +11,6 @@
   "engines": {
     "node": ">=0.12.0"
   },
-  "scripts": {
-    "build": "`npm bin`/coffee -c -o lib/ src/*.coffee",
-    "watch": "`npm bin`/coffee -c -w -o lib/ src/*.coffee"
-  },
   "preferGlobal": false,
   "bin": {},
   "scripts": {

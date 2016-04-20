@@ -1,0 +1,7 @@
+{
+  "result": null,
+  "errors": [
+    "No structure defined for message type ORU R30",
+    "Missing value for required field MSH_7"
+  ]
+}

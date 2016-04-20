@@ -11,9 +11,9 @@ echo "var HL7_META = {\n" >> $out
 
 for file in ./meta/*.json
 do
-    content=`sed "s@\"@\\\\\\\\\\"@g" $file`
-
-    echo \"`basename $file '.json'`\": \"$content\", >> $out
+    echo \"`basename $file '.json'`\": >> $out
+    cat $file | python -c 'import json,sys; obj=json.load(sys.stdin); print json.dumps(json.dumps(obj))' >> $out
+    echo , >> $out
 done
 
 echo "\"_\": \"hack to fix last comma in the object\" };" >> $out
