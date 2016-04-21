@@ -1,6 +1,13 @@
 # There will be HL7_META variable after building single JS file
 
 META_CACHE = {}
+getMeta = (hl7version) ->
+  if META_CACHE[hl7version]
+    META_CACHE[hl7version]
+  else
+    parsed = JSON.parse(HL7_META["v" + hl7version.replace('.', '_')])
+    META_CACHE[hl7version] = parsed
+    parsed
 
 replaceBlanksWithNulls = (v) ->
   if Array.isArray(v)
@@ -15,14 +22,6 @@ replaceBlanksWithNulls = (v) ->
   else
     v
 
-getMeta = (hl7version) ->
-  if META_CACHE[hl7version]
-    META_CACHE[hl7version]
-  else
-    parsed = JSON.parse(HL7_META["v" + hl7version.replace('.', '_')])
-    META_CACHE[hl7version] = parsed
-    parsed
-
 deprefixGroupName = (name) ->
   name.replace(/^..._.\d\d_/, '')
 
@@ -31,8 +30,6 @@ coerce = (value, typeId) ->
   value
 
 _structurize = (meta, struct, message, segIdx) ->
-  # console.log JSON.stringify(message, null, 2)
-
   if struct[0] != 'sequence'
     throw new Error("struct[0] != sequence, don't know what to do :/")
 
@@ -52,10 +49,12 @@ _structurize = (meta, struct, message, segIdx) ->
     thisSegName = null
 
     while true
+      # console.log "iterating #{segIdx} #{expSegName} #{JSON.stringify(message, null, 2)}"
       if segIdx >= message.length
         break
 
       thisSegName = message[segIdx][0]
+      # console.log "Expecting #{expSegName}[#{expSegMin}..#{expSegMax}] at #{segIdx}, seeing #{thisSegName}"
 
       if collectedSegments.length == expSegMax && expSegMax == 1
         # we wanted just one segment and we got it
@@ -77,6 +76,8 @@ _structurize = (meta, struct, message, segIdx) ->
         # it's not a group, it's a regular segment
         if thisSegName == expSegName
           collectedSegments.push message[segIdx]
+          # console.log "got #{collectedSegments.length} #{expSegName} at #{segIdx}"
+
           segIdx = segIdx + 1
         else
           # no segments with expected name left,
@@ -116,7 +117,7 @@ structurize = (meta, message, messageType, options) ->
   struct = meta.MESSAGES[messageType.join("_")]
 
   if !struct
-    return [null, ["No structure defined for message type #{messageType.join(' ')}"]]
+    return [message, ["No structure defined for message type #{messageType.join(' ')}"]]
   else
     [result, lastSegIdx, errors] = _structurize(meta, struct, message, 0)
     return [result, errors]

@@ -101,8 +101,18 @@
             "1": "1",
             "2": {
               "0": "^",
-              "1": null,
-              "ID": null
+              "1": "010107111",
+              "2": null,
+              "3": null,
+              "4": "MS4",
+              "5": "PN",
+              "6": null,
+              "ID": "010107111",
+              "CHECK_DIGIT": null,
+              "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+              "ASSIGNING_AUTHORITY": "MS4",
+              "IDENTIFIER_TYPE_CODE": "PN",
+              "ASSIGNING_FACILITY": null
             },
             "3": [
               {
@@ -110,36 +120,44 @@
                 "1": "160922",
                 "2": null,
                 "3": null,
-                "4": null,
-                "5": null,
-                "6": "VHH",
+                "4": "MS4",
+                "5": "MR",
+                "6": "001",
                 "ID": "160922",
                 "CHECK_DIGIT": null,
                 "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
-                "ASSIGNING_AUTHORITY": null,
-                "IDENTIFIER_TYPE_CODE": null,
-                "ASSIGNING_FACILITY": "VHH"
+                "ASSIGNING_AUTHORITY": "MS4",
+                "IDENTIFIER_TYPE_CODE": "MR",
+                "ASSIGNING_FACILITY": "001"
               }
             ],
             "4": {
               "0": "^",
-              "1": null,
-              "ID": null
+              "1": "160933",
+              "2": null,
+              "3": null,
+              "4": "MS4",
+              "5": "MR",
+              "6": "001",
+              "ID": "160933",
+              "CHECK_DIGIT": null,
+              "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+              "ASSIGNING_AUTHORITY": "MS4",
+              "IDENTIFIER_TYPE_CODE": "MR",
+              "ASSIGNING_FACILITY": "001"
             },
             "5": {
               "0": "^",
-              "1": "SENGUL",
-              "2": "ISO",
-              "3": null,
+              "1": "BARRETT",
+              "2": "JEAN",
+              "3": "SANDY",
               "4": null,
               "5": null,
-              "6": null,
-              "FAMILY_NAME": "SENGUL",
-              "GIVEN_NAME": "ISO",
-              "MIDDLE_INITIAL_OR_NAME": null,
+              "FAMILY_NAME": "BARRETT",
+              "GIVEN_NAME": "JEAN",
+              "MIDDLE_INITIAL_OR_NAME": "SANDY",
               "SUFFIX_E_G_JR_OR_III": null,
-              "PREFIX_E_G_DR": null,
-              "DEGREE_E_G_MD": null
+              "PREFIX_E_G_DR": null
             },
             "6": {
               "0": "^",
@@ -148,10 +166,10 @@
             },
             "7": {
               "0": "^",
-              "1": "19201214",
-              "TIME_OF_AN_EVENT": "19201214"
+              "1": "19440823",
+              "TIME_OF_AN_EVENT": "19440823"
             },
-            "8": "M",
+            "8": "F",
             "9": [
               {
                 "0": "^",
@@ -159,32 +177,34 @@
                 "FAMILY_NAME": null
               }
             ],
-            "10": "C^CAUCASIAN NON-HISPANIC",
+            "10": "C",
             "11": [
               {
                 "0": "^",
-                "1": "3347 RETA ST",
-                "2": null,
-                "3": "LACRESCENTA",
+                "1": "STRAWBERRY AVE",
+                "2": "FOUR OAKS LODGE",
+                "3": "ALBUKERKA",
                 "4": "CA",
-                "5": "91214",
-                "6": null,
-                "STREET_ADDRESS": "3347 RETA ST",
-                "OTHER_DESIGNATION": null,
-                "CITY": "LACRESCENTA",
+                "5": "98765",
+                "6": "USA",
+                "7": null,
+                "8": null,
+                "STREET_ADDRESS": "STRAWBERRY AVE",
+                "OTHER_DESIGNATION": "FOUR OAKS LODGE",
+                "CITY": "ALBUKERKA",
                 "STATE_OR_PROVINCE": "CA",
-                "ZIP_OR_POSTAL_CODE": "91214",
-                "COUNTRY": null
+                "ZIP_OR_POSTAL_CODE": "98765",
+                "COUNTRY": "USA",
+                "ADDRESS_TYPE": null,
+                "OTHER_GEOGRAPHIC_DESIGNATION": null
               }
             ],
             "12": null,
             "13": [
               {
                 "0": "^",
-                "1": "(818)249-7031",
-                "2": "PRN",
-                "999_999_9999_X99999_C_ANY_TEXT": "(818)249-7031",
-                "TELECOMMUNICATION_USE_CODE": "PRN"
+                "1": "(111)222-3333",
+                "999_999_9999_X99999_C_ANY_TEXT": "(111)222-3333"
               }
             ],
             "14": [
@@ -196,21 +216,29 @@
             ],
             "15": {
               "0": "^",
-              "1": "ARM",
-              "2": "ARMENIAN",
-              "IDENTIFIER": "ARM",
-              "TEXT": "ARMENIAN"
+              "1": "ENG",
+              "IDENTIFIER": "ENG"
             },
             "16": [
-              null
+              "W"
             ],
-            "17": null,
+            "17": "CHR",
             "18": {
               "0": "^",
-              "1": "16732000",
-              "ID": "16732000"
+              "1": "111",
+              "2": null,
+              "3": null,
+              "4": "MS4001",
+              "5": "AN",
+              "6": "001",
+              "ID": "111",
+              "CHECK_DIGIT": null,
+              "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+              "ASSIGNING_AUTHORITY": "MS4001",
+              "IDENTIFIER_TYPE_CODE": "AN",
+              "ASSIGNING_FACILITY": "001"
             },
-            "19": "605-50-6261",
+            "19": "123-22-121212",
             "20": {
               "0": "^",
               "1": null,
@@ -222,7 +250,7 @@
               "ID": null
             },
             "22": null,
-            "23": null,
+            "23": "OKLAHOMA",
             "24": null,
             "25": null,
             "26": null,
@@ -245,8 +273,18 @@
             "SET_ID_PATIENT_ID": "1",
             "PATIENT_ID_EXTERNAL_ID": {
               "0": "^",
-              "1": null,
-              "ID": null
+              "1": "010107111",
+              "2": null,
+              "3": null,
+              "4": "MS4",
+              "5": "PN",
+              "6": null,
+              "ID": "010107111",
+              "CHECK_DIGIT": null,
+              "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+              "ASSIGNING_AUTHORITY": "MS4",
+              "IDENTIFIER_TYPE_CODE": "PN",
+              "ASSIGNING_FACILITY": null
             },
             "PATIENT_ID_INTERNAL_ID": [
               {
@@ -254,36 +292,44 @@
                 "1": "160922",
                 "2": null,
                 "3": null,
-                "4": null,
-                "5": null,
-                "6": "VHH",
+                "4": "MS4",
+                "5": "MR",
+                "6": "001",
                 "ID": "160922",
                 "CHECK_DIGIT": null,
                 "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
-                "ASSIGNING_AUTHORITY": null,
-                "IDENTIFIER_TYPE_CODE": null,
-                "ASSIGNING_FACILITY": "VHH"
+                "ASSIGNING_AUTHORITY": "MS4",
+                "IDENTIFIER_TYPE_CODE": "MR",
+                "ASSIGNING_FACILITY": "001"
               }
             ],
             "ALTERNATE_PATIENT_ID": {
               "0": "^",
-              "1": null,
-              "ID": null
+              "1": "160933",
+              "2": null,
+              "3": null,
+              "4": "MS4",
+              "5": "MR",
+              "6": "001",
+              "ID": "160933",
+              "CHECK_DIGIT": null,
+              "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+              "ASSIGNING_AUTHORITY": "MS4",
+              "IDENTIFIER_TYPE_CODE": "MR",
+              "ASSIGNING_FACILITY": "001"
             },
             "PATIENT_NAME": {
               "0": "^",
-              "1": "SENGUL",
-              "2": "ISO",
-              "3": null,
+              "1": "BARRETT",
+              "2": "JEAN",
+              "3": "SANDY",
               "4": null,
               "5": null,
-              "6": null,
-              "FAMILY_NAME": "SENGUL",
-              "GIVEN_NAME": "ISO",
-              "MIDDLE_INITIAL_OR_NAME": null,
+              "FAMILY_NAME": "BARRETT",
+              "GIVEN_NAME": "JEAN",
+              "MIDDLE_INITIAL_OR_NAME": "SANDY",
               "SUFFIX_E_G_JR_OR_III": null,
-              "PREFIX_E_G_DR": null,
-              "DEGREE_E_G_MD": null
+              "PREFIX_E_G_DR": null
             },
             "MOTHER_S_MAIDEN_NAME": {
               "0": "^",
@@ -292,10 +338,10 @@
             },
             "DATE_OF_BIRTH": {
               "0": "^",
-              "1": "19201214",
-              "TIME_OF_AN_EVENT": "19201214"
+              "1": "19440823",
+              "TIME_OF_AN_EVENT": "19440823"
             },
-            "SEX": "M",
+            "SEX": "F",
             "PATIENT_ALIAS": [
               {
                 "0": "^",
@@ -303,32 +349,34 @@
                 "FAMILY_NAME": null
               }
             ],
-            "RACE": "C^CAUCASIAN NON-HISPANIC",
+            "RACE": "C",
             "PATIENT_ADDRESS": [
               {
                 "0": "^",
-                "1": "3347 RETA ST",
-                "2": null,
-                "3": "LACRESCENTA",
+                "1": "STRAWBERRY AVE",
+                "2": "FOUR OAKS LODGE",
+                "3": "ALBUKERKA",
                 "4": "CA",
-                "5": "91214",
-                "6": null,
-                "STREET_ADDRESS": "3347 RETA ST",
-                "OTHER_DESIGNATION": null,
-                "CITY": "LACRESCENTA",
+                "5": "98765",
+                "6": "USA",
+                "7": null,
+                "8": null,
+                "STREET_ADDRESS": "STRAWBERRY AVE",
+                "OTHER_DESIGNATION": "FOUR OAKS LODGE",
+                "CITY": "ALBUKERKA",
                 "STATE_OR_PROVINCE": "CA",
-                "ZIP_OR_POSTAL_CODE": "91214",
-                "COUNTRY": null
+                "ZIP_OR_POSTAL_CODE": "98765",
+                "COUNTRY": "USA",
+                "ADDRESS_TYPE": null,
+                "OTHER_GEOGRAPHIC_DESIGNATION": null
               }
             ],
             "COUNTY_CODE": null,
             "PHONE_NUMBER_HOME": [
               {
                 "0": "^",
-                "1": "(818)249-7031",
-                "2": "PRN",
-                "999_999_9999_X99999_C_ANY_TEXT": "(818)249-7031",
-                "TELECOMMUNICATION_USE_CODE": "PRN"
+                "1": "(111)222-3333",
+                "999_999_9999_X99999_C_ANY_TEXT": "(111)222-3333"
               }
             ],
             "PHONE_NUMBER_BUSINESS": [
@@ -340,21 +388,29 @@
             ],
             "PRIMARY_LANGUAGE": {
               "0": "^",
-              "1": "ARM",
-              "2": "ARMENIAN",
-              "IDENTIFIER": "ARM",
-              "TEXT": "ARMENIAN"
+              "1": "ENG",
+              "IDENTIFIER": "ENG"
             },
             "MARITAL_STATUS": [
-              null
+              "W"
             ],
-            "RELIGION": null,
+            "RELIGION": "CHR",
             "PATIENT_ACCOUNT_NUMBER": {
               "0": "^",
-              "1": "16732000",
-              "ID": "16732000"
+              "1": "111",
+              "2": null,
+              "3": null,
+              "4": "MS4001",
+              "5": "AN",
+              "6": "001",
+              "ID": "111",
+              "CHECK_DIGIT": null,
+              "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+              "ASSIGNING_AUTHORITY": "MS4001",
+              "IDENTIFIER_TYPE_CODE": "AN",
+              "ASSIGNING_FACILITY": "001"
             },
-            "SSN_NUMBER_PATIENT": "605-50-6261",
+            "SSN_NUMBER_PATIENT": "123-22-121212",
             "DRIVER_S_LICENSE_NUMBER": {
               "0": "^",
               "1": null,
@@ -366,7 +422,7 @@
               "ID": null
             },
             "ETHNIC_GROUP": null,
-            "BIRTH_PLACE": null,
+            "BIRTH_PLACE": "OKLAHOMA",
             "MULTIPLE_BIRTH_INDICATOR": null,
             "BIRTH_ORDER": null,
             "CITIZENSHIP": null,
@@ -1152,7 +1208,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "2",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1161,7 +1217,7 @@
                   },
                   "4": null,
                   "5": [
-                    "EXAMINATION"
+                    "SCREENING LUNG"
                   ],
                   "6": {
                     "0": "^",
@@ -1175,7 +1231,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "2",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1184,7 +1240,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "EXAMINATION"
+                    "SCREENING LUNG"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1203,7 +1259,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "3",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1212,7 +1268,7 @@
                   },
                   "4": null,
                   "5": [
-                    null
+                    "From : Alphonsus Regional Center"
                   ],
                   "6": {
                     "0": "^",
@@ -1226,7 +1282,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "3",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1235,7 +1291,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    null
+                    "From : Alphonsus Regional Center"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1254,7 +1310,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "4",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1263,7 +1319,7 @@
                   },
                   "4": null,
                   "5": [
-                    "CT ANGIO NECK W WO CON"
+                    "2, Saint Alphonsus Gem State"
                   ],
                   "6": {
                     "0": "^",
@@ -1277,7 +1333,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "4",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1286,7 +1342,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "CT ANGIO NECK W WO CON"
+                    "2, Saint Alphonsus Gem State"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1305,7 +1361,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "5",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1314,7 +1370,7 @@
                   },
                   "4": null,
                   "5": [
-                    null
+                    "Medical Center Radiolgy"
                   ],
                   "6": {
                     "0": "^",
@@ -1328,7 +1384,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "5",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1337,7 +1393,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    null
+                    "Medical Center Radiolgy"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1356,7 +1412,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "6",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1365,7 +1421,7 @@
                   },
                   "4": null,
                   "5": [
-                    null
+                    "BAKER CHTY"
                   ],
                   "6": {
                     "0": "^",
@@ -1379,7 +1435,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "6",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1388,7 +1444,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    null
+                    "BAKER CHTY"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1407,7 +1463,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "7",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1416,7 +1472,7 @@
                   },
                   "4": null,
                   "5": [
-                    "CLINICAL HISTORY NODULE SIZE: 3 "
+                    "Patient: - DOB: - EMPI: - visitiAcct: sassassam. 3 Site:"
                   ],
                   "6": {
                     "0": "^",
@@ -1430,7 +1486,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "7",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1439,7 +1495,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "CLINICAL HISTORY NODULE SIZE: 3 "
+                    "Patient: - DOB: - EMPI: - visitiAcct: sassassam. 3 Site:"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1458,7 +1514,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "8",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1467,7 +1523,7 @@
                   },
                   "4": null,
                   "5": [
-                    "Chest pain, syncope and dizziness.  Rule out carotid stenosis."
+                    "PTIMOD: - MiFN:"
                   ],
                   "6": {
                     "0": "^",
@@ -1481,7 +1537,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "8",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1490,7 +1546,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "Chest pain, syncope and dizziness.  Rule out carotid stenosis."
+                    "PTIMOD: - MiFN:"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1509,7 +1565,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "9",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1518,7 +1574,7 @@
                   },
                   "4": null,
                   "5": [
-                    null
+                    "3 Ref. Prov: Exam: - Room/Bed: CTB Add. Providers:"
                   ],
                   "6": {
                     "0": "^",
@@ -1532,7 +1588,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "9",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1541,7 +1597,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    null
+                    "3 Ref. Prov: Exam: - Room/Bed: CTB Add. Providers:"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1560,7 +1616,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "10",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1569,7 +1625,7 @@
                   },
                   "4": null,
                   "5": [
-                    null
+                    "SCREENING LUNG \""
                   ],
                   "6": {
                     "0": "^",
@@ -1583,7 +1639,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "10",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1592,7 +1648,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    null
+                    "SCREENING LUNG \""
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1611,7 +1667,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "11",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1620,7 +1676,7 @@
                   },
                   "4": null,
                   "5": [
-                    "COMPARISON"
+                    "ΕΧΑΜΙ DΑΤΕ: 6/16/2015 13:45 Contrast/Isotope: None"
                   ],
                   "6": {
                     "0": "^",
@@ -1634,7 +1690,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "11",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1643,7 +1699,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "COMPARISON"
+                    "ΕΧΑΜΙ DΑΤΕ: 6/16/2015 13:45 Contrast/Isotope: None"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1662,7 +1718,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "12",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1671,7 +1727,7 @@
                   },
                   "4": null,
                   "5": [
-                    "No comparison available."
+                    "PROCEDURE: CT LUNG LOW DOSE CA SCREENING"
                   ],
                   "6": {
                     "0": "^",
@@ -1685,7 +1741,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "12",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1694,7 +1750,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "No comparison available."
+                    "PROCEDURE: CT LUNG LOW DOSE CA SCREENING"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1713,7 +1769,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "13",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1722,7 +1778,7 @@
                   },
                   "4": null,
                   "5": [
-                    null
+                    "COMPARISON: None."
                   ],
                   "6": {
                     "0": "^",
@@ -1736,7 +1792,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "13",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1745,7 +1801,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    null
+                    "COMPARISON: None."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1764,7 +1820,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "14",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1773,7 +1829,7 @@
                   },
                   "4": null,
                   "5": [
-                    null
+                    "INDICATIONS: 64 year old former smoker with 50 pack year history of smoking. Quit April 2015."
                   ],
                   "6": {
                     "0": "^",
@@ -1787,7 +1843,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "14",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1796,7 +1852,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    null
+                    "INDICATIONS: 64 year old former smoker with 50 pack year history of smoking. Quit April 2015."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1815,7 +1871,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "15",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1824,7 +1880,7 @@
                   },
                   "4": null,
                   "5": [
-                    "TECHNIQUE"
+                    "PQRS QUALITY INFORMATION:"
                   ],
                   "6": {
                     "0": "^",
@@ -1838,7 +1894,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "15",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1847,7 +1903,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "TECHNIQUE"
+                    "PQRS QUALITY INFORMATION:"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1866,7 +1922,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "16",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1875,7 +1931,7 @@
                   },
                   "4": null,
                   "5": [
-                    "CT angiography of the neck was performed and supplemented with "
+                    "EXAM COUNT: 0 CT exams and 0 NM Myocardial Perfusion exams in past 12 months."
                   ],
                   "6": {
                     "0": "^",
@@ -1889,7 +1945,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "16",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1898,7 +1954,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "CT angiography of the neck was performed and supplemented with "
+                    "EXAM COUNT: 0 CT exams and 0 NM Myocardial Perfusion exams in past 12 months."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1917,7 +1973,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "17",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1926,7 +1982,7 @@
                   },
                   "4": null,
                   "5": [
-                    "coronal, sagittal, MIP, surface rendered and 3D rotating "
+                    "DATA AVAILABILITY: Dicom format image data is available to non-affiliated external entities on secure, media free, reciprocally searchable basis for 12"
                   ],
                   "6": {
                     "0": "^",
@@ -1940,7 +1996,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "17",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -1949,7 +2005,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "coronal, sagittal, MIP, surface rendered and 3D rotating "
+                    "DATA AVAILABILITY: Dicom format image data is available to non-affiliated external entities on secure, media free, reciprocally searchable basis for 12"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -1968,7 +2024,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "18",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -1977,7 +2033,7 @@
                   },
                   "4": null,
                   "5": [
-                    "reconstructions."
+                    "month period of time after the study."
                   ],
                   "6": {
                     "0": "^",
@@ -1991,7 +2047,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "18",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2000,7 +2056,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "reconstructions."
+                    "month period of time after the study."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2019,7 +2075,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "19",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2028,7 +2084,7 @@
                   },
                   "4": null,
                   "5": [
-                    null
+                    "DATA SEARCH. A search was conducted for prior patient CT exams performed at an external facility within 12 months prior to the imaging study being"
                   ],
                   "6": {
                     "0": "^",
@@ -2042,7 +2098,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "19",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2051,7 +2107,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    null
+                    "DATA SEARCH. A search was conducted for prior patient CT exams performed at an external facility within 12 months prior to the imaging study being"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2070,7 +2126,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "20",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2079,7 +2135,7 @@
                   },
                   "4": null,
                   "5": [
-                    "Contrast Agent ISOVUE 370 100 milliliter 11/15/2011 INTRAVENOUS"
+                    "performed, and is available through a secure, authorized, media free, shared archive."
                   ],
                   "6": {
                     "0": "^",
@@ -2093,7 +2149,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "20",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2102,7 +2158,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "Contrast Agent ISOVUE 370 100 milliliter 11/15/2011 INTRAVENOUS"
+                    "performed, and is available through a secure, authorized, media free, shared archive."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2121,7 +2177,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "21",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2130,7 +2186,7 @@
                   },
                   "4": null,
                   "5": [
-                    null
+                    "CT DOSE REGISTRY: CT study data has been reported to a CT Radiation Dose Index Registry containing all minimum necessary data elements."
                   ],
                   "6": {
                     "0": "^",
@@ -2144,7 +2200,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "21",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2153,7 +2209,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    null
+                    "CT DOSE REGISTRY: CT study data has been reported to a CT Radiation Dose Index Registry containing all minimum necessary data elements."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2172,7 +2228,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "22",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2181,7 +2237,7 @@
                   },
                   "4": null,
                   "5": [
-                    null
+                    "Total Dose Length Product (DLP in mGy-cm): 38.50"
                   ],
                   "6": {
                     "0": "^",
@@ -2195,7 +2251,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "22",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2204,7 +2260,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    null
+                    "Total Dose Length Product (DLP in mGy-cm): 38.50"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2223,7 +2279,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "23",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2232,7 +2288,7 @@
                   },
                   "4": null,
                   "5": [
-                    "FINDINGS"
+                    "TECHNIQUE: CT images of the lungs were obtained without intravenous contrast and utilizing a very low dose technique."
                   ],
                   "6": {
                     "0": "^",
@@ -2246,7 +2302,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "23",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2255,7 +2311,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "FINDINGS"
+                    "TECHNIQUE: CT images of the lungs were obtained without intravenous contrast and utilizing a very low dose technique."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2274,7 +2330,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "24",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2283,7 +2339,7 @@
                   },
                   "4": null,
                   "5": [
-                    "Incidentally noted is a bovine arch variant. There is mild tortuosity "
+                    "LUNG FINDINGS:"
                   ],
                   "6": {
                     "0": "^",
@@ -2297,7 +2353,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "24",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2306,7 +2362,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "Incidentally noted is a bovine arch variant. There is mild tortuosity "
+                    "LUNG FINDINGS:"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2325,7 +2381,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "25",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2334,7 +2390,7 @@
                   },
                   "4": null,
                   "5": [
-                    "and kinking of the proximal great vessels without significant ostial "
+                    "NODULES: Noncalcified linear focus in the lateral basilar right lower lobe seen on series 9"
                   ],
                   "6": {
                     "0": "^",
@@ -2348,7 +2404,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "25",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2357,7 +2413,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "and kinking of the proximal great vessels without significant ostial "
+                    "NODULES: Noncalcified linear focus in the lateral basilar right lower lobe seen on series 9"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2376,7 +2432,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "26",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2385,7 +2441,7 @@
                   },
                   "4": null,
                   "5": [
-                    "stenosis."
+                    "image 185 measures 0.3 x 0.2 cm. Punctate calcified nodule in the lingula seen on series 9 image 175. Calcified nodule noted in the apical posterior segment left upper lobe, series 9 image 79."
                   ],
                   "6": {
                     "0": "^",
@@ -2399,7 +2455,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "26",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2408,7 +2464,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "stenosis."
+                    "image 185 measures 0.3 x 0.2 cm. Punctate calcified nodule in the lingula seen on series 9 image 175. Calcified nodule noted in the apical posterior segment left upper lobe, series 9 image 79."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2427,7 +2483,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "27",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2436,7 +2492,7 @@
                   },
                   "4": null,
                   "5": [
-                    null
+                    "LUNG PARENCHYMA: Within normal limits."
                   ],
                   "6": {
                     "0": "^",
@@ -2450,7 +2506,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "27",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2459,7 +2515,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    null
+                    "LUNG PARENCHYMA: Within normal limits."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2478,7 +2534,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "28",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2487,7 +2543,7 @@
                   },
                   "4": null,
                   "5": [
-                    "RIGHT CAROTID ARTERY:  The right common and internal carotid arteries "
+                    "OTHER FINDINGS:"
                   ],
                   "6": {
                     "0": "^",
@@ -2501,7 +2557,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "28",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2510,7 +2566,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "RIGHT CAROTID ARTERY:  The right common and internal carotid arteries "
+                    "OTHER FINDINGS:"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2529,7 +2585,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "29",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2538,7 +2594,7 @@
                   },
                   "4": null,
                   "5": [
-                    "are normal in course and caliber without aneurysmal dilatation or "
+                    "HEART: Within normal limits. MEDIASTINUM/HILA: Within normal limits. VASCULATURE: Within normal limits. PLEURAL SPACE: Within normal limits."
                   ],
                   "6": {
                     "0": "^",
@@ -2552,7 +2608,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "29",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2561,7 +2617,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "are normal in course and caliber without aneurysmal dilatation or "
+                    "HEART: Within normal limits. MEDIASTINUM/HILA: Within normal limits. VASCULATURE: Within normal limits. PLEURAL SPACE: Within normal limits."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2580,7 +2636,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "30",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2589,7 +2645,7 @@
                   },
                   "4": null,
                   "5": [
-                    "dissection.  The carotid bifurcation is widely patent. There is very "
+                    "CHEST WALL/AXILLA: Within normal limits. LTD, UPPER ABDOMEN: Within normal limits. MUSCULOSKELETAL: Normal for age. ADIOT\"L COMMENTS: None."
                   ],
                   "6": {
                     "0": "^",
@@ -2603,7 +2659,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "30",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2612,7 +2668,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "dissection.  The carotid bifurcation is widely patent. There is very "
+                    "CHEST WALL/AXILLA: Within normal limits. LTD, UPPER ABDOMEN: Within normal limits. MUSCULOSKELETAL: Normal for age. ADIOT\"L COMMENTS: None."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2631,7 +2687,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "31",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2640,7 +2696,7 @@
                   },
                   "4": null,
                   "5": [
-                    "mild focal short-segment narrowing of the proximal internal carotid "
+                    "CONCLUSION: Solitary linear noncalcified right lower lobe pulmonary nodule measures less than 4 mm"
                   ],
                   "6": {
                     "0": "^",
@@ -2654,7 +2710,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "31",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2663,7 +2719,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "mild focal short-segment narrowing of the proximal internal carotid "
+                    "CONCLUSION: Solitary linear noncalcified right lower lobe pulmonary nodule measures less than 4 mm"
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2682,7 +2738,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "32",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2691,7 +2747,7 @@
                   },
                   "4": null,
                   "5": [
-                    "artery with less than 10% stenosis.  The external carotid artery is "
+                    "average diameter and demonstrates benign pattern morphology."
                   ],
                   "6": {
                     "0": "^",
@@ -2705,7 +2761,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "32",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2714,7 +2770,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "artery with less than 10% stenosis.  The external carotid artery is "
+                    "average diameter and demonstrates benign pattern morphology."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -2733,7 +2789,7 @@
               {
                 "OBX": {
                   "0": "OBX",
-                  "1": "33",
+                  "1": null,
                   "2": "FT",
                   "3": {
                     "0": "^",
@@ -2742,7 +2798,7 @@
                   },
                   "4": null,
                   "5": [
-                    "widely patent and well-opacified as well."
+                    "RECOMMENDATION: LungPADS 1 - follow up low dose chest CT in 1 year."
                   ],
                   "6": {
                     "0": "^",
@@ -2756,7 +2812,7 @@
                   "9": null,
                   "10": null,
                   "11": "P",
-                  "SET_ID_OBX": "33",
+                  "SET_ID_OBX": null,
                   "VALUE_TYPE": "FT",
                   "OBSERVATION_IDENTIFIER": {
                     "0": "^",
@@ -2765,1180 +2821,7 @@
                   },
                   "OBSERVATION_SUB_ID": null,
                   "OBSERVATION_VALUE": [
-                    "widely patent and well-opacified as well."
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "34",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    null
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "34",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    null
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "35",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "LEFT CAROTID ARTERY:  The left common carotid artery is normal in "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "35",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "LEFT CAROTID ARTERY:  The left common carotid artery is normal in "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "36",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "course and caliber without aneurysmal dilatation or dissection.  The "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "36",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "course and caliber without aneurysmal dilatation or dissection.  The "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "37",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "carotid bifurcation is patent.  There is a moderate-length high-grade "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "37",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "carotid bifurcation is patent.  There is a moderate-length high-grade "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "38",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "stenosis of the proximal left internal carotid artery with "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "38",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "stenosis of the proximal left internal carotid artery with "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "39",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "circumferential mural thrombus noted best on axial and sagittal "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "39",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "circumferential mural thrombus noted best on axial and sagittal "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "40",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "imaging.  This results in approximately 75% narrowing over a 2 cm "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "40",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "imaging.  This results in approximately 75% narrowing over a 2 cm "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "41",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "length segment. The distal internal carotid artery is unremarkable.  "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "41",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "length segment. The distal internal carotid artery is unremarkable.  "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "42",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "The origin of the external carotid artery is widely patent without "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "42",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "The origin of the external carotid artery is widely patent without "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "43",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "abnormality."
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "43",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "abnormality."
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "44",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    null
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "44",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    null
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "45",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "VERTEBROBASILAR SYSTEM: The origin of both vertebral arteries are "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "45",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "VERTEBROBASILAR SYSTEM: The origin of both vertebral arteries are "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "46",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "patent.  Incidentally noted is a dominant left vertebral artery with "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "46",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "patent.  Incidentally noted is a dominant left vertebral artery with "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "47",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "diffuse attenuation of the right vertebral artery.  The vertebral "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "47",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "diffuse attenuation of the right vertebral artery.  The vertebral "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "48",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "confluence and proximal basilar artery are unremarkable."
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "48",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "confluence and proximal basilar artery are unremarkable."
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "49",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    null
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "49",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    null
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "50",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    null
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "50",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    null
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "51",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "IMPRESSION"
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "51",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "IMPRESSION"
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "52",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "1. LEFT INTERNAL CAROTID ARTERY:  Long-segment high-grade stenosis of "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "52",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "1. LEFT INTERNAL CAROTID ARTERY:  Long-segment high-grade stenosis of "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "53",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "the proximal ICA with approximately 75% narrowing.  Correlation with "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "53",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "the proximal ICA with approximately 75% narrowing.  Correlation with "
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "54",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "carotid ultrasound is needed."
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "54",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "carotid ultrasound is needed."
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "55",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    null
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "55",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    null
-                  ],
-                  "UNITS": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "REFERENCES_RANGE": null,
-                  "ABNORMAL_FLAGS": [
-                    null
-                  ],
-                  "PROBABILITY": null,
-                  "NATURE_OF_ABNORMAL_TEST": null,
-                  "OBSERV_RESULT_STATUS": "P"
-                }
-              },
-              {
-                "OBX": {
-                  "0": "OBX",
-                  "1": "56",
-                  "2": "FT",
-                  "3": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "4": null,
-                  "5": [
-                    "2. RIGHT INTERNAL CAROTID ARTERY: No significant stenosis. "
-                  ],
-                  "6": {
-                    "0": "^",
-                    "1": null,
-                    "IDENTIFIER": null
-                  },
-                  "7": null,
-                  "8": [
-                    null
-                  ],
-                  "9": null,
-                  "10": null,
-                  "11": "P",
-                  "SET_ID_OBX": "56",
-                  "VALUE_TYPE": "FT",
-                  "OBSERVATION_IDENTIFIER": {
-                    "0": "^",
-                    "1": "AGNKCOM&GDT",
-                    "IDENTIFIER": "AGNKCOM&GDT"
-                  },
-                  "OBSERVATION_SUB_ID": null,
-                  "OBSERVATION_VALUE": [
-                    "2. RIGHT INTERNAL CAROTID ARTERY: No significant stenosis. "
+                    "RECOMMENDATION: LungPADS 1 - follow up low dose chest CT in 1 year."
                   ],
                   "UNITS": {
                     "0": "^",
@@ -3961,10 +2844,6 @@
     ]
   },
   "errors": [
-    "Expected segment/group OBR, got DG1 at segment #59",
-    "Expected segment/group PID, got DG1 at segment #59",
-    "Expected segment/group OBR, got DG1 at segment #59",
-    "Expected segment/group ORU_R01_ORDER_OBSERVATION, got DG1 at segment #59",
     "Missing value for required field MSH_12"
   ]
 }

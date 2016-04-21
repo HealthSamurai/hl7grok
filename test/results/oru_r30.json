@@ -1,5 +1,1270 @@
 {
-  "result": null,
+  "result": [
+    {
+      "0": "MSH",
+      "1": "^",
+      "2": "LAb",
+      "3": {
+        "0": "^",
+        "1": "Lab",
+        "NAMESPACE_ID": "Lab"
+      },
+      "4": {
+        "0": "^",
+        "1": "Lab",
+        "NAMESPACE_ID": "Lab"
+      },
+      "5": {
+        "0": "^",
+        "1": "Lab",
+        "NAMESPACE_ID": "Lab"
+      },
+      "6": {
+        "0": "^",
+        "1": "20100222024516",
+        "NAMESPACE_ID": "20100222024516"
+      },
+      "7": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "8": "ORU^R30",
+      "9": {
+        "0": "^",
+        "1": "87226A1476977481",
+        "MESSAGE_TYPE": "87226A1476977481"
+      },
+      "10": "P",
+      "11": {
+        "0": "^",
+        "1": "2.4",
+        "PROCESSING_ID": "2.4"
+      },
+      "12": {
+        "0": "^",
+        "1": "2010022217399",
+        "VERSION_ID": "2010022217399"
+      },
+      "13": null,
+      "14": "AL",
+      "15": "NE",
+      "FIELD_SEPARATOR": "MSH",
+      "ENCODING_CHARACTERS": "^",
+      "SENDING_APPLICATION": "LAb",
+      "SENDING_FACILITY": {
+        "0": "^",
+        "1": "Lab",
+        "NAMESPACE_ID": "Lab"
+      },
+      "RECEIVING_APPLICATION": {
+        "0": "^",
+        "1": "Lab",
+        "NAMESPACE_ID": "Lab"
+      },
+      "RECEIVING_FACILITY": {
+        "0": "^",
+        "1": "Lab",
+        "NAMESPACE_ID": "Lab"
+      },
+      "DATE_TIME_OF_MESSAGE": {
+        "0": "^",
+        "1": "20100222024516",
+        "NAMESPACE_ID": "20100222024516"
+      },
+      "SECURITY": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "MESSAGE_TYPE": "ORU^R30",
+      "MESSAGE_CONTROL_ID": {
+        "0": "^",
+        "1": "87226A1476977481",
+        "MESSAGE_TYPE": "87226A1476977481"
+      },
+      "PROCESSING_ID": "P",
+      "VERSION_ID": {
+        "0": "^",
+        "1": "2.4",
+        "PROCESSING_ID": "2.4"
+      },
+      "SEQUENCE_NUMBER": {
+        "0": "^",
+        "1": "2010022217399",
+        "VERSION_ID": "2010022217399"
+      },
+      "CONTINUATION_POINTER": null,
+      "ACCEPT_ACKNOWLEDGMENT_TYPE": "AL"
+    },
+    {
+      "0": "PID",
+      "1": "1",
+      "2": {
+        "0": "^",
+        "1": "312626",
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": "Main Lab&05D0557149&CLIA",
+        "ID": "312626",
+        "CHECK_DIGIT_ST": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "ASSIGNING_AUTHORITY": null,
+        "IDENTIFIER_TYPE_CODE_ID": null,
+        "ASSIGNING_FACILITY": "Main Lab&05D0557149&CLIA"
+      },
+      "3": [
+        {
+          "0": "^",
+          "1": "0362855",
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": "Main Lab&05D0557149&CLIA",
+          "ID": "0362855",
+          "CHECK_DIGIT_ST": null,
+          "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+          "ASSIGNING_AUTHORITY": null,
+          "IDENTIFIER_TYPE_CODE_ID": null,
+          "ASSIGNING_FACILITY": "Main Lab&05D0557149&CLIA"
+        }
+      ],
+      "4": [
+        {
+          "0": "^",
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": "Main Lab&05D0557149&CLIA",
+          "ID": null,
+          "CHECK_DIGIT_ST": null,
+          "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+          "ASSIGNING_AUTHORITY": null,
+          "IDENTIFIER_TYPE_CODE_ID": null,
+          "ASSIGNING_FACILITY": "Main Lab&05D0557149&CLIA"
+        }
+      ],
+      "5": [
+        {
+          "0": "^",
+          "1": "LOPEZ",
+          "2": "ADALBERTO",
+          "FAMILY_NAME": "LOPEZ",
+          "GIVEN_NAME": "ADALBERTO"
+        }
+      ],
+      "6": [
+        {
+          "0": "^",
+          "1": null,
+          "FAMILY_NAME": null
+        }
+      ],
+      "7": {
+        "0": "^",
+        "1": "19450409",
+        "TIME_OF_AN_EVENT": "19450409"
+      },
+      "8": "M",
+      "9": [
+        {
+          "0": "^",
+          "1": null,
+          "FAMILY_NAME": null
+        }
+      ],
+      "10": [
+        {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER_ST": null
+        }
+      ],
+      "11": [
+        {
+          "0": "^",
+          "1": "8753 APPERSON ST",
+          "2": null,
+          "3": "SUNLAND",
+          "4": "CA",
+          "5": "91040",
+          "STREET_ADDRESS_SAD": "8753 APPERSON ST",
+          "OTHER_DESIGNATION": null,
+          "CITY": "SUNLAND",
+          "STATE_OR_PROVINCE": "CA",
+          "ZIP_OR_POSTAL_CODE": "91040"
+        }
+      ],
+      "12": null,
+      "13": [
+        {
+          "0": "^",
+          "1": "(818)429-5631",
+          "999_999_9999_X99999_C_ANY_TEXT": "(818)429-5631"
+        }
+      ],
+      "14": [
+        {
+          "0": "^",
+          "1": null,
+          "999_999_9999_X99999_C_ANY_TEXT": null
+        }
+      ],
+      "15": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "16": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "17": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "18": {
+        "0": "^",
+        "1": "000016715153",
+        "ID": "000016715153"
+      },
+      "19": "572458313",
+      "SET_ID_PID": "1",
+      "PATIENT_ID": {
+        "0": "^",
+        "1": "312626",
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": "Main Lab&05D0557149&CLIA",
+        "ID": "312626",
+        "CHECK_DIGIT_ST": null,
+        "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+        "ASSIGNING_AUTHORITY": null,
+        "IDENTIFIER_TYPE_CODE_ID": null,
+        "ASSIGNING_FACILITY": "Main Lab&05D0557149&CLIA"
+      },
+      "PATIENT_IDENTIFIER_LIST": [
+        {
+          "0": "^",
+          "1": "0362855",
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": "Main Lab&05D0557149&CLIA",
+          "ID": "0362855",
+          "CHECK_DIGIT_ST": null,
+          "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+          "ASSIGNING_AUTHORITY": null,
+          "IDENTIFIER_TYPE_CODE_ID": null,
+          "ASSIGNING_FACILITY": "Main Lab&05D0557149&CLIA"
+        }
+      ],
+      "ALTERNATE_PATIENT_ID_PID": [
+        {
+          "0": "^",
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": "Main Lab&05D0557149&CLIA",
+          "ID": null,
+          "CHECK_DIGIT_ST": null,
+          "CODE_IDENTIFYING_THE_CHECK_DIGIT_SCHEME_EMPLOYED": null,
+          "ASSIGNING_AUTHORITY": null,
+          "IDENTIFIER_TYPE_CODE_ID": null,
+          "ASSIGNING_FACILITY": "Main Lab&05D0557149&CLIA"
+        }
+      ],
+      "PATIENT_NAME": [
+        {
+          "0": "^",
+          "1": "LOPEZ",
+          "2": "ADALBERTO",
+          "FAMILY_NAME": "LOPEZ",
+          "GIVEN_NAME": "ADALBERTO"
+        }
+      ],
+      "MOTHER_S_MAIDEN_NAME": [
+        {
+          "0": "^",
+          "1": null,
+          "FAMILY_NAME": null
+        }
+      ],
+      "DATE_TIME_OF_BIRTH": {
+        "0": "^",
+        "1": "19450409",
+        "TIME_OF_AN_EVENT": "19450409"
+      },
+      "ADMINISTRATIVE_SEX": "M",
+      "PATIENT_ALIAS": [
+        {
+          "0": "^",
+          "1": null,
+          "FAMILY_NAME": null
+        }
+      ],
+      "RACE": [
+        {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER_ST": null
+        }
+      ],
+      "PATIENT_ADDRESS": [
+        {
+          "0": "^",
+          "1": "8753 APPERSON ST",
+          "2": null,
+          "3": "SUNLAND",
+          "4": "CA",
+          "5": "91040",
+          "STREET_ADDRESS_SAD": "8753 APPERSON ST",
+          "OTHER_DESIGNATION": null,
+          "CITY": "SUNLAND",
+          "STATE_OR_PROVINCE": "CA",
+          "ZIP_OR_POSTAL_CODE": "91040"
+        }
+      ],
+      "COUNTY_CODE": null,
+      "PHONE_NUMBER_HOME": [
+        {
+          "0": "^",
+          "1": "(818)429-5631",
+          "999_999_9999_X99999_C_ANY_TEXT": "(818)429-5631"
+        }
+      ],
+      "PHONE_NUMBER_BUSINESS": [
+        {
+          "0": "^",
+          "1": null,
+          "999_999_9999_X99999_C_ANY_TEXT": null
+        }
+      ],
+      "PRIMARY_LANGUAGE": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "MARITAL_STATUS": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "RELIGION": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "PATIENT_ACCOUNT_NUMBER": {
+        "0": "^",
+        "1": "000016715153",
+        "ID": "000016715153"
+      },
+      "SSN_NUMBER_PATIENT": "572458313"
+    },
+    {
+      "0": "ORC",
+      "1": "NW",
+      "2": {
+        "0": "^",
+        "1": null,
+        "ENTITY_IDENTIFIER": null
+      },
+      "3": {
+        "0": "^",
+        "1": null,
+        "ENTITY_IDENTIFIER": null
+      },
+      "4": {
+        "0": "^",
+        "1": null,
+        "ENTITY_IDENTIFIER": null
+      },
+      "5": null,
+      "6": null,
+      "7": [
+        {
+          "0": "^",
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "QUANTITY": null,
+          "INTERVAL": null,
+          "DURATION": null,
+          "START_DATE_TIME": null
+        }
+      ],
+      "8": {
+        "0": "^",
+        "1": null,
+        "PARENT_S_PLACER_ORDER_NUMBER": null
+      },
+      "9": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "10": [
+        {
+          "0": "^",
+          "1": null,
+          "ID_NUMBER_ST": null
+        }
+      ],
+      "11": [
+        {
+          "0": "^",
+          "1": null,
+          "ID_NUMBER_ST": null
+        }
+      ],
+      "12": [
+        {
+          "0": "^",
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "ID_NUMBER_ST": null,
+          "FAMILY_NAME": null,
+          "GIVEN_NAME": null,
+          "SECOND_AND_FURTHER_GIVEN_NAMES_OR_INITIALS_THEREOF": null
+        }
+      ],
+      "13": {
+        "0": "^",
+        "1": null,
+        "POINT_OF_CARE": null
+      },
+      "14": [
+        {
+          "0": "^",
+          "1": null,
+          "999_999_9999_X99999_C_ANY_TEXT": null
+        }
+      ],
+      "15": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "16": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "17": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "18": {
+        "0": "^",
+        "1": "L7173SB00037",
+        "2": null,
+        "3": "VHH",
+        "4": "Med Surg-6",
+        "5": null,
+        "6": null,
+        "IDENTIFIER_ST": "L7173SB00037",
+        "TEXT": null,
+        "NAME_OF_CODING_SYSTEM": "VHH",
+        "ALTERNATE_IDENTIFIER_ST": "Med Surg-6",
+        "ALTERNATE_TEXT": null,
+        "NAME_OF_ALTERNATE_CODING_SYSTEM": null
+      },
+      "19": [
+        {
+          "0": "^",
+          "1": null,
+          "ID_NUMBER_ST": null
+        }
+      ],
+      "ORDER_CONTROL": "NW",
+      "PLACER_ORDER_NUMBER": {
+        "0": "^",
+        "1": null,
+        "ENTITY_IDENTIFIER": null
+      },
+      "FILLER_ORDER_NUMBER": {
+        "0": "^",
+        "1": null,
+        "ENTITY_IDENTIFIER": null
+      },
+      "PLACER_GROUP_NUMBER": {
+        "0": "^",
+        "1": null,
+        "ENTITY_IDENTIFIER": null
+      },
+      "ORDER_STATUS": null,
+      "RESPONSE_FLAG": null,
+      "QUANTITY_TIMING": [
+        {
+          "0": "^",
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "QUANTITY": null,
+          "INTERVAL": null,
+          "DURATION": null,
+          "START_DATE_TIME": null
+        }
+      ],
+      "PARENT": {
+        "0": "^",
+        "1": null,
+        "PARENT_S_PLACER_ORDER_NUMBER": null
+      },
+      "DATE_TIME_OF_TRANSACTION": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "ENTERED_BY": [
+        {
+          "0": "^",
+          "1": null,
+          "ID_NUMBER_ST": null
+        }
+      ],
+      "VERIFIED_BY": [
+        {
+          "0": "^",
+          "1": null,
+          "ID_NUMBER_ST": null
+        }
+      ],
+      "ORDERING_PROVIDER": [
+        {
+          "0": "^",
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "ID_NUMBER_ST": null,
+          "FAMILY_NAME": null,
+          "GIVEN_NAME": null,
+          "SECOND_AND_FURTHER_GIVEN_NAMES_OR_INITIALS_THEREOF": null
+        }
+      ],
+      "ENTERER_S_LOCATION": {
+        "0": "^",
+        "1": null,
+        "POINT_OF_CARE": null
+      },
+      "CALL_BACK_PHONE_NUMBER": [
+        {
+          "0": "^",
+          "1": null,
+          "999_999_9999_X99999_C_ANY_TEXT": null
+        }
+      ],
+      "ORDER_EFFECTIVE_DATE_TIME": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "ORDER_CONTROL_CODE_REASON": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "ENTERING_ORGANIZATION": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "ENTERING_DEVICE": {
+        "0": "^",
+        "1": "L7173SB00037",
+        "2": null,
+        "3": "VHH",
+        "4": "Med Surg-6",
+        "5": null,
+        "6": null,
+        "IDENTIFIER_ST": "L7173SB00037",
+        "TEXT": null,
+        "NAME_OF_CODING_SYSTEM": "VHH",
+        "ALTERNATE_IDENTIFIER_ST": "Med Surg-6",
+        "ALTERNATE_TEXT": null,
+        "NAME_OF_ALTERNATE_CODING_SYSTEM": null
+      },
+      "ACTION_BY": [
+        {
+          "0": "^",
+          "1": null,
+          "ID_NUMBER_ST": null
+        }
+      ]
+    },
+    {
+      "0": "OBR",
+      "1": "1",
+      "2": {
+        "0": "^",
+        "1": null,
+        "ENTITY_IDENTIFIER": null
+      },
+      "3": {
+        "0": "^",
+        "1": null,
+        "ENTITY_IDENTIFIER": null
+      },
+      "4": {
+        "0": "^",
+        "1": "CHEM8+",
+        "IDENTIFIER_ST": "CHEM8+"
+      },
+      "SET_ID_OBR": "1",
+      "PLACER_ORDER_NUMBER": {
+        "0": "^",
+        "1": null,
+        "ENTITY_IDENTIFIER": null
+      },
+      "FILLER_ORDER_NUMBER": {
+        "0": "^",
+        "1": null,
+        "ENTITY_IDENTIFIER": null
+      },
+      "UNIVERSAL_SERVICE_IDENTIFIER": {
+        "0": "^",
+        "1": "CHEM8+",
+        "IDENTIFIER_ST": "CHEM8+"
+      }
+    },
+    {
+      "0": "NTE",
+      "1": "1",
+      "2": null,
+      "3": [
+        null
+      ],
+      "4": {
+        "0": "^",
+        "1": "Sample Type=MIX",
+        "IDENTIFIER_ST": "Sample Type=MIX"
+      },
+      "5": null,
+      "6": "20110529130917-04:00",
+      "SET_ID_NTE": "1",
+      "SOURCE_OF_COMMENT": null,
+      "COMMENT": [
+        null
+      ],
+      "COMMENT_TYPE": "20110529130917-04:00"
+    },
+    {
+      "0": "NTE",
+      "1": "2",
+      "2": null,
+      "3": [
+        null
+      ],
+      "4": {
+        "0": "^",
+        "1": "CPB=Yes",
+        "IDENTIFIER_ST": "CPB=Yes"
+      },
+      "5": null,
+      "6": "20110529130917-04:00",
+      "SET_ID_NTE": "2",
+      "SOURCE_OF_COMMENT": null,
+      "COMMENT": [
+        null
+      ],
+      "COMMENT_TYPE": "20110529130917-04:00"
+    },
+    {
+      "0": "OBX",
+      "1": "1",
+      "2": "NM",
+      "3": {
+        "0": "^",
+        "1": "8625-6",
+        "2": "P-R interval",
+        "3": "LN",
+        "IDENTIFIER_ST": "8625-6",
+        "TEXT": "P-R interval",
+        "NAME_OF_CODING_SYSTEM": "LN"
+      },
+      "4": null,
+      "5": [
+        "<10"
+      ],
+      "6": {
+        "0": "^",
+        "1": "%PCV",
+        "IDENTIFIER_ST": "%PCV"
+      },
+      "7": null,
+      "8": "N",
+      "9": [
+        null
+      ],
+      "10": null,
+      "11": "F",
+      "12": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "13": null,
+      "14": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "15": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "16": {
+        "0": "^",
+        "1": "APOC3214",
+        "ID_NUMBER_ST": "APOC3214"
+      },
+      "17": [
+        {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER_ST": null
+        }
+      ],
+      "18": [
+        {
+          "0": "^",
+          "1": "equipment",
+          "ENTITY_IDENTIFIER": "equipment"
+        }
+      ],
+      "19": {
+        "0": "^",
+        "1": "20120529130917-04:00",
+        "TIME_OF_AN_EVENT": "20120529130917-04:00"
+      },
+      "20": "MIX",
+      "SET_ID_OBX": "1",
+      "VALUE_TYPE": "NM",
+      "OBSERVATION_IDENTIFIER": {
+        "0": "^",
+        "1": "8625-6",
+        "2": "P-R interval",
+        "3": "LN",
+        "IDENTIFIER_ST": "8625-6",
+        "TEXT": "P-R interval",
+        "NAME_OF_CODING_SYSTEM": "LN"
+      },
+      "OBSERVATION_SUB_ID": null,
+      "OBSERVATION_VALUE": [
+        "<10"
+      ],
+      "UNITS": {
+        "0": "^",
+        "1": "%PCV",
+        "IDENTIFIER_ST": "%PCV"
+      },
+      "REFERENCES_RANGE": null,
+      "ABNORMAL_FLAGS": "N",
+      "PROBABILITY": [
+        null
+      ],
+      "NATURE_OF_ABNORMAL_TEST": null,
+      "OBSERVATION_RESULT_STATUS": "F",
+      "DATE_LAST_OBSERVATION_NORMAL_VALUE": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "USER_DEFINED_ACCESS_CHECKS": null,
+      "DATE_TIME_OF_THE_OBSERVATION": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "PRODUCER_S_ID": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "RESPONSIBLE_OBSERVER": {
+        "0": "^",
+        "1": "APOC3214",
+        "ID_NUMBER_ST": "APOC3214"
+      },
+      "OBSERVATION_METHOD": [
+        {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER_ST": null
+        }
+      ],
+      "EQUIPMENT_INSTANCE_IDENTIFIER": [
+        {
+          "0": "^",
+          "1": "equipment",
+          "ENTITY_IDENTIFIER": "equipment"
+        }
+      ],
+      "DATE_TIME_OF_THE_ANALYSIS": "MIX"
+    },
+    {
+      "0": "OBX",
+      "1": "2",
+      "2": "DT",
+      "3": {
+        "0": "^",
+        "1": "41651-1",
+        "2": "date",
+        "3": "LN",
+        "IDENTIFIER_ST": "41651-1",
+        "TEXT": "date",
+        "NAME_OF_CODING_SYSTEM": "LN"
+      },
+      "4": null,
+      "5": [
+        "20110529130917-04:00"
+      ],
+      "6": {
+        "0": "^",
+        "1": "mg/dL",
+        "IDENTIFIER_ST": "mg/dL"
+      },
+      "7": null,
+      "8": null,
+      "9": [
+        null
+      ],
+      "10": null,
+      "11": "F",
+      "12": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "13": null,
+      "14": {
+        "0": "^",
+        "1": "20150529130917-04:00",
+        "TIME_OF_AN_EVENT": "20150529130917-04:00"
+      },
+      "15": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "16": {
+        "0": "^",
+        "1": "APOC3214",
+        "ID_NUMBER_ST": "APOC3214"
+      },
+      "17": [
+        {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER_ST": null
+        }
+      ],
+      "18": [
+        {
+          "0": "^",
+          "1": null,
+          "ENTITY_IDENTIFIER": null
+        }
+      ],
+      "19": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "20": "MIX",
+      "SET_ID_OBX": "2",
+      "VALUE_TYPE": "DT",
+      "OBSERVATION_IDENTIFIER": {
+        "0": "^",
+        "1": "41651-1",
+        "2": "date",
+        "3": "LN",
+        "IDENTIFIER_ST": "41651-1",
+        "TEXT": "date",
+        "NAME_OF_CODING_SYSTEM": "LN"
+      },
+      "OBSERVATION_SUB_ID": null,
+      "OBSERVATION_VALUE": [
+        "20110529130917-04:00"
+      ],
+      "UNITS": {
+        "0": "^",
+        "1": "mg/dL",
+        "IDENTIFIER_ST": "mg/dL"
+      },
+      "REFERENCES_RANGE": null,
+      "ABNORMAL_FLAGS": null,
+      "PROBABILITY": [
+        null
+      ],
+      "NATURE_OF_ABNORMAL_TEST": null,
+      "OBSERVATION_RESULT_STATUS": "F",
+      "DATE_LAST_OBSERVATION_NORMAL_VALUE": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "USER_DEFINED_ACCESS_CHECKS": null,
+      "DATE_TIME_OF_THE_OBSERVATION": {
+        "0": "^",
+        "1": "20150529130917-04:00",
+        "TIME_OF_AN_EVENT": "20150529130917-04:00"
+      },
+      "PRODUCER_S_ID": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "RESPONSIBLE_OBSERVER": {
+        "0": "^",
+        "1": "APOC3214",
+        "ID_NUMBER_ST": "APOC3214"
+      },
+      "OBSERVATION_METHOD": [
+        {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER_ST": null
+        }
+      ],
+      "EQUIPMENT_INSTANCE_IDENTIFIER": [
+        {
+          "0": "^",
+          "1": null,
+          "ENTITY_IDENTIFIER": null
+        }
+      ],
+      "DATE_TIME_OF_THE_ANALYSIS": "MIX"
+    },
+    {
+      "0": "OBX",
+      "1": "3",
+      "2": "ST",
+      "3": {
+        "0": "^",
+        "1": "45541-1",
+        "2": "GJU",
+        "3": "LN",
+        "IDENTIFIER_ST": "45541-1",
+        "TEXT": "GJU",
+        "NAME_OF_CODING_SYSTEM": "LN"
+      },
+      "4": null,
+      "5": [
+        "100500 mm"
+      ],
+      "6": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "7": null,
+      "8": null,
+      "9": [
+        null
+      ],
+      "10": null,
+      "11": "F",
+      "12": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "13": null,
+      "14": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "15": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "16": {
+        "0": "^",
+        "1": "APOC3214",
+        "ID_NUMBER_ST": "APOC3214"
+      },
+      "17": [
+        {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER_ST": null
+        }
+      ],
+      "18": [
+        {
+          "0": "^",
+          "1": null,
+          "ENTITY_IDENTIFIER": null
+        }
+      ],
+      "19": {
+        "0": "^",
+        "1": "20110529130917-04:00",
+        "TIME_OF_AN_EVENT": "20110529130917-04:00"
+      },
+      "20": "MIX",
+      "SET_ID_OBX": "3",
+      "VALUE_TYPE": "ST",
+      "OBSERVATION_IDENTIFIER": {
+        "0": "^",
+        "1": "45541-1",
+        "2": "GJU",
+        "3": "LN",
+        "IDENTIFIER_ST": "45541-1",
+        "TEXT": "GJU",
+        "NAME_OF_CODING_SYSTEM": "LN"
+      },
+      "OBSERVATION_SUB_ID": null,
+      "OBSERVATION_VALUE": [
+        "100500 mm"
+      ],
+      "UNITS": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "REFERENCES_RANGE": null,
+      "ABNORMAL_FLAGS": null,
+      "PROBABILITY": [
+        null
+      ],
+      "NATURE_OF_ABNORMAL_TEST": null,
+      "OBSERVATION_RESULT_STATUS": "F",
+      "DATE_LAST_OBSERVATION_NORMAL_VALUE": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "USER_DEFINED_ACCESS_CHECKS": null,
+      "DATE_TIME_OF_THE_OBSERVATION": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "PRODUCER_S_ID": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "RESPONSIBLE_OBSERVER": {
+        "0": "^",
+        "1": "APOC3214",
+        "ID_NUMBER_ST": "APOC3214"
+      },
+      "OBSERVATION_METHOD": [
+        {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER_ST": null
+        }
+      ],
+      "EQUIPMENT_INSTANCE_IDENTIFIER": [
+        {
+          "0": "^",
+          "1": null,
+          "ENTITY_IDENTIFIER": null
+        }
+      ],
+      "DATE_TIME_OF_THE_ANALYSIS": "MIX"
+    },
+    {
+      "0": "OBX",
+      "1": "4",
+      "2": "CE",
+      "3": {
+        "0": "^",
+        "1": "45541-1",
+        "2": "GJU",
+        "3": "LN",
+        "IDENTIFIER_ST": "45541-1",
+        "TEXT": "GJU",
+        "NAME_OF_CODING_SYSTEM": "LN"
+      },
+      "4": null,
+      "5": [
+        "43434-1^8890 jkjsdfk^BV"
+      ],
+      "6": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "7": null,
+      "8": null,
+      "9": [
+        null
+      ],
+      "10": null,
+      "11": "F",
+      "12": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "13": null,
+      "14": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "15": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "16": {
+        "0": "^",
+        "1": "APOC3214",
+        "ID_NUMBER_ST": "APOC3214"
+      },
+      "17": [
+        {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER_ST": null
+        }
+      ],
+      "18": [
+        {
+          "0": "^",
+          "1": null,
+          "ENTITY_IDENTIFIER": null
+        }
+      ],
+      "19": {
+        "0": "^",
+        "1": "20110529130917-04:00",
+        "TIME_OF_AN_EVENT": "20110529130917-04:00"
+      },
+      "20": "MIX",
+      "SET_ID_OBX": "4",
+      "VALUE_TYPE": "CE",
+      "OBSERVATION_IDENTIFIER": {
+        "0": "^",
+        "1": "45541-1",
+        "2": "GJU",
+        "3": "LN",
+        "IDENTIFIER_ST": "45541-1",
+        "TEXT": "GJU",
+        "NAME_OF_CODING_SYSTEM": "LN"
+      },
+      "OBSERVATION_SUB_ID": null,
+      "OBSERVATION_VALUE": [
+        "43434-1^8890 jkjsdfk^BV"
+      ],
+      "UNITS": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "REFERENCES_RANGE": null,
+      "ABNORMAL_FLAGS": null,
+      "PROBABILITY": [
+        null
+      ],
+      "NATURE_OF_ABNORMAL_TEST": null,
+      "OBSERVATION_RESULT_STATUS": "F",
+      "DATE_LAST_OBSERVATION_NORMAL_VALUE": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "USER_DEFINED_ACCESS_CHECKS": null,
+      "DATE_TIME_OF_THE_OBSERVATION": {
+        "0": "^",
+        "1": null,
+        "TIME_OF_AN_EVENT": null
+      },
+      "PRODUCER_S_ID": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "RESPONSIBLE_OBSERVER": {
+        "0": "^",
+        "1": "APOC3214",
+        "ID_NUMBER_ST": "APOC3214"
+      },
+      "OBSERVATION_METHOD": [
+        {
+          "0": "^",
+          "1": null,
+          "IDENTIFIER_ST": null
+        }
+      ],
+      "EQUIPMENT_INSTANCE_IDENTIFIER": [
+        {
+          "0": "^",
+          "1": null,
+          "ENTITY_IDENTIFIER": null
+        }
+      ],
+      "DATE_TIME_OF_THE_ANALYSIS": "MIX"
+    },
+    {
+      "0": "NTE",
+      "1": "1",
+      "2": null,
+      "3": [
+        "DSN=314237"
+      ],
+      "4": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "5": "20110529130917-04:00",
+      "SET_ID_NTE": "1",
+      "SOURCE_OF_COMMENT": null,
+      "COMMENT": [
+        "DSN=314237"
+      ],
+      "COMMENT_TYPE": "20110529130917-04:00"
+    },
+    {
+      "0": "NTE",
+      "1": "2",
+      "2": null,
+      "3": [
+        "HCT=LOW"
+      ],
+      "4": {
+        "0": "^",
+        "1": null,
+        "IDENTIFIER_ST": null
+      },
+      "5": "20110529130917-04:00",
+      "SET_ID_NTE": "2",
+      "SOURCE_OF_COMMENT": null,
+      "COMMENT": [
+        "HCT=LOW"
+      ],
+      "COMMENT_TYPE": "20110529130917-04:00"
+    }
+  ],
   "errors": [
     "No structure defined for message type ORU R30",
     "Missing value for required field MSH_7"
