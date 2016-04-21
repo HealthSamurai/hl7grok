@@ -197,7 +197,7 @@ parseSegments = (segments, meta, separators, options) ->
 
 parseFields = (fields, segmentName, meta, separators, options) ->
   segmentMeta = meta.SEGMENTS[segmentName]
-  result = [segmentName]
+  result = { "0": segmentName }
   errors = []
 
   if segmentMeta[0] != "sequence"
@@ -223,16 +223,16 @@ parseFields = (fields, segmentName, meta, separators, options) ->
         f
 
       if fieldMax == 1
-        result.push fieldValues[0]
-        # result[fieldIndex + 1] =
+        # result.push fieldValues[0]
+        result[fieldIndex + 1] = fieldValues[0]
       else if fieldMax == -1
-        result.push fieldValues
-        # result[fieldIndex + 1] = fieldValues
+        # result.push fieldValues
+        result[fieldIndex + 1] = fieldValues
       else
         throw new Error("Bang! Unknown case for fieldMax: #{fieldMax}")
     else
-      result.push fieldValue
-      # result[fieldIndex + 1] = fieldValue
+      # result.push fieldValue
+      result[fieldIndex + 1] = fieldValue
 
     # if options.symbolicNames && fieldSymbolicName
     #   # MSH is always a special case, you know
