@@ -64,6 +64,7 @@ _structurize = (meta, struct, message, segIdx) ->
       if meta.GROUPS[expSegName]
         # if it's a group, we go to recursion
         [subResult, newSegIdx, errs] = _structurize(meta, meta.GROUPS[expSegName], message, segIdx)
+        # console.log "it's a group! recursion result: #{JSON.stringify(subResult, null, 4)}"
 
         subErrors = subErrors.concat(errs)
 
@@ -113,13 +114,20 @@ _structurize = (meta, struct, message, segIdx) ->
   else
     return [result, segIdx, subErrors]
 
-structurize = (meta, message, messageType, options) ->
-  struct = meta.MESSAGES[messageType.join("_")]
+structurize = (parsedMessage, options) ->
+  msh = parsedMessage[0]
+  hl7version = msh[11][1]
+  messageType = msh[8]
+  # console.log("!!!", messageType, hl7version);
+
+  meta = getMeta(hl7version)
+
+  struct = meta.MESSAGES[messageType.replace("^", "_")]
 
   if !struct
-    return [message, ["No structure defined for message type #{messageType.join(' ')}"]]
+    return [parsedMessage, ["No structure defined for message type #{messageType}"]]
   else
-    [result, lastSegIdx, errors] = _structurize(meta, struct, message, 0)
+    [result, lastSegIdx, errors] = _structurize(meta, struct, parsedMessage, 0)
     return [result, errors]
 
 VALID_OPTION_KEYS = ["strict", "symbolicNames"]
@@ -163,10 +171,10 @@ parse = (msg, options) ->
   hl7version = msh[11]
   meta = getMeta(hl7version)
 
-  [message, parseErrors] = parseSegments(segments, meta, separators, options)
-  [message, structErrors] = structurize(meta, message, messageType, options)
+  [message, errors] = parseSegments(segments, meta, separators, options)
+  # [message2, structErrors] = structurize(meta, message, messageType, options)
 
-  errors = errors.concat(structErrors).concat(parseErrors)
+  # errors = errors.concat(structErrors).concat(parseErrors)
 
   if options.strict && errors.length > 0
     throw new Error("Errors during parsing an HL7 message:\n\n" + structErrors.join("\n"))
@@ -189,7 +197,7 @@ parseSegments = (segments, meta, separators, options) ->
 
 parseFields = (fields, segmentName, meta, separators, options) ->
   segmentMeta = meta.SEGMENTS[segmentName]
-  result = {"0": segmentName}
+  result = [segmentName]
   errors = []
 
   if segmentMeta[0] != "sequence"
@@ -215,20 +223,23 @@ parseFields = (fields, segmentName, meta, separators, options) ->
         f
 
       if fieldMax == 1
-        result[fieldIndex + 1] = fieldValues[0]
+        result.push fieldValues[0]
+        # result[fieldIndex + 1] =
       else if fieldMax == -1
-        result[fieldIndex + 1] = fieldValues
+        result.push fieldValues
+        # result[fieldIndex + 1] = fieldValues
       else
         throw new Error("Bang! Unknown case for fieldMax: #{fieldMax}")
     else
-      result[fieldIndex + 1] = fieldValue
+      result.push fieldValue
+      # result[fieldIndex + 1] = fieldValue
 
-    if options.symbolicNames && fieldSymbolicName
-      # MSH is always a special case, you know
-      if segmentName == 'MSH'
-        result[fieldSymbolicName] = result[fieldIndex]
-      else
-        result[fieldSymbolicName] = result[fieldIndex + 1]
+    # if options.symbolicNames && fieldSymbolicName
+    #   # MSH is always a special case, you know
+    #   if segmentName == 'MSH'
+    #     result[fieldSymbolicName] = result[fieldIndex]
+    #   else
+    #     result[fieldSymbolicName] = result[fieldIndex + 1]
 
    [replaceBlanksWithNulls(result), errors]
 
@@ -246,12 +257,13 @@ parseComponents = (value, fieldId, meta, separators, options) ->
     # it's a complex type
     splitRegexp = new RegExp("(?!\\#{separators.escape})\\#{separators.component}")
     fieldMeta = "^"
-    result = {"0": fieldMeta}
+    result = [fieldMeta]
 
     value.split(splitRegexp).forEach (c, index) ->
       componentId = typeMeta[1][index][0]
       [componentMin, componentMax] = typeMeta[1][index][1]
       componentMeta = meta.DATATYPES[componentId]
+
       if componentMeta[0] != 'leaf'
         throw new Error("Bang! Unknown case for componentMeta[0]: #{componentMeta[0]}")
 
@@ -267,21 +279,23 @@ parseComponents = (value, fieldId, meta, separators, options) ->
       else
         componentValue = c
 
-      result[index + 1] = componentValue
+      # result[index + 1] = componentValue
+      result.push componentValue
 
-      if options.symbolicNames
-        result[componentMeta[2]] = componentValue
+      # if options.symbolicNames
+      #   result[componentMeta[2]] = componentValue
 
     [result, errors]
   else
     [coerce(value, fieldType), []]
 
+exports =
+  grok: parse
+  structurize: structurize
+
 if typeof(module) != 'undefined'
-  module.exports =
-    grok: parse
+  module.exports = exports
 else if typeof(window) != 'undefined'
-  window.hl7grok =
-    grok: parse
+  window.hl7grok = exports
 else
-  this.hl7grok =
-    grok: parse
+  this.hl7grok = exports
