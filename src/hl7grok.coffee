@@ -257,7 +257,8 @@ parseComponents = (value, fieldId, meta, separators, options) ->
     # it's a complex type
     splitRegexp = new RegExp("(?!\\#{separators.escape})\\#{separators.component}")
     fieldMeta = "^"
-    result = [fieldMeta]
+    # result = [fieldMeta]
+    result = {"0": fieldMeta}
 
     value.split(splitRegexp).forEach (c, index) ->
       componentId = typeMeta[1][index][0]
@@ -279,8 +280,8 @@ parseComponents = (value, fieldId, meta, separators, options) ->
       else
         componentValue = c
 
-      # result[index + 1] = componentValue
-      result.push componentValue
+      result[index + 1] = componentValue
+      # result.push componentValue
 
       # if options.symbolicNames
       #   result[componentMeta[2]] = componentValue

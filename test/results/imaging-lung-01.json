@@ -5,36 +5,36 @@
         "MSH",
         "^",
         "RISOC",
-        [
-          "^",
-          "001"
-        ],
-        [
-          "^",
-          "MS4OC"
-        ],
-        [
-          "^",
-          "001"
-        ],
-        [
-          "^",
-          "20111115200643"
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": "001"
+        },
+        {
+          "0": "^",
+          "1": "MS4OC"
+        },
+        {
+          "0": "^",
+          "1": "001"
+        },
+        {
+          "0": "^",
+          "1": "20111115200643"
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         "ORU^R01",
-        [
-          "^",
-          "30004"
-        ],
+        {
+          "0": "^",
+          "1": "30004"
+        },
         "T",
-        [
-          "^",
-          "2.3"
-        ],
+        {
+          "0": "^",
+          "1": "2.3"
+        },
         null,
         null,
         null,
@@ -45,435 +45,435 @@
       [
         "PID",
         "1",
+        {
+          "0": "^",
+          "1": "010107111",
+          "2": null,
+          "3": null,
+          "4": "MS4",
+          "5": "PN",
+          "6": null
+        },
         [
-          "^",
-          "010107111",
-          null,
-          null,
-          "MS4",
-          "PN",
-          null
+          {
+            "0": "^",
+            "1": "160922",
+            "2": null,
+            "3": null,
+            "4": "MS4",
+            "5": "MR",
+            "6": "001"
+          }
         ],
-        [
-          [
-            "^",
-            "160922",
-            null,
-            null,
-            "MS4",
-            "MR",
-            "001"
-          ]
-        ],
-        [
-          "^",
-          "160933",
-          null,
-          null,
-          "MS4",
-          "MR",
-          "001"
-        ],
-        [
-          "^",
-          "BARRETT",
-          "JEAN",
-          "SANDY",
-          null,
-          null
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          "19440823"
-        ],
+        {
+          "0": "^",
+          "1": "160933",
+          "2": null,
+          "3": null,
+          "4": "MS4",
+          "5": "MR",
+          "6": "001"
+        },
+        {
+          "0": "^",
+          "1": "BARRETT",
+          "2": "JEAN",
+          "3": "SANDY",
+          "4": null,
+          "5": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": "19440823"
+        },
         "F",
         [
-          [
-            "^",
-            null
-          ]
+          {
+            "0": "^",
+            "1": null
+          }
         ],
         "C",
         [
-          [
-            "^",
-            "STRAWBERRY AVE",
-            "FOUR OAKS LODGE",
-            "ALBUKERKA",
-            "CA",
-            "98765",
-            "USA",
-            null,
-            null
-          ]
+          {
+            "0": "^",
+            "1": "STRAWBERRY AVE",
+            "2": "FOUR OAKS LODGE",
+            "3": "ALBUKERKA",
+            "4": "CA",
+            "5": "98765",
+            "6": "USA",
+            "7": null,
+            "8": null
+          }
         ],
         null,
         [
-          [
-            "^",
-            "(111)222-3333"
-          ]
+          {
+            "0": "^",
+            "1": "(111)222-3333"
+          }
         ],
         [
-          [
-            "^",
-            null
-          ]
+          {
+            "0": "^",
+            "1": null
+          }
         ],
-        [
-          "^",
-          "ENG"
-        ],
+        {
+          "0": "^",
+          "1": "ENG"
+        },
         [
           "W"
         ],
         "CHR",
-        [
-          "^",
-          "111",
-          null,
-          null,
-          "MS4001",
-          "AN",
-          "001"
-        ],
+        {
+          "0": "^",
+          "1": "111",
+          "2": null,
+          "3": null,
+          "4": "MS4001",
+          "5": "AN",
+          "6": "001"
+        },
         "123-22-121212",
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         "OKLAHOMA",
         null,
         null,
         null,
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         "N"
       ],
       [
         "PV1",
         "1",
         "I",
+        {
+          "0": "^",
+          "1": null,
+          "2": "5SOUT518A",
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": "5 South"
+        },
+        null,
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": "80231",
+          "2": "GANDHI",
+          "3": "DEVINDER",
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": "MD",
+          "8": null,
+          "9": "NPI&1467492371"
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         [
-          "^",
-          null,
-          "5SOUT518A",
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          "5 South"
+          {
+            "0": "^",
+            "1": null
+          }
         ],
         null,
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          "80231",
-          "GANDHI",
-          "DEVINDER",
-          null,
-          null,
-          null,
-          "MD",
-          null,
-          "NPI&1467492371"
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          [
-            "^",
-            null
-          ]
-        ],
-        null,
-        [
-          "^",
-          null
-        ],
-        null,
-        null,
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         null,
         null,
-        [
-          "^",
-          null
-        ],
-        null,
-        [
-          "^",
-          null
-        ],
-        [
-          [
-            "^",
-            null
-          ]
-        ],
         null,
         null,
+        {
+          "0": "^",
+          "1": null
+        },
         null,
+        {
+          "0": "^",
+          "1": null
+        },
         [
-          null
+          {
+            "0": "^",
+            "1": null
+          }
         ],
-        [
-          null
-        ],
+        null,
+        null,
+        null,
         [
           null
         ],
         [
           null
         ],
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         [
-          "^",
+          null
+        ],
+        [
           null
         ],
         null,
         null,
         null,
         null,
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          "20111113170200"
-        ]
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "0": "^",
+          "1": null
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": "20111113170200"
+        }
       ],
       [
         "OBR",
         "1",
         [
-          [
-            "^",
-            "00045"
-          ]
+          {
+            "0": "^",
+            "1": "00045"
+          }
         ],
+        {
+          "0": "^",
+          "1": "1000718"
+        },
+        {
+          "0": "^",
+          "1": "4550422",
+          "2": "CT ANGIO NECK W WO CON",
+          "3": null,
+          "4": "AGNKCOM"
+        },
+        null,
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": "20111115160900"
+        },
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         [
-          "^",
-          "1000718"
-        ],
-        [
-          "^",
-          "4550422",
-          "CT ANGIO NECK W WO CON",
-          null,
-          "AGNKCOM"
+          {
+            "0": "^",
+            "1": null
+          }
         ],
         null,
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          "20111115160900"
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          [
-            "^",
-            null
-          ]
-        ],
-        null,
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         "SYNCOPE ELEVATED D DIMER CHEST PAIN",
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         [
-          "^",
-          null
+          {
+            "0": "^",
+            "1": "20222",
+            "2": "PEREYRA",
+            "3": "ROBERT",
+            "4": "W",
+            "5": null,
+            "6": null,
+            "7": "MD",
+            "8": null,
+            "9": "NPI&1841336138"
+          }
         ],
         [
-          "^",
-          null
-        ],
-        [
-          [
-            "^",
-            "20222",
-            "PEREYRA",
-            "ROBERT",
-            "W",
-            null,
-            null,
-            "MD",
-            null,
-            "NPI&1841336138"
-          ]
-        ],
-        [
-          [
-            "^",
-            null
-          ]
+          {
+            "0": "^",
+            "1": null
+          }
         ],
         null,
         null,
         null,
         null,
-        [
-          "^",
-          "20111115200600"
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": "20111115200600"
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         "CT^Computed Tomography",
         "P",
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null,
+          "2": null,
+          "3": "30",
+          "4": "20111115094822",
+          "5": null,
+          "6": "9"
+        },
         [
-          "^",
-          null
+          {
+            "0": "^",
+            "1": null
+          }
         ],
-        [
-          "^",
-          null,
-          null,
-          "30",
-          "20111115094822",
-          null,
-          "9"
-        ],
-        [
-          [
-            "^",
-            null
-          ]
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         "AMB^Ambulatory",
         [
-          [
-            "^",
-            null
-          ]
+          {
+            "0": "^",
+            "1": null
+          }
+        ],
+        {
+          "0": "^",
+          "1": "34831",
+          "2": "PATEL",
+          "3": "SAMEER",
+          "4": "A",
+          "5": null,
+          "6": null,
+          "7": "MD",
+          "8": null,
+          "9": "NPI&1508081530"
+        },
+        [
+          {
+            "0": "^",
+            "1": null
+          },
+          {
+            "0": "^",
+            "1": null
+          }
         ],
         [
-          "^",
-          "34831",
-          "PATEL",
-          "SAMEER",
-          "A",
-          null,
-          null,
-          "MD",
-          null,
-          "NPI&1508081530"
+          {
+            "0": "^",
+            "1": "ylee",
+            "2": "LEE",
+            "3": "YUNGCHIANG",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null
+          }
         ],
         [
-          [
-            "^",
-            null
-          ],
-          [
-            "^",
-            null
-          ]
+          {
+            "0": "^",
+            "1": null,
+            "2": "WALKER",
+            "3": "CHERYL",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": "Sched/Transcription"
+          }
         ],
-        [
-          [
-            "^",
-            "ylee",
-            "LEE",
-            "YUNGCHIANG",
-            null,
-            null,
-            null,
-            null
-          ]
-        ],
-        [
-          [
-            "^",
-            null,
-            "WALKER",
-            "CHERYL",
-            null,
-            null,
-            null,
-            "Sched/Transcription"
-          ]
-        ],
-        [
-          "^",
-          "20111115081000"
-        ]
+        {
+          "0": "^",
+          "1": "20111115081000"
+        }
       ],
       [
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "SCREENING LUNG"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -486,18 +486,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "From : Alphonsus Regional Center"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -510,18 +510,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "2, Saint Alphonsus Gem State"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -534,18 +534,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "Medical Center Radiolgy"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -558,18 +558,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "BAKER CHTY"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -582,18 +582,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "Patient: - DOB: - EMPI: - visitiAcct: sassassam. 3 Site:"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -606,18 +606,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "PTIMOD: - MiFN:"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -630,18 +630,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "3 Ref. Prov: Exam: - Room/Bed: CTB Add. Providers:"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -654,18 +654,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "SCREENING LUNG \""
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -678,18 +678,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "ΕΧΑΜΙ DΑΤΕ: 6/16/2015 13:45 Contrast/Isotope: None"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -702,18 +702,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "PROCEDURE: CT LUNG LOW DOSE CA SCREENING"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -726,18 +726,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "COMPARISON: None."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -750,18 +750,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "INDICATIONS: 64 year old former smoker with 50 pack year history of smoking. Quit April 2015."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -774,18 +774,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "PQRS QUALITY INFORMATION:"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -798,18 +798,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "EXAM COUNT: 0 CT exams and 0 NM Myocardial Perfusion exams in past 12 months."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -822,18 +822,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "DATA AVAILABILITY: Dicom format image data is available to non-affiliated external entities on secure, media free, reciprocally searchable basis for 12"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -846,18 +846,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "month period of time after the study."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -870,18 +870,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "DATA SEARCH. A search was conducted for prior patient CT exams performed at an external facility within 12 months prior to the imaging study being"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -894,18 +894,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "performed, and is available through a secure, authorized, media free, shared archive."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -918,18 +918,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "CT DOSE REGISTRY: CT study data has been reported to a CT Radiation Dose Index Registry containing all minimum necessary data elements."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -942,18 +942,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "Total Dose Length Product (DLP in mGy-cm): 38.50"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -966,18 +966,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "TECHNIQUE: CT images of the lungs were obtained without intravenous contrast and utilizing a very low dose technique."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -990,18 +990,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "LUNG FINDINGS:"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1014,18 +1014,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "NODULES: Noncalcified linear focus in the lateral basilar right lower lobe seen on series 9"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1038,18 +1038,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "image 185 measures 0.3 x 0.2 cm. Punctate calcified nodule in the lingula seen on series 9 image 175. Calcified nodule noted in the apical posterior segment left upper lobe, series 9 image 79."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1062,18 +1062,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "LUNG PARENCHYMA: Within normal limits."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1086,18 +1086,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "OTHER FINDINGS:"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1110,18 +1110,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "HEART: Within normal limits. MEDIASTINUM/HILA: Within normal limits. VASCULATURE: Within normal limits. PLEURAL SPACE: Within normal limits."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1134,18 +1134,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "CHEST WALL/AXILLA: Within normal limits. LTD, UPPER ABDOMEN: Within normal limits. MUSCULOSKELETAL: Normal for age. ADIOT\"L COMMENTS: None."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1158,18 +1158,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "CONCLUSION: Solitary linear noncalcified right lower lobe pulmonary nodule measures less than 4 mm"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1182,18 +1182,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "average diameter and demonstrates benign pattern morphology."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1206,18 +1206,18 @@
         "OBX",
         null,
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "RECOMMENDATION: LungPADS 1 - follow up low dose chest CT in 1 year."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1237,36 +1237,36 @@
         "MSH",
         "^",
         "RISOC",
-        [
-          "^",
-          "001"
-        ],
-        [
-          "^",
-          "MS4OC"
-        ],
-        [
-          "^",
-          "001"
-        ],
-        [
-          "^",
-          "20111115200643"
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": "001"
+        },
+        {
+          "0": "^",
+          "1": "MS4OC"
+        },
+        {
+          "0": "^",
+          "1": "001"
+        },
+        {
+          "0": "^",
+          "1": "20111115200643"
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         "ORU^R01",
-        [
-          "^",
-          "30004"
-        ],
+        {
+          "0": "^",
+          "1": "30004"
+        },
         "T",
-        [
-          "^",
-          "2.3"
-        ],
+        {
+          "0": "^",
+          "1": "2.3"
+        },
         null,
         null,
         null,
@@ -1280,128 +1280,128 @@
             "PID": [
               "PID",
               "1",
+              {
+                "0": "^",
+                "1": "010107111",
+                "2": null,
+                "3": null,
+                "4": "MS4",
+                "5": "PN",
+                "6": null
+              },
               [
-                "^",
-                "010107111",
-                null,
-                null,
-                "MS4",
-                "PN",
-                null
+                {
+                  "0": "^",
+                  "1": "160922",
+                  "2": null,
+                  "3": null,
+                  "4": "MS4",
+                  "5": "MR",
+                  "6": "001"
+                }
               ],
-              [
-                [
-                  "^",
-                  "160922",
-                  null,
-                  null,
-                  "MS4",
-                  "MR",
-                  "001"
-                ]
-              ],
-              [
-                "^",
-                "160933",
-                null,
-                null,
-                "MS4",
-                "MR",
-                "001"
-              ],
-              [
-                "^",
-                "BARRETT",
-                "JEAN",
-                "SANDY",
-                null,
-                null
-              ],
-              [
-                "^",
-                null
-              ],
-              [
-                "^",
-                "19440823"
-              ],
+              {
+                "0": "^",
+                "1": "160933",
+                "2": null,
+                "3": null,
+                "4": "MS4",
+                "5": "MR",
+                "6": "001"
+              },
+              {
+                "0": "^",
+                "1": "BARRETT",
+                "2": "JEAN",
+                "3": "SANDY",
+                "4": null,
+                "5": null
+              },
+              {
+                "0": "^",
+                "1": null
+              },
+              {
+                "0": "^",
+                "1": "19440823"
+              },
               "F",
               [
-                [
-                  "^",
-                  null
-                ]
+                {
+                  "0": "^",
+                  "1": null
+                }
               ],
               "C",
               [
-                [
-                  "^",
-                  "STRAWBERRY AVE",
-                  "FOUR OAKS LODGE",
-                  "ALBUKERKA",
-                  "CA",
-                  "98765",
-                  "USA",
-                  null,
-                  null
-                ]
+                {
+                  "0": "^",
+                  "1": "STRAWBERRY AVE",
+                  "2": "FOUR OAKS LODGE",
+                  "3": "ALBUKERKA",
+                  "4": "CA",
+                  "5": "98765",
+                  "6": "USA",
+                  "7": null,
+                  "8": null
+                }
               ],
               null,
               [
-                [
-                  "^",
-                  "(111)222-3333"
-                ]
+                {
+                  "0": "^",
+                  "1": "(111)222-3333"
+                }
               ],
               [
-                [
-                  "^",
-                  null
-                ]
+                {
+                  "0": "^",
+                  "1": null
+                }
               ],
-              [
-                "^",
-                "ENG"
-              ],
+              {
+                "0": "^",
+                "1": "ENG"
+              },
               [
                 "W"
               ],
               "CHR",
-              [
-                "^",
-                "111",
-                null,
-                null,
-                "MS4001",
-                "AN",
-                "001"
-              ],
+              {
+                "0": "^",
+                "1": "111",
+                "2": null,
+                "3": null,
+                "4": "MS4001",
+                "5": "AN",
+                "6": "001"
+              },
               "123-22-121212",
-              [
-                "^",
-                null
-              ],
-              [
-                "^",
-                null
-              ],
+              {
+                "0": "^",
+                "1": null
+              },
+              {
+                "0": "^",
+                "1": null
+              },
               null,
               "OKLAHOMA",
               null,
               null,
               null,
-              [
-                "^",
-                null
-              ],
-              [
-                "^",
-                null
-              ],
-              [
-                "^",
-                null
-              ],
+              {
+                "0": "^",
+                "1": null
+              },
+              {
+                "0": "^",
+                "1": null
+              },
+              {
+                "0": "^",
+                "1": null
+              },
               "N"
             ],
             "VISIT": {
@@ -1409,118 +1409,118 @@
                 "PV1",
                 "1",
                 "I",
+                {
+                  "0": "^",
+                  "1": null,
+                  "2": "5SOUT518A",
+                  "3": null,
+                  "4": null,
+                  "5": null,
+                  "6": null,
+                  "7": null,
+                  "8": null,
+                  "9": "5 South"
+                },
+                null,
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": "80231",
+                  "2": "GANDHI",
+                  "3": "DEVINDER",
+                  "4": null,
+                  "5": null,
+                  "6": null,
+                  "7": "MD",
+                  "8": null,
+                  "9": "NPI&1467492371"
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
                 [
-                  "^",
-                  null,
-                  "5SOUT518A",
-                  null,
-                  null,
-                  null,
-                  null,
-                  null,
-                  null,
-                  "5 South"
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
                 null,
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  "80231",
-                  "GANDHI",
-                  "DEVINDER",
-                  null,
-                  null,
-                  null,
-                  "MD",
-                  null,
-                  "NPI&1467492371"
-                ],
-                [
-                  "^",
-                  null
-                ],
-                [
-                  [
-                    "^",
-                    null
-                  ]
-                ],
-                null,
-                [
-                  "^",
-                  null
-                ],
-                null,
-                null,
+                {
+                  "0": "^",
+                  "1": null
+                },
                 null,
                 null,
                 null,
-                [
-                  "^",
-                  null
-                ],
-                null,
-                [
-                  "^",
-                  null
-                ],
-                [
-                  [
-                    "^",
-                    null
-                  ]
-                ],
                 null,
                 null,
+                {
+                  "0": "^",
+                  "1": null
+                },
                 null,
+                {
+                  "0": "^",
+                  "1": null
+                },
                 [
-                  null
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
-                [
-                  null
-                ],
+                null,
+                null,
+                null,
                 [
                   null
                 ],
                 [
                   null
                 ],
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 [
-                  "^",
+                  null
+                ],
+                [
                   null
                 ],
                 null,
                 null,
                 null,
                 null,
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  "20111113170200"
-                ]
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "0": "^",
+                  "1": null
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": "20111113170200"
+                }
               ]
             }
           },
@@ -1530,173 +1530,173 @@
                 "OBR",
                 "1",
                 [
-                  [
-                    "^",
-                    "00045"
-                  ]
+                  {
+                    "0": "^",
+                    "1": "00045"
+                  }
                 ],
+                {
+                  "0": "^",
+                  "1": "1000718"
+                },
+                {
+                  "0": "^",
+                  "1": "4550422",
+                  "2": "CT ANGIO NECK W WO CON",
+                  "3": null,
+                  "4": "AGNKCOM"
+                },
+                null,
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": "20111115160900"
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
                 [
-                  "^",
-                  "1000718"
-                ],
-                [
-                  "^",
-                  "4550422",
-                  "CT ANGIO NECK W WO CON",
-                  null,
-                  "AGNKCOM"
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
                 null,
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  "20111115160900"
-                ],
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  null
-                ],
-                [
-                  [
-                    "^",
-                    null
-                  ]
-                ],
-                null,
-                [
-                  "^",
-                  null
-                ],
+                {
+                  "0": "^",
+                  "1": null
+                },
                 "SYNCOPE ELEVATED D DIMER CHEST PAIN",
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
                 [
-                  "^",
-                  null
+                  {
+                    "0": "^",
+                    "1": "20222",
+                    "2": "PEREYRA",
+                    "3": "ROBERT",
+                    "4": "W",
+                    "5": null,
+                    "6": null,
+                    "7": "MD",
+                    "8": null,
+                    "9": "NPI&1841336138"
+                  }
                 ],
                 [
-                  "^",
-                  null
-                ],
-                [
-                  [
-                    "^",
-                    "20222",
-                    "PEREYRA",
-                    "ROBERT",
-                    "W",
-                    null,
-                    null,
-                    "MD",
-                    null,
-                    "NPI&1841336138"
-                  ]
-                ],
-                [
-                  [
-                    "^",
-                    null
-                  ]
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
                 null,
                 null,
                 null,
                 null,
-                [
-                  "^",
-                  "20111115200600"
-                ],
-                [
-                  "^",
-                  null
-                ],
+                {
+                  "0": "^",
+                  "1": "20111115200600"
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
                 "CT^Computed Tomography",
                 "P",
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": null,
+                  "2": null,
+                  "3": "30",
+                  "4": "20111115094822",
+                  "5": null,
+                  "6": "9"
+                },
                 [
-                  "^",
-                  null
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
-                [
-                  "^",
-                  null,
-                  null,
-                  "30",
-                  "20111115094822",
-                  null,
-                  "9"
-                ],
-                [
-                  [
-                    "^",
-                    null
-                  ]
-                ],
-                [
-                  "^",
-                  null
-                ],
+                {
+                  "0": "^",
+                  "1": null
+                },
                 "AMB^Ambulatory",
                 [
-                  [
-                    "^",
-                    null
-                  ]
+                  {
+                    "0": "^",
+                    "1": null
+                  }
+                ],
+                {
+                  "0": "^",
+                  "1": "34831",
+                  "2": "PATEL",
+                  "3": "SAMEER",
+                  "4": "A",
+                  "5": null,
+                  "6": null,
+                  "7": "MD",
+                  "8": null,
+                  "9": "NPI&1508081530"
+                },
+                [
+                  {
+                    "0": "^",
+                    "1": null
+                  },
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
                 [
-                  "^",
-                  "34831",
-                  "PATEL",
-                  "SAMEER",
-                  "A",
-                  null,
-                  null,
-                  "MD",
-                  null,
-                  "NPI&1508081530"
+                  {
+                    "0": "^",
+                    "1": "ylee",
+                    "2": "LEE",
+                    "3": "YUNGCHIANG",
+                    "4": null,
+                    "5": null,
+                    "6": null,
+                    "7": null
+                  }
                 ],
                 [
-                  [
-                    "^",
-                    null
-                  ],
-                  [
-                    "^",
-                    null
-                  ]
+                  {
+                    "0": "^",
+                    "1": null,
+                    "2": "WALKER",
+                    "3": "CHERYL",
+                    "4": null,
+                    "5": null,
+                    "6": null,
+                    "7": "Sched/Transcription"
+                  }
                 ],
-                [
-                  [
-                    "^",
-                    "ylee",
-                    "LEE",
-                    "YUNGCHIANG",
-                    null,
-                    null,
-                    null,
-                    null
-                  ]
-                ],
-                [
-                  [
-                    "^",
-                    null,
-                    "WALKER",
-                    "CHERYL",
-                    null,
-                    null,
-                    null,
-                    "Sched/Transcription"
-                  ]
-                ],
-                [
-                  "^",
-                  "20111115081000"
-                ]
+                {
+                  "0": "^",
+                  "1": "20111115081000"
+                }
               ],
               "OBSERVATION": [
                 {
@@ -1704,18 +1704,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "SCREENING LUNG"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -1730,18 +1730,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "From : Alphonsus Regional Center"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -1756,18 +1756,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "2, Saint Alphonsus Gem State"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -1782,18 +1782,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "Medical Center Radiolgy"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -1808,18 +1808,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "BAKER CHTY"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -1834,18 +1834,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "Patient: - DOB: - EMPI: - visitiAcct: sassassam. 3 Site:"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -1860,18 +1860,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "PTIMOD: - MiFN:"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -1886,18 +1886,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "3 Ref. Prov: Exam: - Room/Bed: CTB Add. Providers:"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -1912,18 +1912,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "SCREENING LUNG \""
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -1938,18 +1938,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "ΕΧΑΜΙ DΑΤΕ: 6/16/2015 13:45 Contrast/Isotope: None"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -1964,18 +1964,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "PROCEDURE: CT LUNG LOW DOSE CA SCREENING"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -1990,18 +1990,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "COMPARISON: None."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2016,18 +2016,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "INDICATIONS: 64 year old former smoker with 50 pack year history of smoking. Quit April 2015."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2042,18 +2042,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "PQRS QUALITY INFORMATION:"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2068,18 +2068,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "EXAM COUNT: 0 CT exams and 0 NM Myocardial Perfusion exams in past 12 months."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2094,18 +2094,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "DATA AVAILABILITY: Dicom format image data is available to non-affiliated external entities on secure, media free, reciprocally searchable basis for 12"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2120,18 +2120,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "month period of time after the study."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2146,18 +2146,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "DATA SEARCH. A search was conducted for prior patient CT exams performed at an external facility within 12 months prior to the imaging study being"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2172,18 +2172,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "performed, and is available through a secure, authorized, media free, shared archive."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2198,18 +2198,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "CT DOSE REGISTRY: CT study data has been reported to a CT Radiation Dose Index Registry containing all minimum necessary data elements."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2224,18 +2224,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "Total Dose Length Product (DLP in mGy-cm): 38.50"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2250,18 +2250,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "TECHNIQUE: CT images of the lungs were obtained without intravenous contrast and utilizing a very low dose technique."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2276,18 +2276,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "LUNG FINDINGS:"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2302,18 +2302,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "NODULES: Noncalcified linear focus in the lateral basilar right lower lobe seen on series 9"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2328,18 +2328,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "image 185 measures 0.3 x 0.2 cm. Punctate calcified nodule in the lingula seen on series 9 image 175. Calcified nodule noted in the apical posterior segment left upper lobe, series 9 image 79."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2354,18 +2354,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "LUNG PARENCHYMA: Within normal limits."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2380,18 +2380,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "OTHER FINDINGS:"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2406,18 +2406,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "HEART: Within normal limits. MEDIASTINUM/HILA: Within normal limits. VASCULATURE: Within normal limits. PLEURAL SPACE: Within normal limits."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2432,18 +2432,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "CHEST WALL/AXILLA: Within normal limits. LTD, UPPER ABDOMEN: Within normal limits. MUSCULOSKELETAL: Normal for age. ADIOT\"L COMMENTS: None."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2458,18 +2458,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "CONCLUSION: Solitary linear noncalcified right lower lobe pulmonary nodule measures less than 4 mm"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2484,18 +2484,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "average diameter and demonstrates benign pattern morphology."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2510,18 +2510,18 @@
                     "OBX",
                     null,
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "RECOMMENDATION: LungPADS 1 - follow up low dose chest CT in 1 year."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null

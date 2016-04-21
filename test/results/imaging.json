@@ -5,36 +5,36 @@
         "MSH",
         "^",
         "RISOC",
-        [
-          "^",
-          "001"
-        ],
-        [
-          "^",
-          "MS4OC"
-        ],
-        [
-          "^",
-          "001"
-        ],
-        [
-          "^",
-          "20111115200643"
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": "001"
+        },
+        {
+          "0": "^",
+          "1": "MS4OC"
+        },
+        {
+          "0": "^",
+          "1": "001"
+        },
+        {
+          "0": "^",
+          "1": "20111115200643"
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         "ORU^R01",
-        [
-          "^",
-          "30004"
-        ],
+        {
+          "0": "^",
+          "1": "30004"
+        },
         "T",
-        [
-          "^",
-          "2.3"
-        ],
+        {
+          "0": "^",
+          "1": "2.3"
+        },
         null,
         null,
         null,
@@ -45,421 +45,421 @@
       [
         "PID",
         "1",
+        {
+          "0": "^",
+          "1": null
+        },
         [
-          "^",
-          null
+          {
+            "0": "^",
+            "1": "160922",
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": "VHH"
+          }
         ],
-        [
-          [
-            "^",
-            "160922",
-            null,
-            null,
-            null,
-            null,
-            "VHH"
-          ]
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          "SENGUL",
-          "ISO",
-          null,
-          null,
-          null,
-          null
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          "19201214"
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": "SENGUL",
+          "2": "ISO",
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": "19201214"
+        },
         "M",
         [
-          [
-            "^",
-            null
-          ]
+          {
+            "0": "^",
+            "1": null
+          }
         ],
         "C^CAUCASIAN NON-HISPANIC",
         [
-          [
-            "^",
-            "3347 RETA ST",
-            null,
-            "LACRESCENTA",
-            "CA",
-            "91214",
-            null
-          ]
+          {
+            "0": "^",
+            "1": "3347 RETA ST",
+            "2": null,
+            "3": "LACRESCENTA",
+            "4": "CA",
+            "5": "91214",
+            "6": null
+          }
         ],
         null,
         [
-          [
-            "^",
-            "(818)249-7031",
-            "PRN"
-          ]
+          {
+            "0": "^",
+            "1": "(818)249-7031",
+            "2": "PRN"
+          }
         ],
         [
-          [
-            "^",
-            null
-          ]
+          {
+            "0": "^",
+            "1": null
+          }
         ],
-        [
-          "^",
-          "ARM",
-          "ARMENIAN"
-        ],
+        {
+          "0": "^",
+          "1": "ARM",
+          "2": "ARMENIAN"
+        },
         [
           null
         ],
         null,
-        [
-          "^",
-          "16732000"
-        ],
+        {
+          "0": "^",
+          "1": "16732000"
+        },
         "605-50-6261",
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         null,
         null,
         null,
         null,
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         "N"
       ],
       [
         "PV1",
         "1",
         "I",
+        {
+          "0": "^",
+          "1": null,
+          "2": "5SOUT518A",
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": "5 South"
+        },
+        null,
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": "80231",
+          "2": "GANDHI",
+          "3": "DEVINDER",
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": "MD",
+          "8": null,
+          "9": "NPI&1467492371"
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         [
-          "^",
-          null,
-          "5SOUT518A",
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          "5 South"
+          {
+            "0": "^",
+            "1": null
+          }
         ],
         null,
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          "80231",
-          "GANDHI",
-          "DEVINDER",
-          null,
-          null,
-          null,
-          "MD",
-          null,
-          "NPI&1467492371"
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          [
-            "^",
-            null
-          ]
-        ],
-        null,
-        [
-          "^",
-          null
-        ],
-        null,
-        null,
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         null,
         null,
-        [
-          "^",
-          null
-        ],
-        null,
-        [
-          "^",
-          null
-        ],
-        [
-          [
-            "^",
-            null
-          ]
-        ],
         null,
         null,
+        {
+          "0": "^",
+          "1": null
+        },
         null,
+        {
+          "0": "^",
+          "1": null
+        },
         [
-          null
+          {
+            "0": "^",
+            "1": null
+          }
         ],
-        [
-          null
-        ],
+        null,
+        null,
+        null,
         [
           null
         ],
         [
           null
         ],
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         [
-          "^",
+          null
+        ],
+        [
           null
         ],
         null,
         null,
         null,
         null,
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          "20111113170200"
-        ]
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "0": "^",
+          "1": null
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": "20111113170200"
+        }
       ],
       [
         "OBR",
         "1",
         [
-          [
-            "^",
-            "00045"
-          ]
+          {
+            "0": "^",
+            "1": "00045"
+          }
         ],
+        {
+          "0": "^",
+          "1": "1000718"
+        },
+        {
+          "0": "^",
+          "1": "4550422",
+          "2": "CT ANGIO NECK W WO CON",
+          "3": null,
+          "4": "AGNKCOM"
+        },
+        null,
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": "20111115160900"
+        },
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         [
-          "^",
-          "1000718"
-        ],
-        [
-          "^",
-          "4550422",
-          "CT ANGIO NECK W WO CON",
-          null,
-          "AGNKCOM"
+          {
+            "0": "^",
+            "1": null
+          }
         ],
         null,
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          "20111115160900"
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          "^",
-          null
-        ],
-        [
-          [
-            "^",
-            null
-          ]
-        ],
-        null,
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         "SYNCOPE ELEVATED D DIMER CHEST PAIN",
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         [
-          "^",
-          null
+          {
+            "0": "^",
+            "1": "20222",
+            "2": "PEREYRA",
+            "3": "ROBERT",
+            "4": "W",
+            "5": null,
+            "6": null,
+            "7": "MD",
+            "8": null,
+            "9": "NPI&1841336138"
+          }
         ],
         [
-          "^",
-          null
-        ],
-        [
-          [
-            "^",
-            "20222",
-            "PEREYRA",
-            "ROBERT",
-            "W",
-            null,
-            null,
-            "MD",
-            null,
-            "NPI&1841336138"
-          ]
-        ],
-        [
-          [
-            "^",
-            null
-          ]
+          {
+            "0": "^",
+            "1": null
+          }
         ],
         null,
         null,
         null,
         null,
-        [
-          "^",
-          "20111115200600"
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": "20111115200600"
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         "CT^Computed Tomography",
         "P",
+        {
+          "0": "^",
+          "1": null
+        },
+        {
+          "0": "^",
+          "1": null,
+          "2": null,
+          "3": "30",
+          "4": "20111115094822",
+          "5": null,
+          "6": "9"
+        },
         [
-          "^",
-          null
+          {
+            "0": "^",
+            "1": null
+          }
         ],
-        [
-          "^",
-          null,
-          null,
-          "30",
-          "20111115094822",
-          null,
-          "9"
-        ],
-        [
-          [
-            "^",
-            null
-          ]
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         "AMB^Ambulatory",
         [
-          [
-            "^",
-            null
-          ]
+          {
+            "0": "^",
+            "1": null
+          }
+        ],
+        {
+          "0": "^",
+          "1": "34831",
+          "2": "PATEL",
+          "3": "SAMEER",
+          "4": "A",
+          "5": null,
+          "6": null,
+          "7": "MD",
+          "8": null,
+          "9": "NPI&1508081530"
+        },
+        [
+          {
+            "0": "^",
+            "1": null
+          },
+          {
+            "0": "^",
+            "1": null
+          }
         ],
         [
-          "^",
-          "34831",
-          "PATEL",
-          "SAMEER",
-          "A",
-          null,
-          null,
-          "MD",
-          null,
-          "NPI&1508081530"
+          {
+            "0": "^",
+            "1": "ylee",
+            "2": "LEE",
+            "3": "YUNGCHIANG",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null
+          }
         ],
         [
-          [
-            "^",
-            null
-          ],
-          [
-            "^",
-            null
-          ]
+          {
+            "0": "^",
+            "1": null,
+            "2": "WALKER",
+            "3": "CHERYL",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": "Sched/Transcription"
+          }
         ],
-        [
-          [
-            "^",
-            "ylee",
-            "LEE",
-            "YUNGCHIANG",
-            null,
-            null,
-            null,
-            null
-          ]
-        ],
-        [
-          [
-            "^",
-            null,
-            "WALKER",
-            "CHERYL",
-            null,
-            null,
-            null,
-            "Sched/Transcription"
-          ]
-        ],
-        [
-          "^",
-          "20111115081000"
-        ]
+        {
+          "0": "^",
+          "1": "20111115081000"
+        }
       ],
       [
         "OBX",
         "2",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "EXAMINATION"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -472,18 +472,18 @@
         "OBX",
         "3",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -496,18 +496,18 @@
         "OBX",
         "4",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "CT ANGIO NECK W WO CON"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -520,18 +520,18 @@
         "OBX",
         "5",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -544,18 +544,18 @@
         "OBX",
         "6",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -568,18 +568,18 @@
         "OBX",
         "7",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "CLINICAL HISTORY NODULE SIZE: 3 "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -592,18 +592,18 @@
         "OBX",
         "8",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "Chest pain, syncope and dizziness.  Rule out carotid stenosis."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -616,18 +616,18 @@
         "OBX",
         "9",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -640,18 +640,18 @@
         "OBX",
         "10",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -664,18 +664,18 @@
         "OBX",
         "11",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "COMPARISON"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -688,18 +688,18 @@
         "OBX",
         "12",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "No comparison available."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -712,18 +712,18 @@
         "OBX",
         "13",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -736,18 +736,18 @@
         "OBX",
         "14",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -760,18 +760,18 @@
         "OBX",
         "15",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "TECHNIQUE"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -784,18 +784,18 @@
         "OBX",
         "16",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "CT angiography of the neck was performed and supplemented with "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -808,18 +808,18 @@
         "OBX",
         "17",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "coronal, sagittal, MIP, surface rendered and 3D rotating "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -832,18 +832,18 @@
         "OBX",
         "18",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "reconstructions."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -856,18 +856,18 @@
         "OBX",
         "19",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -880,18 +880,18 @@
         "OBX",
         "20",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "Contrast Agent ISOVUE 370 100 milliliter 11/15/2011 INTRAVENOUS"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -904,18 +904,18 @@
         "OBX",
         "21",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -928,18 +928,18 @@
         "OBX",
         "22",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -952,18 +952,18 @@
         "OBX",
         "23",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "FINDINGS"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -976,18 +976,18 @@
         "OBX",
         "24",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "Incidentally noted is a bovine arch variant. There is mild tortuosity "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1000,18 +1000,18 @@
         "OBX",
         "25",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "and kinking of the proximal great vessels without significant ostial "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1024,18 +1024,18 @@
         "OBX",
         "26",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "stenosis."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1048,18 +1048,18 @@
         "OBX",
         "27",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1072,18 +1072,18 @@
         "OBX",
         "28",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "RIGHT CAROTID ARTERY:  The right common and internal carotid arteries "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1096,18 +1096,18 @@
         "OBX",
         "29",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "are normal in course and caliber without aneurysmal dilatation or "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1120,18 +1120,18 @@
         "OBX",
         "30",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "dissection.  The carotid bifurcation is widely patent. There is very "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1144,18 +1144,18 @@
         "OBX",
         "31",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "mild focal short-segment narrowing of the proximal internal carotid "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1168,18 +1168,18 @@
         "OBX",
         "32",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "artery with less than 10% stenosis.  The external carotid artery is "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1192,18 +1192,18 @@
         "OBX",
         "33",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "widely patent and well-opacified as well."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1216,18 +1216,18 @@
         "OBX",
         "34",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1240,18 +1240,18 @@
         "OBX",
         "35",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "LEFT CAROTID ARTERY:  The left common carotid artery is normal in "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1264,18 +1264,18 @@
         "OBX",
         "36",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "course and caliber without aneurysmal dilatation or dissection.  The "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1288,18 +1288,18 @@
         "OBX",
         "37",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "carotid bifurcation is patent.  There is a moderate-length high-grade "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1312,18 +1312,18 @@
         "OBX",
         "38",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "stenosis of the proximal left internal carotid artery with "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1336,18 +1336,18 @@
         "OBX",
         "39",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "circumferential mural thrombus noted best on axial and sagittal "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1360,18 +1360,18 @@
         "OBX",
         "40",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "imaging.  This results in approximately 75% narrowing over a 2 cm "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1384,18 +1384,18 @@
         "OBX",
         "41",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "length segment. The distal internal carotid artery is unremarkable.  "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1408,18 +1408,18 @@
         "OBX",
         "42",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "The origin of the external carotid artery is widely patent without "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1432,18 +1432,18 @@
         "OBX",
         "43",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "abnormality."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1456,18 +1456,18 @@
         "OBX",
         "44",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1480,18 +1480,18 @@
         "OBX",
         "45",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "VERTEBROBASILAR SYSTEM: The origin of both vertebral arteries are "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1504,18 +1504,18 @@
         "OBX",
         "46",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "patent.  Incidentally noted is a dominant left vertebral artery with "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1528,18 +1528,18 @@
         "OBX",
         "47",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "diffuse attenuation of the right vertebral artery.  The vertebral "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1552,18 +1552,18 @@
         "OBX",
         "48",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "confluence and proximal basilar artery are unremarkable."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1576,18 +1576,18 @@
         "OBX",
         "49",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1600,18 +1600,18 @@
         "OBX",
         "50",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1624,18 +1624,18 @@
         "OBX",
         "51",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "IMPRESSION"
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1648,18 +1648,18 @@
         "OBX",
         "52",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "1. LEFT INTERNAL CAROTID ARTERY:  Long-segment high-grade stenosis of "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1672,18 +1672,18 @@
         "OBX",
         "53",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "the proximal ICA with approximately 75% narrowing.  Correlation with "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1696,18 +1696,18 @@
         "OBX",
         "54",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "carotid ultrasound is needed."
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1720,18 +1720,18 @@
         "OBX",
         "55",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           null
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1744,18 +1744,18 @@
         "OBX",
         "56",
         "FT",
-        [
-          "^",
-          "AGNKCOM&GDT"
-        ],
+        {
+          "0": "^",
+          "1": "AGNKCOM&GDT"
+        },
         null,
         [
           "2. RIGHT INTERNAL CAROTID ARTERY: No significant stenosis. "
         ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": null
+        },
         null,
         [
           null
@@ -1768,34 +1768,34 @@
         "DG1",
         "1",
         null,
-        [
-          "^",
-          "784.3",
-          "APHASIA",
-          "I9C"
-        ],
+        {
+          "0": "^",
+          "1": "784.3",
+          "2": "APHASIA",
+          "3": "I9C"
+        },
         null,
-        [
-          "^",
-          "200750816"
-        ],
+        {
+          "0": "^",
+          "1": "200750816"
+        },
         "A"
       ],
       [
         "DG1",
         "2",
         null,
-        [
-          "^",
-          "535.61",
-          "DUODENITIS W/HEMORRHAGE",
-          "I9C"
-        ],
+        {
+          "0": "^",
+          "1": "535.61",
+          "2": "DUODENITIS W/HEMORRHAGE",
+          "3": "I9C"
+        },
         null,
-        [
-          "^",
-          "200750816"
-        ],
+        {
+          "0": "^",
+          "1": "200750816"
+        },
         "F"
       ]
     ],
@@ -1809,36 +1809,36 @@
         "MSH",
         "^",
         "RISOC",
-        [
-          "^",
-          "001"
-        ],
-        [
-          "^",
-          "MS4OC"
-        ],
-        [
-          "^",
-          "001"
-        ],
-        [
-          "^",
-          "20111115200643"
-        ],
-        [
-          "^",
-          null
-        ],
+        {
+          "0": "^",
+          "1": "001"
+        },
+        {
+          "0": "^",
+          "1": "MS4OC"
+        },
+        {
+          "0": "^",
+          "1": "001"
+        },
+        {
+          "0": "^",
+          "1": "20111115200643"
+        },
+        {
+          "0": "^",
+          "1": null
+        },
         "ORU^R01",
-        [
-          "^",
-          "30004"
-        ],
+        {
+          "0": "^",
+          "1": "30004"
+        },
         "T",
-        [
-          "^",
-          "2.3"
-        ],
+        {
+          "0": "^",
+          "1": "2.3"
+        },
         null,
         null,
         null,
@@ -1852,114 +1852,114 @@
             "PID": [
               "PID",
               "1",
+              {
+                "0": "^",
+                "1": null
+              },
               [
-                "^",
-                null
+                {
+                  "0": "^",
+                  "1": "160922",
+                  "2": null,
+                  "3": null,
+                  "4": null,
+                  "5": null,
+                  "6": "VHH"
+                }
               ],
-              [
-                [
-                  "^",
-                  "160922",
-                  null,
-                  null,
-                  null,
-                  null,
-                  "VHH"
-                ]
-              ],
-              [
-                "^",
-                null
-              ],
-              [
-                "^",
-                "SENGUL",
-                "ISO",
-                null,
-                null,
-                null,
-                null
-              ],
-              [
-                "^",
-                null
-              ],
-              [
-                "^",
-                "19201214"
-              ],
+              {
+                "0": "^",
+                "1": null
+              },
+              {
+                "0": "^",
+                "1": "SENGUL",
+                "2": "ISO",
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null
+              },
+              {
+                "0": "^",
+                "1": null
+              },
+              {
+                "0": "^",
+                "1": "19201214"
+              },
               "M",
               [
-                [
-                  "^",
-                  null
-                ]
+                {
+                  "0": "^",
+                  "1": null
+                }
               ],
               "C^CAUCASIAN NON-HISPANIC",
               [
-                [
-                  "^",
-                  "3347 RETA ST",
-                  null,
-                  "LACRESCENTA",
-                  "CA",
-                  "91214",
-                  null
-                ]
+                {
+                  "0": "^",
+                  "1": "3347 RETA ST",
+                  "2": null,
+                  "3": "LACRESCENTA",
+                  "4": "CA",
+                  "5": "91214",
+                  "6": null
+                }
               ],
               null,
               [
-                [
-                  "^",
-                  "(818)249-7031",
-                  "PRN"
-                ]
+                {
+                  "0": "^",
+                  "1": "(818)249-7031",
+                  "2": "PRN"
+                }
               ],
               [
-                [
-                  "^",
-                  null
-                ]
+                {
+                  "0": "^",
+                  "1": null
+                }
               ],
-              [
-                "^",
-                "ARM",
-                "ARMENIAN"
-              ],
+              {
+                "0": "^",
+                "1": "ARM",
+                "2": "ARMENIAN"
+              },
               [
                 null
               ],
               null,
-              [
-                "^",
-                "16732000"
-              ],
+              {
+                "0": "^",
+                "1": "16732000"
+              },
               "605-50-6261",
-              [
-                "^",
-                null
-              ],
-              [
-                "^",
-                null
-              ],
+              {
+                "0": "^",
+                "1": null
+              },
+              {
+                "0": "^",
+                "1": null
+              },
               null,
               null,
               null,
               null,
               null,
-              [
-                "^",
-                null
-              ],
-              [
-                "^",
-                null
-              ],
-              [
-                "^",
-                null
-              ],
+              {
+                "0": "^",
+                "1": null
+              },
+              {
+                "0": "^",
+                "1": null
+              },
+              {
+                "0": "^",
+                "1": null
+              },
               "N"
             ],
             "VISIT": {
@@ -1967,118 +1967,118 @@
                 "PV1",
                 "1",
                 "I",
+                {
+                  "0": "^",
+                  "1": null,
+                  "2": "5SOUT518A",
+                  "3": null,
+                  "4": null,
+                  "5": null,
+                  "6": null,
+                  "7": null,
+                  "8": null,
+                  "9": "5 South"
+                },
+                null,
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": "80231",
+                  "2": "GANDHI",
+                  "3": "DEVINDER",
+                  "4": null,
+                  "5": null,
+                  "6": null,
+                  "7": "MD",
+                  "8": null,
+                  "9": "NPI&1467492371"
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
                 [
-                  "^",
-                  null,
-                  "5SOUT518A",
-                  null,
-                  null,
-                  null,
-                  null,
-                  null,
-                  null,
-                  "5 South"
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
                 null,
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  "80231",
-                  "GANDHI",
-                  "DEVINDER",
-                  null,
-                  null,
-                  null,
-                  "MD",
-                  null,
-                  "NPI&1467492371"
-                ],
-                [
-                  "^",
-                  null
-                ],
-                [
-                  [
-                    "^",
-                    null
-                  ]
-                ],
-                null,
-                [
-                  "^",
-                  null
-                ],
-                null,
-                null,
+                {
+                  "0": "^",
+                  "1": null
+                },
                 null,
                 null,
                 null,
-                [
-                  "^",
-                  null
-                ],
-                null,
-                [
-                  "^",
-                  null
-                ],
-                [
-                  [
-                    "^",
-                    null
-                  ]
-                ],
                 null,
                 null,
+                {
+                  "0": "^",
+                  "1": null
+                },
                 null,
+                {
+                  "0": "^",
+                  "1": null
+                },
                 [
-                  null
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
-                [
-                  null
-                ],
+                null,
+                null,
+                null,
                 [
                   null
                 ],
                 [
                   null
                 ],
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 [
-                  "^",
+                  null
+                ],
+                [
                   null
                 ],
                 null,
                 null,
                 null,
                 null,
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  "20111113170200"
-                ]
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "0": "^",
+                  "1": null
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": "20111113170200"
+                }
               ]
             }
           },
@@ -2088,173 +2088,173 @@
                 "OBR",
                 "1",
                 [
-                  [
-                    "^",
-                    "00045"
-                  ]
+                  {
+                    "0": "^",
+                    "1": "00045"
+                  }
                 ],
+                {
+                  "0": "^",
+                  "1": "1000718"
+                },
+                {
+                  "0": "^",
+                  "1": "4550422",
+                  "2": "CT ANGIO NECK W WO CON",
+                  "3": null,
+                  "4": "AGNKCOM"
+                },
+                null,
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": "20111115160900"
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
                 [
-                  "^",
-                  "1000718"
-                ],
-                [
-                  "^",
-                  "4550422",
-                  "CT ANGIO NECK W WO CON",
-                  null,
-                  "AGNKCOM"
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
                 null,
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  "20111115160900"
-                ],
-                [
-                  "^",
-                  null
-                ],
-                [
-                  "^",
-                  null
-                ],
-                [
-                  [
-                    "^",
-                    null
-                  ]
-                ],
-                null,
-                [
-                  "^",
-                  null
-                ],
+                {
+                  "0": "^",
+                  "1": null
+                },
                 "SYNCOPE ELEVATED D DIMER CHEST PAIN",
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
                 [
-                  "^",
-                  null
+                  {
+                    "0": "^",
+                    "1": "20222",
+                    "2": "PEREYRA",
+                    "3": "ROBERT",
+                    "4": "W",
+                    "5": null,
+                    "6": null,
+                    "7": "MD",
+                    "8": null,
+                    "9": "NPI&1841336138"
+                  }
                 ],
                 [
-                  "^",
-                  null
-                ],
-                [
-                  [
-                    "^",
-                    "20222",
-                    "PEREYRA",
-                    "ROBERT",
-                    "W",
-                    null,
-                    null,
-                    "MD",
-                    null,
-                    "NPI&1841336138"
-                  ]
-                ],
-                [
-                  [
-                    "^",
-                    null
-                  ]
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
                 null,
                 null,
                 null,
                 null,
-                [
-                  "^",
-                  "20111115200600"
-                ],
-                [
-                  "^",
-                  null
-                ],
+                {
+                  "0": "^",
+                  "1": "20111115200600"
+                },
+                {
+                  "0": "^",
+                  "1": null
+                },
                 "CT^Computed Tomography",
                 "P",
+                {
+                  "0": "^",
+                  "1": null
+                },
+                {
+                  "0": "^",
+                  "1": null,
+                  "2": null,
+                  "3": "30",
+                  "4": "20111115094822",
+                  "5": null,
+                  "6": "9"
+                },
                 [
-                  "^",
-                  null
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
-                [
-                  "^",
-                  null,
-                  null,
-                  "30",
-                  "20111115094822",
-                  null,
-                  "9"
-                ],
-                [
-                  [
-                    "^",
-                    null
-                  ]
-                ],
-                [
-                  "^",
-                  null
-                ],
+                {
+                  "0": "^",
+                  "1": null
+                },
                 "AMB^Ambulatory",
                 [
-                  [
-                    "^",
-                    null
-                  ]
+                  {
+                    "0": "^",
+                    "1": null
+                  }
+                ],
+                {
+                  "0": "^",
+                  "1": "34831",
+                  "2": "PATEL",
+                  "3": "SAMEER",
+                  "4": "A",
+                  "5": null,
+                  "6": null,
+                  "7": "MD",
+                  "8": null,
+                  "9": "NPI&1508081530"
+                },
+                [
+                  {
+                    "0": "^",
+                    "1": null
+                  },
+                  {
+                    "0": "^",
+                    "1": null
+                  }
                 ],
                 [
-                  "^",
-                  "34831",
-                  "PATEL",
-                  "SAMEER",
-                  "A",
-                  null,
-                  null,
-                  "MD",
-                  null,
-                  "NPI&1508081530"
+                  {
+                    "0": "^",
+                    "1": "ylee",
+                    "2": "LEE",
+                    "3": "YUNGCHIANG",
+                    "4": null,
+                    "5": null,
+                    "6": null,
+                    "7": null
+                  }
                 ],
                 [
-                  [
-                    "^",
-                    null
-                  ],
-                  [
-                    "^",
-                    null
-                  ]
+                  {
+                    "0": "^",
+                    "1": null,
+                    "2": "WALKER",
+                    "3": "CHERYL",
+                    "4": null,
+                    "5": null,
+                    "6": null,
+                    "7": "Sched/Transcription"
+                  }
                 ],
-                [
-                  [
-                    "^",
-                    "ylee",
-                    "LEE",
-                    "YUNGCHIANG",
-                    null,
-                    null,
-                    null,
-                    null
-                  ]
-                ],
-                [
-                  [
-                    "^",
-                    null,
-                    "WALKER",
-                    "CHERYL",
-                    null,
-                    null,
-                    null,
-                    "Sched/Transcription"
-                  ]
-                ],
-                [
-                  "^",
-                  "20111115081000"
-                ]
+                {
+                  "0": "^",
+                  "1": "20111115081000"
+                }
               ],
               "OBSERVATION": [
                 {
@@ -2262,18 +2262,18 @@
                     "OBX",
                     "2",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "EXAMINATION"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2288,18 +2288,18 @@
                     "OBX",
                     "3",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2314,18 +2314,18 @@
                     "OBX",
                     "4",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "CT ANGIO NECK W WO CON"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2340,18 +2340,18 @@
                     "OBX",
                     "5",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2366,18 +2366,18 @@
                     "OBX",
                     "6",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2392,18 +2392,18 @@
                     "OBX",
                     "7",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "CLINICAL HISTORY NODULE SIZE: 3 "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2418,18 +2418,18 @@
                     "OBX",
                     "8",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "Chest pain, syncope and dizziness.  Rule out carotid stenosis."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2444,18 +2444,18 @@
                     "OBX",
                     "9",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2470,18 +2470,18 @@
                     "OBX",
                     "10",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2496,18 +2496,18 @@
                     "OBX",
                     "11",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "COMPARISON"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2522,18 +2522,18 @@
                     "OBX",
                     "12",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "No comparison available."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2548,18 +2548,18 @@
                     "OBX",
                     "13",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2574,18 +2574,18 @@
                     "OBX",
                     "14",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2600,18 +2600,18 @@
                     "OBX",
                     "15",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "TECHNIQUE"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2626,18 +2626,18 @@
                     "OBX",
                     "16",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "CT angiography of the neck was performed and supplemented with "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2652,18 +2652,18 @@
                     "OBX",
                     "17",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "coronal, sagittal, MIP, surface rendered and 3D rotating "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2678,18 +2678,18 @@
                     "OBX",
                     "18",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "reconstructions."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2704,18 +2704,18 @@
                     "OBX",
                     "19",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2730,18 +2730,18 @@
                     "OBX",
                     "20",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "Contrast Agent ISOVUE 370 100 milliliter 11/15/2011 INTRAVENOUS"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2756,18 +2756,18 @@
                     "OBX",
                     "21",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2782,18 +2782,18 @@
                     "OBX",
                     "22",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2808,18 +2808,18 @@
                     "OBX",
                     "23",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "FINDINGS"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2834,18 +2834,18 @@
                     "OBX",
                     "24",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "Incidentally noted is a bovine arch variant. There is mild tortuosity "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2860,18 +2860,18 @@
                     "OBX",
                     "25",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "and kinking of the proximal great vessels without significant ostial "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2886,18 +2886,18 @@
                     "OBX",
                     "26",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "stenosis."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2912,18 +2912,18 @@
                     "OBX",
                     "27",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2938,18 +2938,18 @@
                     "OBX",
                     "28",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "RIGHT CAROTID ARTERY:  The right common and internal carotid arteries "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2964,18 +2964,18 @@
                     "OBX",
                     "29",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "are normal in course and caliber without aneurysmal dilatation or "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -2990,18 +2990,18 @@
                     "OBX",
                     "30",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "dissection.  The carotid bifurcation is widely patent. There is very "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3016,18 +3016,18 @@
                     "OBX",
                     "31",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "mild focal short-segment narrowing of the proximal internal carotid "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3042,18 +3042,18 @@
                     "OBX",
                     "32",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "artery with less than 10% stenosis.  The external carotid artery is "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3068,18 +3068,18 @@
                     "OBX",
                     "33",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "widely patent and well-opacified as well."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3094,18 +3094,18 @@
                     "OBX",
                     "34",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3120,18 +3120,18 @@
                     "OBX",
                     "35",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "LEFT CAROTID ARTERY:  The left common carotid artery is normal in "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3146,18 +3146,18 @@
                     "OBX",
                     "36",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "course and caliber without aneurysmal dilatation or dissection.  The "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3172,18 +3172,18 @@
                     "OBX",
                     "37",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "carotid bifurcation is patent.  There is a moderate-length high-grade "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3198,18 +3198,18 @@
                     "OBX",
                     "38",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "stenosis of the proximal left internal carotid artery with "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3224,18 +3224,18 @@
                     "OBX",
                     "39",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "circumferential mural thrombus noted best on axial and sagittal "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3250,18 +3250,18 @@
                     "OBX",
                     "40",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "imaging.  This results in approximately 75% narrowing over a 2 cm "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3276,18 +3276,18 @@
                     "OBX",
                     "41",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "length segment. The distal internal carotid artery is unremarkable.  "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3302,18 +3302,18 @@
                     "OBX",
                     "42",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "The origin of the external carotid artery is widely patent without "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3328,18 +3328,18 @@
                     "OBX",
                     "43",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "abnormality."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3354,18 +3354,18 @@
                     "OBX",
                     "44",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3380,18 +3380,18 @@
                     "OBX",
                     "45",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "VERTEBROBASILAR SYSTEM: The origin of both vertebral arteries are "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3406,18 +3406,18 @@
                     "OBX",
                     "46",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "patent.  Incidentally noted is a dominant left vertebral artery with "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3432,18 +3432,18 @@
                     "OBX",
                     "47",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "diffuse attenuation of the right vertebral artery.  The vertebral "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3458,18 +3458,18 @@
                     "OBX",
                     "48",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "confluence and proximal basilar artery are unremarkable."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3484,18 +3484,18 @@
                     "OBX",
                     "49",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3510,18 +3510,18 @@
                     "OBX",
                     "50",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3536,18 +3536,18 @@
                     "OBX",
                     "51",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "IMPRESSION"
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3562,18 +3562,18 @@
                     "OBX",
                     "52",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "1. LEFT INTERNAL CAROTID ARTERY:  Long-segment high-grade stenosis of "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3588,18 +3588,18 @@
                     "OBX",
                     "53",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "the proximal ICA with approximately 75% narrowing.  Correlation with "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3614,18 +3614,18 @@
                     "OBX",
                     "54",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "carotid ultrasound is needed."
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3640,18 +3640,18 @@
                     "OBX",
                     "55",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       null
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
@@ -3666,18 +3666,18 @@
                     "OBX",
                     "56",
                     "FT",
-                    [
-                      "^",
-                      "AGNKCOM&GDT"
-                    ],
+                    {
+                      "0": "^",
+                      "1": "AGNKCOM&GDT"
+                    },
                     null,
                     [
                       "2. RIGHT INTERNAL CAROTID ARTERY: No significant stenosis. "
                     ],
-                    [
-                      "^",
-                      null
-                    ],
+                    {
+                      "0": "^",
+                      "1": null
+                    },
                     null,
                     [
                       null
