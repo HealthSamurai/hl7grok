@@ -26,7 +26,6 @@ deprefixGroupName = (name) ->
   name.replace(/^..._.\d\d_/, '')
 
 coerce = (value, typeId) ->
-  # TODO
   value
 
 _structurize = (meta, struct, message, segIdx) ->
@@ -293,6 +292,7 @@ parseComponents = (value, fieldId, meta, separators, options) ->
 exports =
   grok: parse
   structurize: structurize
+  getMeta: getMeta
 
 if typeof(module) != 'undefined'
   module.exports = exports
