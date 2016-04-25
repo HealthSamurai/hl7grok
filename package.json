@@ -2,6 +2,7 @@
   "name": "hl7grok",
   "version": "0.0.1",
   "dependencies": {
+    "lz-string": "latest"
   },
   "devDependencies": {
     "coffee-script": "latest",

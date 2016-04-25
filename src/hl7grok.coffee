@@ -1,10 +1,15 @@
-# There will be HL7_META variable after building single JS file
+# There will be HL7_META_BASE64 variable after building single JS file
+
+HL7_META = null;
 
 META_CACHE = {}
 getMeta = (hl7version) ->
   if META_CACHE[hl7version]
     META_CACHE[hl7version]
   else
+    if HL7_META == null
+      HL7_META = JSON.parse(LZString.decompressFromBase64(HL7_META_BASE64))
+
     parsed = JSON.parse(HL7_META["v" + hl7version.replace('.', '_')])
     META_CACHE[hl7version] = parsed
     parsed
