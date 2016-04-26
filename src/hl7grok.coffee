@@ -120,9 +120,8 @@ _structurize = (meta, struct, message, segIdx) ->
 
 structurize = (parsedMessage, options) ->
   msh = parsedMessage[0]
-  hl7version = msh[11][1]
-  messageType = msh[8]
-  # console.log("!!!", messageType, hl7version);
+  hl7version = if typeof(msh[12]) == 'string' then msh[12] else  msh[12][1]
+  messageType = msh[9][1] + "_" + msh[9][2]
 
   meta = getMeta(hl7version)
 
@@ -171,8 +170,11 @@ parse = (msg, options) ->
   segments = segments.filter (s) -> s.length > 0
   msh = segments[0].split(separators.field)
 
-  messageType = msh[8].split(separators.component)
-  hl7version = msh[11]
+  # fix MSH indexes (insert field separator at MSH.1)
+  msh.splice(1, 0, separators.field)
+
+  messageType = msh[9].split(separators.component)
+  hl7version = msh[12]
   meta = getMeta(hl7version)
 
   [message, errors] = parseSegments(segments, meta, separators, options)
@@ -191,6 +193,11 @@ parseSegments = (segments, meta, separators, options) ->
 
   for segment in segments
     rawFields = segment.split(separators.field)
+
+    # Thanks to HL7 committee for such amazing standard!
+    if rawFields[0] == 'MSH'
+      rawFields.splice(1, 0, separators.field)
+
     segmentName = rawFields.shift()
 
     [s, e] = parseFields(rawFields, segmentName, meta, separators, options)
@@ -210,40 +217,49 @@ parseFields = (fields, segmentName, meta, separators, options) ->
   for fieldValue, fieldIndex in fields
     fieldMeta = segmentMeta[1][fieldIndex]
 
-    if fieldMeta
-      fieldId = fieldMeta[0]
-      [fieldMin, fieldMax] = fieldMeta[1]
-      otherFieldMeta = meta.FIELDS[fieldMeta[0]]
-      fieldSymbolicName = otherFieldMeta[2]
-
-      if fieldMin == 1 && (!fieldValue || fieldValue == '')
-        errorMsg = "Missing value for required field #{fieldId}"
-        errors.push errorMsg
-
-      splitRegexp = new RegExp("(?!\\#{separators.escape})#{separators.repetition}")
-      fieldValues = fieldValue.split(splitRegexp).map (v) ->
-        [f, e] = parseComponents(v, fieldId, meta, separators, options)
-        errors = errors.concat(e)
-        f
-
-      if fieldMax == 1
-        # result.push fieldValues[0]
-        result[fieldIndex + 1] = fieldValues[0]
-      else if fieldMax == -1
-        # result.push fieldValues
-        result[fieldIndex + 1] = fieldValues
-      else
-        throw new Error("Bang! Unknown case for fieldMax: #{fieldMax}")
-    else
-      # result.push fieldValue
+    if segmentName == 'MSH' && fieldIndex == 1
       result[fieldIndex + 1] = fieldValue
+    else
+      if fieldMeta
+        fieldId = fieldMeta[0]
+        [fieldMin, fieldMax] = fieldMeta[1]
+        otherFieldMeta = meta.FIELDS[fieldMeta[0]]
+        fieldSymbolicName = otherFieldMeta[2]
 
-    # if options.symbolicNames && fieldSymbolicName
-    #   # MSH is always a special case, you know
-    #   if segmentName == 'MSH'
-    #     result[fieldSymbolicName] = result[fieldIndex]
-    #   else
-    #     result[fieldSymbolicName] = result[fieldIndex + 1]
+        if fieldMin == 1 && (!fieldValue || fieldValue == '')
+          errorMsg = "Missing value for required field #{fieldId}"
+          errors.push errorMsg
+
+        splitRegexp = new RegExp("(?!\\#{separators.escape})#{separators.repetition}")
+        fieldValues = fieldValue.split(splitRegexp).map (v) ->
+          if v == null || v == ""
+            v
+          else
+            [f, e] = parseComponents(v, fieldId, meta, separators, options)
+            errors = errors.concat(e)
+            f
+
+        if fieldMax == 1
+          # result.push fieldValues[0]
+          result[fieldIndex + 1] = fieldValues[0]
+        else if fieldMax == -1
+          # result.push fieldValues
+          if fieldValues.length == 1 && fieldValues[0] == ''
+            result[fieldIndex + 1] = []
+          else
+            result[fieldIndex + 1] = fieldValues
+        else
+          throw new Error("Bang! Unknown case for fieldMax: #{fieldMax}")
+      else
+        # result.push fieldValue
+        result[fieldIndex + 1] = fieldValue
+
+   # if options.symbolicNames && fieldSymbolicName
+   #   # MSH is always a special case, you know
+   #   if segmentName == 'MSH'
+   #     result[fieldSymbolicName] = result[fieldIndex]
+   #   else
+   #     result[fieldSymbolicName] = result[fieldIndex + 1]
 
    [replaceBlanksWithNulls(result), errors]
 
