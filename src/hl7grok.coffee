@@ -15,7 +15,7 @@ getMeta = (hl7version) ->
     if !meta
       throw new Error("No metainformation for HL7 v #{String(hl7version)}")
 
-    parsed = JSON.parse()
+    parsed = JSON.parse(meta)
     META_CACHE[hl7version] = parsed
     parsed
 
