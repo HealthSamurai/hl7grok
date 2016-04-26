@@ -10,7 +10,12 @@ getMeta = (hl7version) ->
     if HL7_META == null
       HL7_META = JSON.parse(LZString.decompressFromBase64(HL7_META_BASE64))
 
-    parsed = JSON.parse(HL7_META["v" + hl7version.replace('.', '_')])
+    meta = HL7_META["v" + hl7version.replace('.', '_')]
+
+    if !meta
+      throw new Error("No metainformation for HL7 v #{String(hl7version)}")
+
+    parsed = JSON.parse()
     META_CACHE[hl7version] = parsed
     parsed
 
