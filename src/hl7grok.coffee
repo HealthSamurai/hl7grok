@@ -150,11 +150,13 @@ validateOptions = (options) ->
     throw new Error("Unknown options key(s): #{errors.join(', ')}")
 
 parse = (msg, options) ->
+  errors = []
+
   if msg.substr(0, 3) != "MSH"
-    throw new Error("Message should start with MSH segment")
+    errors.push "Message should start with MSH segment"
 
   if msg.length < 8
-    throw new Error("Message is too short (MSH truncated)")
+    errors.push "Message is too short (MSH truncated)"
 
   options ?=
     strict: false
@@ -170,7 +172,6 @@ parse = (msg, options) ->
     repetition: msg[5]
     escape: msg[6]
 
-  errors = []
   segments = msg.split(separators.segment).map (s) -> s.trim()
   segments = segments.filter (s) -> s.length > 0
   msh = segments[0].split(separators.field)
