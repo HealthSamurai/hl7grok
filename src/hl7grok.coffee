@@ -164,29 +164,27 @@ parse = (msg, options) ->
 
   validateOptions(options)
 
-  separators =
-    segment: "\r" # TODO: should be \r
-    field: msg[3]
-    component: msg[4]
-    subcomponent: msg[7]
-    repetition: msg[5]
-    escape: msg[6]
+  if errors.length == 0
+    separators =
+      segment: "\r" # TODO: should be \r
+      field: msg[3]
+      component: msg[4]
+      subcomponent: msg[7]
+      repetition: msg[5]
+      escape: msg[6]
 
-  segments = msg.split(separators.segment).map (s) -> s.trim()
-  segments = segments.filter (s) -> s.length > 0
-  msh = segments[0].split(separators.field)
+    segments = msg.split(separators.segment).map (s) -> s.trim()
+    segments = segments.filter (s) -> s.length > 0
+    msh = segments[0].split(separators.field)
 
-  # fix MSH indexes (insert field separator at MSH.1)
-  msh.splice(1, 0, separators.field)
+    # fix MSH indexes (insert field separator at MSH.1)
+    msh.splice(1, 0, separators.field)
 
-  messageType = msh[9].split(separators.component)
-  hl7version = msh[12]
-  meta = getMeta(hl7version)
+    messageType = msh[9].split(separators.component)
+    hl7version = msh[12]
+    meta = getMeta(hl7version)
 
-  [message, errors] = parseSegments(segments, meta, separators, options)
-  # [message2, structErrors] = structurize(meta, message, messageType, options)
-
-  # errors = errors.concat(structErrors).concat(parseErrors)
+    [message, errors] = parseSegments(segments, meta, separators, options)
 
   if options.strict && errors.length > 0
     throw new Error("Errors during parsing an HL7 message:\n\n" + structErrors.join("\n"))
