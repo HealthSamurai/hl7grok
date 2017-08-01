@@ -126,9 +126,9 @@ _structurize = (meta, struct, message, segIdx) ->
 structurize = (parsedMessage, options) ->
   msh = parsedMessage[0]
 
-  hl7version = options.version
+  hl7version = options && options.version
 
-  if !version
+  if !hl7version
     hl7version = if typeof(msh[12]) == 'string' then msh[12] else msh[12][1]
 
   messageType = msh[9][1] + "_" + msh[9][2]
@@ -143,7 +143,7 @@ structurize = (parsedMessage, options) ->
     [result, lastSegIdx, errors] = _structurize(meta, struct, parsedMessage, 0)
     return [result, errors]
 
-VALID_OPTION_KEYS = ["strict", "symbolicNames"]
+VALID_OPTION_KEYS = ["strict", "symbolicNames", "version"]
 validateOptions = (options) ->
   errors = []
 
