@@ -125,7 +125,12 @@ _structurize = (meta, struct, message, segIdx) ->
 
 structurize = (parsedMessage, options) ->
   msh = parsedMessage[0]
-  hl7version = if typeof(msh[12]) == 'string' then msh[12] else  msh[12][1]
+
+  hl7version = options.version
+
+  if !version
+    hl7version = if typeof(msh[12]) == 'string' then msh[12] else msh[12][1]
+
   messageType = msh[9][1] + "_" + msh[9][2]
 
   meta = getMeta(hl7version)
@@ -181,7 +186,7 @@ parse = (msg, options) ->
     msh.splice(1, 0, separators.field)
 
     messageType = msh[9].split(separators.component)
-    hl7version = msh[12]
+    hl7version = options.version || msh[12]
     meta = getMeta(hl7version)
 
     [message, errors] = parseSegments(segments, meta, separators, options)
