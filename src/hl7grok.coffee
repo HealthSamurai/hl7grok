@@ -134,7 +134,7 @@ _structurize = (meta, struct, message, segIdx) ->
       # is optional
       if expSegMin == 1 # expected segment is required
         error = "Expected segment/group #{expSegName}, got #{thisSegName} at segment ##{segIdx}"
-        return [result, segIdx, subErrors.concat([error])]
+        return [null, segIdx, subErrors.concat([error])]
     else
       resultKey = deprefixGroupName(expSegName)
 
