@@ -2,6 +2,9 @@
 
 HL7_META = null;
 
+MESSAGE_TYPES_MAP =
+  ADT_A04: "ADT_A01"
+
 META_CACHE = {}
 getMeta = (hl7version) ->
   if META_CACHE[hl7version]
@@ -73,6 +76,7 @@ _structurize = (meta, struct, message, segIdx) ->
     # Expected segment name and cardinality
     expSegName = struct[1][structIdx][0]
     [expSegMin, expSegMax] = struct[1][structIdx][1]
+    zSegments = []
 
     # Trying to collect expSegMax occurences of expected segment
     # within loop above. This loop won't collect multiple segments if
@@ -86,6 +90,7 @@ _structurize = (meta, struct, message, segIdx) ->
         break
 
       thisSegName = message[segIdx][0]
+
       # console.log "Expecting #{expSegName}[#{expSegMin}..#{expSegMax}] at #{segIdx}, seeing #{thisSegName}"
 
       if collectedSegments.length == expSegMax && expSegMax == 1
@@ -112,6 +117,10 @@ _structurize = (meta, struct, message, segIdx) ->
           # console.log "got #{collectedSegments.length} #{expSegName} at #{segIdx}"
 
           segIdx = segIdx + 1
+        else if thisSegName[0] == 'Z'
+          # console.log "Skipping Z segment: #{thisSegName}"
+          zSegments.push message[segIdx]
+          segIdx = segIdx + 1
         else
           # no segments with expected name left,
           # we'll figure out if it's an error or not
@@ -125,13 +134,24 @@ _structurize = (meta, struct, message, segIdx) ->
       # is optional
       if expSegMin == 1 # expected segment is required
         error = "Expected segment/group #{expSegName}, got #{thisSegName} at segment ##{segIdx}"
-        return [null, segIdx, subErrors.concat([error])]
+        return [result, segIdx, subErrors.concat([error])]
     else
       resultKey = deprefixGroupName(expSegName)
 
       # if max cardinality = -1 then push collectedSegments as array
       resultValue = if expSegMax == 1 then collectedSegments[0] else collectedSegments
       result[resultKey] = resultValue
+
+      zSegments.forEach (seg) ->
+        # Yehal Greka cherez reku
+        if result[seg['0']]
+          if !Array.isArray(result[seg['0']])
+            result[seg['0']] = [result[seg['0']], seg]
+          else
+            result[seg['0']].push seg
+        else
+          result[seg['0']] = seg
+
 
     structIdx += 1
 
@@ -155,6 +175,7 @@ structurize = (parsedMessage, options) ->
     hl7version = if typeof(msh[12]) == 'string' then msh[12] else msh[12][1]
 
   messageType = msh[9][1] + "_" + msh[9][2]
+  messageType = MESSAGE_TYPES_MAP[messageType] || messageType
 
   meta = getMeta(hl7version)
 
