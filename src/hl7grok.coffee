@@ -22,6 +22,8 @@ getMeta = (hl7version) ->
 replaceBlanksWithNulls = (v) ->
   if Array.isArray(v)
     v.map (b) -> replaceBlanksWithNulls(b)
+  else if v instanceof Date
+    v
   else if typeof(v) == 'object'
     res = {}
     for a, b of v
@@ -36,7 +38,28 @@ deprefixGroupName = (name) ->
   name.replace(/^..._.\d\d_/, '')
 
 coerce = (value, typeId) ->
-  value
+  if typeId == 'TS' || typeId == 'DT'
+    v = if typeof value == 'string' then value else value['1']
+
+    if v.match(/^\d{4}/)
+      year = v[0...4]
+      month = v[4...6]
+      day = v[6...8]
+      hour = v[8...10]
+      minute = v[10...12]
+      second = v[12...14]
+
+      timestamp = Date.UTC(year, parseInt(month) - 1, day, hour, minute, second)
+
+      if isNaN(timestamp)
+        value
+      else
+        new Date(timestamp)
+    else
+      value
+
+  else
+    value
 
 _structurize = (meta, struct, message, segIdx) ->
   if struct[0] != 'sequence'
@@ -290,32 +313,37 @@ parseComponents = (value, fieldId, meta, separators, options) ->
     result = {"0": fieldMeta}
 
     value.split(splitRegexp).forEach (c, index) ->
-      componentId = typeMeta[1][index][0]
-      [componentMin, componentMax] = typeMeta[1][index][1]
-      componentMeta = meta.DATATYPES[componentId]
+      componentId = typeMeta[1][index] && typeMeta[1][index][0]
 
-      if componentMeta[0] != 'leaf'
-        throw new Error("Bang! Unknown case for componentMeta[0]: #{componentMeta[0]}")
+      if componentId
+        [componentMin, componentMax] = typeMeta[1][index][1]
+        componentMeta = meta.DATATYPES[componentId]
 
-      if componentMin == 1 && (!c || c == '')
-        errorMsg = "Missing value for required component #{componentId}"
-        errors.push errorMsg
+        if componentMeta[0] != 'leaf'
+          throw new Error("Bang! Unknown case for componentMeta[0]: #{componentMeta[0]}")
 
-      if componentMax == -1
-        throw new Error("Bang! Unlimited cardinality for component #{componentId}, don't know what to do :/")
+        if componentMin == 1 && (!c || c == '')
+          errorMsg = "Missing value for required component #{componentId}"
+          errors.push errorMsg
 
-      if componentMeta
-        componentValue = coerce(c, componentMeta[1])
+        if componentMax == -1
+          throw new Error("Bang! Unlimited cardinality for component #{componentId}, don't know what to do :/")
+
+        if componentMeta
+          componentValue = coerce(c, componentMeta[1])
+        else
+          componentValue = c
+
+        result[index + 1] = componentValue
       else
-        componentValue = c
+        result[index + 1] = c
 
-      result[index + 1] = componentValue
       # result.push componentValue
 
       # if options.symbolicNames
       #   result[componentMeta[2]] = componentValue
 
-    [result, errors]
+    [coerce(result, fieldType), errors]
   else
     [coerce(value, fieldType), []]
 
