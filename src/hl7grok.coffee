@@ -243,11 +243,14 @@ parseFields = (fields, segmentName, meta, separators, options) ->
   result = { "0": segmentName }
   errors = []
 
-  if segmentMeta[0] != "sequence"
+  if !segmentMeta && segmentName[0] != 'Z'
+    errors.push "No segment meta found for segment #{segmentName}"
+
+  if segmentMeta && segmentMeta[0] != "sequence"
     throw new Error("Bang! Unknown case: #{segmentMeta[0]}")
 
   for fieldValue, fieldIndex in fields
-    fieldMeta = segmentMeta[1][fieldIndex]
+    fieldMeta = segmentMeta && segmentMeta[1][fieldIndex]
 
     if segmentName == 'MSH' && fieldIndex == 1
       result[fieldIndex + 1] = fieldValue
