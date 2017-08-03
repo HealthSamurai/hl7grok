@@ -14,7 +14,6 @@ parseDates = (node) ->
     null
   else if typeof(node) == 'string'
     if node.match(REGEX_ISO_8601)
-      console.log("=>>>>>>>>") if node == '0423@'
       new Date(Date.parse(node))
     else
       node
