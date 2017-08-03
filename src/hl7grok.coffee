@@ -2,9 +2,6 @@
 
 HL7_META = null;
 
-MESSAGE_TYPES_MAP =
-  ADT_A04: "ADT_A01"
-
 META_CACHE = {}
 getMeta = (hl7version) ->
   if META_CACHE[hl7version]
@@ -174,9 +171,10 @@ structurize = (parsedMessage, options) ->
     hl7version = if typeof(msh[12]) == 'string' then msh[12] else msh[12][1]
 
   messageType = msh[9][1] + "_" + msh[9][2]
-  messageType = MESSAGE_TYPES_MAP[messageType] || messageType
 
   meta = getMeta(hl7version)
+
+  messageType = (meta.EVENTMAP && meta.EVENTMAP[messageType]) || messageType
 
   struct = meta.MESSAGES[messageType.replace("^", "_")]
 

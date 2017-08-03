@@ -53,7 +53,7 @@ describe "Example messages", () ->
       assert.deepEqual(expected.structurizedResult, structurizedResult)
 
 describe "Test", () ->
-  msg = fs.readFileSync(MESSAGES_ROOT + "/adt-a01-01.hl7", 'utf8')
+  msg = fs.readFileSync(MESSAGES_ROOT + "/adt-a04.hl7", 'utf8')
   msg = msg.replace(/\n/g, "\r")
 
   it "should parse message", () ->

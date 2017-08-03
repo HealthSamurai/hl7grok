@@ -1,4 +1,7 @@
 {
+  "EVENTMAP": {
+    "ADT_A04": "ADT_A01"
+  },
   "DATATYPES": {
     "ABSRANGE": [
       "sequence",
