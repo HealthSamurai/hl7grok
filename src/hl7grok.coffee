@@ -105,7 +105,7 @@ _structurize = (meta, struct, message, segIdx) ->
 
         subErrors = subErrors.concat(errs)
 
-        if subResult != null
+        if subResult != null && Object.keys(subResult).length > 0
           segIdx = newSegIdx
           collectedSegments.push(subResult)
         else
@@ -134,7 +134,7 @@ _structurize = (meta, struct, message, segIdx) ->
       # is optional
       if expSegMin == 1 # expected segment is required
         error = "Expected segment/group #{expSegName}, got #{thisSegName} at segment ##{segIdx}"
-        return [null, segIdx, subErrors.concat([error])]
+        return [result, segIdx, subErrors.concat([error])]
     else
       resultKey = deprefixGroupName(expSegName)
 
@@ -151,7 +151,6 @@ _structurize = (meta, struct, message, segIdx) ->
             result[seg['0']].push seg
         else
           result[seg['0']] = seg
-
 
     structIdx += 1
 
