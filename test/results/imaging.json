@@ -2833,13 +2833,9 @@
             }
           ]
         }
-      ]
+      ],
+      "IGNORED": {}
     },
-    [
-      "Expected segment/group OBR, got DG1 at segment #59",
-      "Expected segment/group PID, got DG1 at segment #59",
-      "Expected segment/group OBR, got DG1 at segment #59",
-      "Expected segment/group ORU_R01_ORDER_OBSERVATION, got DG1 at segment #59"
-    ]
+    []
   ]
 }

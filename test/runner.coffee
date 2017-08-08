@@ -37,7 +37,7 @@ describe "Example messages", () ->
     it fn, () ->
       parsedResult = hl7grok.grok(msg, {strict: false})
 
-      structurizedResult = hl7grok.structurize(parsedResult[0], {strict: false})
+      structurizedResult = hl7grok.structurize(parsedResult[0], {strict: false, ignoredSegments: ['CON']})
       t =
         structurizedResult: structurizedResult
         parsedResult: parsedResult
@@ -52,13 +52,13 @@ describe "Example messages", () ->
       assert.deepEqual(expected.structurizedResult, structurizedResult)
 
 describe "Test", () ->
-  msg = fs.readFileSync(MESSAGES_ROOT + "/adt-a04.hl7", 'utf8')
+  msg = fs.readFileSync(MESSAGES_ROOT + "/adt-a04-2.hl7", 'utf8')
   msg = msg.replace(/\n/g, "\r")
 
   it "should parse message", () ->
     [result, errors] = hl7grok.grok(msg, {strict: false})
     assert.notEqual(null, result)
 
-    console.log("here")
-    [result, errors] = hl7grok.structurize(result, {strict: false})
+    [result, errors] = hl7grok.structurize(result, {strict: false, ignoredSegments: ['CON']})
+    console.log(JSON.stringify({result, errors}, null, 2))
     assert.notEqual(null, result)

@@ -1481,10 +1481,9 @@
             "71": "C"
           }
         }
-      ]
+      ],
+      "IGNORED": {}
     },
-    [
-      "Expected segment/group PR1, got GT1 at segment #4"
-    ]
+    []
   ]
 }

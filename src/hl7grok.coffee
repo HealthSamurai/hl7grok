@@ -61,19 +61,24 @@ coerce = (value, typeId) ->
   else
     value
 
-_structurize = (meta, struct, message, segIdx) ->
-  if struct[0] != 'sequence'
-    throw new Error("struct[0] != sequence, don't know what to do :/")
+_structurize = (meta, struct, message, segIdx, options) ->
+  structType = struct[0]
+
+  if structType != 'sequence' && structType != 'choice'
+    throw new Error("struct[0] != sequence or choice, don't know what to do :/")
 
   result = {}
   structIdx = 0
   subErrors = []
+  ignoredSegments = []
 
   while true
     # Expected segment name and cardinality
     expSegName = struct[1][structIdx][0]
     [expSegMin, expSegMax] = struct[1][structIdx][1]
-    zSegments = []
+
+    if expSegMin != 1 && structType == 'choice'
+      throw new Error("Expected minimum cardinality is not 1 for choice struct, don't know how to handle")
 
     # Trying to collect expSegMax occurences of expected segment
     # within loop above. This loop won't collect multiple segments if
@@ -82,7 +87,7 @@ _structurize = (meta, struct, message, segIdx) ->
     thisSegName = null
 
     while true
-      # console.log "iterating #{segIdx} #{expSegName} #{JSON.stringify(message, null, 2)}"
+      # console.log "iterating #{segIdx} #{expSegName}"
       if segIdx >= message.length
         break
 
@@ -97,14 +102,15 @@ _structurize = (meta, struct, message, segIdx) ->
       # check if expected segment is a group
       if meta.GROUPS[expSegName]
         # if it's a group, we go to recursion
-        [subResult, newSegIdx, errs] = _structurize(meta, meta.GROUPS[expSegName], message, segIdx)
-        # console.log "it's a group! recursion result: #{JSON.stringify(subResult, null, 4)}"
+        # console.log "recurse! group name is #{expSegName}"
+        [subResult, newSegIdx, errs, subIgnSgmnts] = _structurize(meta, meta.GROUPS[expSegName], message, segIdx, options)
+        # console.log "group #{expSegName} ended! recursion result:", subResult
 
-        subErrors = subErrors.concat(errs)
-
-        if subResult != null && Object.keys(subResult).length > 0
+        if subResult != null
           segIdx = newSegIdx
+          ignoredSegments = ignoredSegments.concat(subIgnSgmnts)
           collectedSegments.push(subResult)
+          subErrors = subErrors.concat(errs)
         else
           break
       else
@@ -114,9 +120,9 @@ _structurize = (meta, struct, message, segIdx) ->
           # console.log "got #{collectedSegments.length} #{expSegName} at #{segIdx}"
 
           segIdx = segIdx + 1
-        else if thisSegName[0] == 'Z'
-          # console.log "Skipping Z segment: #{thisSegName}"
-          zSegments.push message[segIdx]
+        else if thisSegName[0] == 'Z' || (options.ignoredSegments && options.ignoredSegments.indexOf(thisSegName) >= 0)
+          # console.log "Skipping ignored segment: #{thisSegName}"
+          ignoredSegments.push message[segIdx]
           segIdx = segIdx + 1
         else
           # no segments with expected name left,
@@ -126,12 +132,12 @@ _structurize = (meta, struct, message, segIdx) ->
 
     # now we have collectedSegments, and we're going to check
     # expected cardinality
-    if collectedSegments.length == 0
-      # no collected segments at all, check if expected segment
-      # is optional
-      if expSegMin == 1 # expected segment is required
+    if collectedSegments.length == 0 # no collected segments at all
+      # if our struct is choice, we just move to next struct element
+      # if it's a sequence and segment is required, we fail
+      if structType == 'sequence' && expSegMin == 1 # expected segment is required
         error = "Expected segment/group #{expSegName}, got #{thisSegName} at segment ##{segIdx}"
-        return [result, segIdx, subErrors.concat([error])]
+        return [null, segIdx, subErrors.concat([error]), ignoredSegments]
     else
       resultKey = deprefixGroupName(expSegName)
 
@@ -139,15 +145,9 @@ _structurize = (meta, struct, message, segIdx) ->
       resultValue = if expSegMax == 1 then collectedSegments[0] else collectedSegments
       result[resultKey] = resultValue
 
-      zSegments.forEach (seg) ->
-        # Yehal Greka cherez reku
-        if result[seg['0']]
-          if !Array.isArray(result[seg['0']])
-            result[seg['0']] = [result[seg['0']], seg]
-          else
-            result[seg['0']].push seg
-        else
-          result[seg['0']] = seg
+      # if struct is a choice, break at the first match
+      if structType == 'choice'
+        break
 
     structIdx += 1
 
@@ -158,11 +158,26 @@ _structurize = (meta, struct, message, segIdx) ->
   # if we didn't collected anything, we return null instead of
   # empty object
   if Object.keys(result).length == 0
-    return [null, segIdx, subErrors]
+    return [null, segIdx, subErrors, ignoredSegments]
   else
-    return [result, segIdx, subErrors]
+    return [result, segIdx, subErrors, ignoredSegments]
 
-structurize = (parsedMessage, options) ->
+indexSegments = (segs) ->
+  obj = {}
+
+  segs.forEach (seg) ->
+    # Yehal Greka cherez reku
+    if obj[seg['0']]
+      if !Array.isArray(obj[seg['0']])
+        obj[seg['0']] = [obj[seg['0']], seg]
+      else
+        obj[seg['0']].push seg
+    else
+      obj[seg['0']] = seg
+
+  obj
+
+structurize = (parsedMessage, options = {}) ->
   msh = parsedMessage[0]
 
   hl7version = options && options.version
@@ -181,7 +196,11 @@ structurize = (parsedMessage, options) ->
   if !struct
     return [parsedMessage, ["No structure defined for message type #{messageType}"]]
   else
-    [result, lastSegIdx, errors] = _structurize(meta, struct, parsedMessage, 0)
+    [result, lastSegIdx, errors, ignoredSgmnts] = _structurize(meta, struct, parsedMessage, 0, options)
+
+    if result
+      result['IGNORED'] = indexSegments(ignoredSgmnts)
+
     return [result, errors]
 
 VALID_OPTION_KEYS = ["strict", "symbolicNames", "version"]
@@ -237,22 +256,39 @@ parse = (msg, options) ->
 
   return [message, errors]
 
+parseComponentsNoMeta = (f, separators) ->
+  if f.indexOf(separators.component) >= 0
+    [separators.component].concat f.split(separators.component)
+  else
+    f
+
+parseSegmentWithoutMeta = (s, separators) ->
+  s.split(separators.field).map (f, i) ->
+    if f.indexOf(separators.repetition) >= 0
+      [separators.repetition].concat f.split(separators.repetition).map (fr) ->
+        parseComponentsNoMeta(fr, separators)
+    else
+      if i != 0 then parseComponentsNoMeta(f, separators) else f
+
 parseSegments = (segments, meta, separators, options) ->
   result = []
   errors = []
 
   for segment in segments
-    rawFields = segment.split(separators.field)
+    if segment[0] == 'Z'
+      result.push parseSegmentWithoutMeta(segment, separators)
+    else
+      rawFields = segment.split(separators.field)
 
-    # Thanks to HL7 committee for such amazing standard!
-    if rawFields[0] == 'MSH'
-      rawFields.splice(1, 0, separators.field)
+      # Thanks to HL7 committee for such amazing standard!
+      if rawFields[0] == 'MSH'
+        rawFields.splice(1, 0, separators.field)
 
-    segmentName = rawFields.shift()
+      segmentName = rawFields.shift()
 
-    [s, e] = parseFields(rawFields, segmentName, meta, separators, options)
-    result.push s
-    errors = errors.concat e
+      [s, e] = parseFields(rawFields, segmentName, meta, separators, options)
+      result.push s
+      errors = errors.concat e
 
   [result, errors]
 
