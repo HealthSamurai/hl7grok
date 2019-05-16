@@ -5,12 +5,8 @@
     "lz-string": "latest"
   },
   "devDependencies": {
-    "coffee-script": "latest",
     "mocha": "latest",
     "js-yaml": "latest"
-  },
-  "engines": {
-    "node": ">=0.12.0"
   },
   "preferGlobal": false,
   "bin": {},

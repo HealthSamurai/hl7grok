@@ -24,6 +24,6 @@ var decompressed = lz.decompressFromBase64(compressed);
 var b = new Date().getTime();
 
 
-fs.writeFile(__dirname + "/meta.base64", compressed);
+fs.writeFileSync(__dirname + "/meta.base64", compressed);
 console.log("Compressed meta size = " + (compressed.length / 1024) + " kb");
 console.log("Decompressed in " + (b - a) + " ms");

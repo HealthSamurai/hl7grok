@@ -21,6 +21,6 @@ echo -n 'var HL7_META_BASE64 = "' >> $out
 cat meta/meta.base64 >> $out
 echo -n '";' >> $out
 
-cat ./src/hl7grok.coffee | coffee -c -s -b >> $out
+cat ./src/hl7grok.js >> $out
 
 echo "}).call(this);" >> $out
