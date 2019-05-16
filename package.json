@@ -11,6 +11,6 @@
   "preferGlobal": false,
   "bin": {},
   "scripts": {
-    "test": "`npm bin`/mocha --compilers coffee:coffee-script/register test/runner.coffee || echo 'Tests failed'"
+      "test": "`npm bin`/mocha  test/runner.js"
   }
 }
